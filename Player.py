@@ -23,6 +23,8 @@ class Player:
 			comm.sendChallenge()
 			return
 
+		print(comm.hand)
+		print("Hand Value: " + str(Prob.Prob.handValue(counter, comm)))
 		playCard = 0
 		comm.hand.sort()
 		if (comm.card == None):
