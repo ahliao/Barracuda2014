@@ -110,22 +110,11 @@ class Comm:
 					self.by = msg["result"]["by"]
 				except:
 					self.by = None
-			else:
-				self.by = None
 
 			if (self.resultType == "trick_won"):
 				self.card = msg["result"]["card"]
 		elif (self.type == "error"):
 			comm.host = msg["seen_host"]
-
-
-
-
-		# self.type = msg["type"]
-		# if (self.type == "result"):
-		# 	
-		# elif (self.type == "request"):
-		# 	
 
 	# sends information
 	def acceptChallenge(self):
@@ -139,3 +128,12 @@ class Comm:
 
 	def playCard(self, card):
 		self.s.send({"type": "move", "request_id": self.request_id, "response": {"type": "play_card", "card": card}})
+
+	def getWinner(self):
+		try:
+			if (self.player_num == self.by):
+				return True
+			else:
+				return False
+		except:
+			print("error getting winner")

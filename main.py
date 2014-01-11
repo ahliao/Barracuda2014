@@ -24,13 +24,12 @@ def player(host, port):
                 print("New game started: " + str(gameId))
 
             if comm.request == "request_card":
-                cardToPlay = comm.hand[0]
-                comm.playCard(cardToPlay)
+                comm.playCard(comm.hand[0])
             elif comm.request == "challenge_offered":
                 comm.acceptChallenge()
         elif comm.type == "result":
-            print(comm.resultType)
-            print(comm.player_num)
+            if (comm.resultType == "game_won"):
+                print(comm.getWinner())
         elif comm.type == "greetings_program":
             print("Connected to the server.")
 
