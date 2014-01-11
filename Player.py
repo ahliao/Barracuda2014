@@ -40,17 +40,21 @@ class Player:
 		if (comm.card == None):
 			indexClosest = 0
 			diff = 13
-			for x in range(0,len(comm.hand)):
+			for x in range(0,math.ceil(len(comm.hand)/2)):
 				if abs(comm.hand[x] - 6) < diff:
 					indexClosest = x
 					diff = abs(comm.hand[x] - 6)
 #			playCard = int(math.floor(int(len(comm.hand)) / 2))
 			playCard = indexClosest
 		else:
-			for x in range(0,len(comm.hand)):
-				if comm.hand[x] > comm.card:
-					playCard = x
-					break
+			if comm.your_tricks > comm.their_tricks:
+				# play lowest card
+				playCard = 0
+			else:
+				for x in range(0,len(comm.hand)):
+					if comm.hand[x] > comm.card:
+						playCard = x
+						break
 
 		print("playCard: " + str(comm.hand[playCard]))
 		self.lastPlayed = comm.hand[playCard]
