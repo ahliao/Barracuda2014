@@ -7,11 +7,16 @@ import sys
 import Comm
 class Player:
 	def __init__(self):
-		self.cardCount[8,8,8,8,8,8,8,8,8,8,8,8,8]
+		self.cardCount = None
 		self.expectedValue
 		self.turn #who started me or not me
 		
 	def playRequest(self, comm):
+		if comm.hand_id%10 == 1 and comm.total_tricks = 0:
+			cardCountReset();
+			for x in range(0,len(comm.hand)):
+				cardCount[comm.card-1] - 1
+		
 		if comm.card == None:
 			turn = "me"
 		else:
@@ -23,16 +28,18 @@ class Player:
 		
 	def challenged(self, comm): #if I am challenged I will check my expected value of the cards in my hand and see to accept.
 		evalue = calcvalue(comm)
-		comm.acceptChallenge()
-		comm.rejectChallenge()
-		
+		if evalue > 0.7:
+			comm.acceptChallenge()
+		else:
+			comm.rejectChallenge()
+
 	def result(self, comm):
 		if turn == "me":
 			cardCount[comm.card--]--
 			
 	def calcvalue(self, comm):
 		value = 0
-		value += comm.your_tricks * 0.2
+		value += comm.your_tricks
 		size = len(comm.hand)
 		sum = 0
 		above = 0
@@ -44,6 +51,7 @@ class Player:
 				above += cardCount[y]
 		return float(above)/sum
 			
-		
+	def cardCountReset(self):
+		cardCount = [8,8,8,8,8,8,8,8,8,8,8,8,8]
 	
 
