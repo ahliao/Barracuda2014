@@ -26,17 +26,17 @@ class Player:
 		playCard = 0
 		comm.hand.sort()
 		if (comm.card == None):
-			playCard = comm.hand[int(math.floor(len(comm.hand) / 2))]
+			playCard = int(math.floor(len(comm.hand) / 2))
 		else:
-			for card in comm.hand:
-				if card > comm.card:
-					playCard = card
+			for i in range(len(comm.hand)):
+				if comm.hand[i] > comm.card:
+					playCard = i
 					break
 
 		print("playCard: " + str(playCard))
-		lastPlayed = playCard
-		comm.playCard(playCard)
-		self.counter.updateDeck(playCard)
+		lastPlayed = comm.hand[playCard]
+		comm.playCard(comm.hand[playCard])
+		self.counter.updateDeck(comm.hand[playCard])
 		
 	def challenged(self, comm): 
 		if (self.calc_challenge(comm) > 3):
