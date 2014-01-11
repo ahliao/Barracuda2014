@@ -207,6 +207,9 @@ class Player:
 				return 5
 			else:
 				return 0
+				
+		if comm.your_tricks == 2 and comm.hand[len(comm.hand)-1] == 13:
+			return 5
 
 		total = 0;
 		for card in self.opponent_cards:
