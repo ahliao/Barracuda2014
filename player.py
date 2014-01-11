@@ -41,8 +41,8 @@ def sample_bot(host, port):
                 s.send({"type": "move", "request_id": msg["request_id"],
                         "response": {"type": "reject_challenge"}})
 
-#elif msg["type"] == "result":
-#           if msg["
+        elif msg["type"] == "result":
+            print("Last Card Played: " + msg["result"]["card"])
 
         elif msg["type"] == "greetings_program":
             print("Connected to the server.")
