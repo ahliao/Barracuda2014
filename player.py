@@ -25,11 +25,17 @@ def sample_bot(host, port):
 
             if msg["request"] == "request_card":
                 cardToPlay = msg["state"]["hand"][0]
+#print("My Points: " + str(msg["state"]["your_points"]))
+#               print("Their Points: " + str(msg["state"]["their_points"]))
+                print(sum(msg["state"]["hand"]))
                 s.send({"type": "move", "request_id": msg["request_id"],
                     "response": {"type": "play_card", "card": cardToPlay}})
+                # Sam is awesome
+                
             elif msg["request"] == "challenge_offered":
                 s.send({"type": "move", "request_id": msg["request_id"],
                         "response": {"type": "reject_challenge"}})
+
         elif msg["type"] == "greetings_program":
             print("Connected to the server.")
 
