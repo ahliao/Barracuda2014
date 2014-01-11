@@ -28,7 +28,6 @@ def player():
                 gameId = comm.game_id;
                 print("New game started: " + str(gameId))
 
-
             if comm.request == "request_card":
                 player.playRequest(comm)
             elif comm.request == "challenge_offered":

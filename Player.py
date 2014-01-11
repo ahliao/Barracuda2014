@@ -11,7 +11,7 @@ class Player:
 		pass
 
 	def playRequest(self, comm):
-		comm.playCard(comm.hand[0])
+		comm.playCard(comm.hand[1])
 		
 	def challenged(self, comm):
 		comm.acceptChallenge()

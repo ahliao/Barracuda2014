@@ -109,6 +109,8 @@ class Comm:
 					self.by = msg["result"]["by"]
 				except:
 					self.by = None
+					
+
 
 			if (self.resultType == "trick_won"):
 				self.card = msg["result"]["card"]
