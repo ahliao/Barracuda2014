@@ -8,7 +8,7 @@ import socketLayer
 
 class Comm:
 	def __init__(self):
-		self.s = socketLayer.SocketLayer(host, port)
+		self.s = socketLayer.SocketLayer("cuda.contest", 9999)
 
 		# "request", "result", "error"
 		self.type = None
@@ -79,14 +79,14 @@ class Comm:
 		if (self.type == "result"):
 			self.resultType = msg["result"]["type"]
 			self.player_num = msg["result"]["your_player_num"]
-			if (self.resultType == "hand_won" || self.resultType == "game_won"):
+			if (self.resultType == "hand_won" or self.resultType == "game_won"):
 				if (self.player_num == msg["result"]["by"]):
 					self.outcome = "win"
 				else:
 					self.outcome = "lose"
-			elif (self.resultType == "tie")
+			elif (self.resultType == "tie"):
 				self.outcome = "tie"
-			elif (self.resultType == "error")
+			elif (self.resultType == "error"):
 				self.reason = msg["result"]["reason"]
 		elif (self.type == "request"):
 			self.request = msg["request"]
