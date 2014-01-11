@@ -38,38 +38,64 @@ class Player:
 		#normal play
 		playCard = 0
 		comm.hand.sort()
-		
-		if total_tricks == 0:
+		maxdiff = 4
+		option = 0
+		tied_tricks = comm.total_tricks - comm.their_tricks - comm.your_tricks
+		if tied_tricks == 1:
+			comm.total_tricks = 0
+		elif tied_tricks == 2 or tied_tricks == 3:
+			comm.your_tricks += 1
+			comm.their_tricks += 1
+			
+		if comm.total_tricks == 0:
 			if comm.card == None:
-				playCard = MidCard(comm, avg)
-			elif:
-				playCard = WinifDiff(comm, 4)
+				playCard = self.MidCard(comm, avg)
+			else:
+				playCard = self.WinifDiff(comm, maxdiff)
 				# playCard = WinorLowest(comm)
 		
-		elif total_tricks == 1:
-			if your_tricks == 1:
-				playCard = LowCard(comm)
-			elif their_tricks == 1:
-				playCard = WinifDiff(comm, 4)
+		elif comm.total_tricks == 1:
+			if comm.your_tricks == 1:
+				playCard = self.LowCard(comm)
+			elif comm.their_tricks == 1:
+				playCard = self.WinifDiff(comm, maxdiff)
 				# playCard = WinorLowest(comm)
 			else: #tied?
 				if comm.card == None:
-					playCard = MidCard(comm, avg)
+					playCard = self.MidCard(comm, avg)
 				else:
-					playCard = WinifDiff(comm, 4)
+					playCard = self.WinifDiff(comm, maxdiff)
 					# playCard = WinorLowest(comm)
-			
-		elif your_tricks >= 2:
+		
+		elif comm.your_tricks == 1 and comm.their_tricks == 1:
 			if comm.card == None:
-				playCard = LowCard(comm)
+				playCard = self.LowCard(comm)
 			else:
-				playCard = WinorLowest(comm)
+				playCard = self.WinorLowest(comm, maxdiff)
+				# playCard = WinorLowest(comm)
 				
-		elif total_tricks > 2:
+		elif comm.your_tricks >= 2:
 			if comm.card == None:
-				playCard = HighCard(comm)
+				playCard = self.LowCard(comm)
 			else:
-				playCard = WinorLowest(comm)
+				playCard = self.WinorLowest(comm)
+				
+		elif comm.their_tricks >= 2:
+			if comm.card == None:
+				playCard = self.HighCard(comm)
+			else:
+				playCard = self.WinorLowest(comm)
+			
+		elif comm.total_tricks == 2:
+			
+			
+			
+			
+		# elif comm.total_tricks > 2:
+			# if comm.card == None:
+				# playCard = self.HighCard(comm)
+			# else:
+				# playCard = self.WinorLowest(comm)
 			
 			
 		# if (comm.card == None):
