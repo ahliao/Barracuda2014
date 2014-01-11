@@ -5,11 +5,12 @@ import time
 import sys
 
 import Comm
+import Player
 
 
 def player(host, port):
     comm = Comm.Comm()
-
+	player = Player.Player()
     gameId = None
 
     while True:
@@ -22,18 +23,16 @@ def player(host, port):
             if comm.game_id != gameId:
                 gameId = comm.game_id;
                 print("New game started: " + str(gameId))
-
             if comm.request == "request_card":
-                cardToPlay = comm.hand[0]
-                comm.playCard(cardToPlay)
+                player.playRequest(comm)
             elif comm.request == "challenge_offered":
-                comm.acceptChallenge()
+                player.challenged(comm)
         elif comm.type == "result":
+			player.result(comm)
             print(comm.resultType)
             print(comm.player_num)
         elif comm.type == "greetings_program":
             print("Connected to the server.")
-
 
 def loop(player, *args):
     while True:
