@@ -1,0 +1,7280 @@
+Connected to the server.
+New game started: 256626
+[]
+total: 0
+deckAvg: 6.959595959595959
+avg: 6.95959595959596
+total tricks: 0
+estimate: 7.45959595959596
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 4
+[6]
+total: 6
+deckAvg: 6.959595959595959
+avg: 7.19949494949495
+total tricks: 1
+estimate: 7.59949494949495
+a: 0.5
+b: -0.1
+c: 0.0
+3
+[7]
+total: 7
+deckAvg: 6.989247311827957
+avg: 5.589247311827957
+total tricks: 0
+estimate: 6.019247311827956
+a: 0.5
+b: -0.0
+c: -0.07
+2
+playCard: 9
+[7]
+total: 7
+deckAvg: 6.989247311827957
+avg: 6.986559139784946
+total tricks: 1
+estimate: 7.316559139784946
+a: 0.5
+b: -0.1
+c: -0.07
+2
+playCard: 5
+[7, 6, 10]
+total: 23
+deckAvg: 6.989247311827957
+avg: 3.9820788530465947
+total tricks: 2
+estimate: 4.212078853046595
+a: 0.5
+b: -0.2
+c: -0.07
+3
+playCard: 11
+[7, 6, 10]
+total: 23
+deckAvg: 6.989247311827957
+avg: 5.973118279569892
+total tricks: 3
+estimate: 6.103118279569892
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+2
+playCard: 5
+[7, 6, 10, 12, 1]
+total: 36
+deckAvg: 6.989247311827957
+avg: -1.053763440860216
+total tricks: 4
+estimate: -1.0237634408602159
+a: 0.5
+b: -0.4
+c: -0.07
+3
+playCard: 3
+[]
+total: 0
+deckAvg: 7.096385542168675
+avg: 7.096385542168674
+total tricks: 0
+estimate: 7.596385542168674
+a: 0.5
+b: -0.0
+c: 0.0
+2
+playCard: 8
+[9, 6]
+total: 15
+deckAvg: 7.096385542168675
+avg: 5.120481927710843
+total tricks: 1
+estimate: 5.5204819277108435
+a: 0.5
+b: -0.1
+c: 0.0
+1
+playCard: 11
+[9, 6]
+total: 15
+deckAvg: 7.096385542168675
+avg: 6.827309236947791
+total tricks: 2
+estimate: 7.127309236947791
+a: 0.5
+b: -0.2
+c: 0.0
+1
+playCard: 3
+[9, 6, 8, 2]
+total: 25
+deckAvg: 7.096385542168675
+avg: 5.240963855421686
+total tricks: 3
+estimate: 5.440963855421686
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+1
+playCard: 1
+[9, 6, 8, 2]
+total: 25
+deckAvg: 7.096385542168675
+avg: 10.481927710843372
+total tricks: 4
+estimate: 10.581927710843372
+a: 0.5
+b: -0.4
+c: 0.0
+1
+[4]
+total: 4
+deckAvg: 7.175675675675675
+avg: 6.375675675675676
+total tricks: 0
+estimate: 6.805675675675675
+a: 0.5
+b: -0.0
+c: -0.07
+2
+playCard: 6
+[4]
+total: 4
+deckAvg: 7.175675675675675
+avg: 7.969594594594595
+total tricks: 1
+estimate: 8.299594594594595
+a: 0.5
+b: -0.1
+c: -0.07
+3
+playCard: 9
+[4, 2]
+total: 6
+deckAvg: 7.175675675675675
+avg: 9.95945945945946
+total tricks: 2
+estimate: 10.18945945945946
+a: 0.5
+b: -0.2
+c: -0.07
+3
+playCard: 4
+[4, 2, 7, 3]
+total: 16
+deckAvg: 7.175675675675675
+avg: 9.93918918918919
+total tricks: 3
+estimate: 10.06918918918919
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+3
+playCard: 12
+[4, 2, 7, 3]
+total: 16
+deckAvg: 7.175675675675675
+avg: 13
+total tricks: 4
+estimate: 13.03
+a: 0.5
+b: -0.4
+c: -0.07
+3
+playCard: 2
+[]
+total: 0
+deckAvg: 7.375
+avg: 7.375
+total tricks: 0
+estimate: 7.875
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 10
+[13]
+total: 13
+deckAvg: 7.375
+avg: 5.96875
+total tricks: 1
+estimate: 6.36875
+a: 0.5
+b: -0.1
+c: 0.0
+2
+[7]
+total: 7
+deckAvg: 7.137931034482759
+avg: 5.7379310344827585
+total tricks: 0
+estimate: 6.167931034482758
+a: 0.5
+b: -0.0
+c: -0.07
+4
+[]
+total: 0
+deckAvg: 7.115384615384615
+avg: 7.115384615384615
+total tricks: 0
+estimate: 7.615384615384615
+a: 0.5
+b: -0.0
+c: 0.0
+2
+playCard: 6
+[12, 3]
+total: 15
+deckAvg: 7.115384615384615
+avg: 5.144230769230768
+total tricks: 1
+estimate: 5.544230769230769
+a: 0.5
+b: -0.1
+c: 0.0
+2
+playCard: 5
+[12, 3]
+total: 15
+deckAvg: 7.115384615384615
+avg: 6.858974358974358
+total tricks: 2
+estimate: 7.1589743589743575
+a: 0.5
+b: -0.2
+c: 0.0
+3
+playCard: 11
+[12, 3, 3]
+total: 18
+deckAvg: 7.115384615384615
+avg: 8.788461538461537
+total tricks: 3
+estimate: 8.988461538461536
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+3
+playCard: 2
+[12, 3, 3, 5, 5]
+total: 28
+deckAvg: 7.115384615384615
+avg: 7.576923076923073
+total tricks: 4
+estimate: 7.676923076923073
+a: 0.5
+b: -0.4
+c: 0.0
+3
+playCard: 13
+[]
+total: 0
+deckAvg: 7.5476190476190474
+avg: 7.547619047619048
+total tricks: 0
+estimate: 8.117619047619048
+a: 0.5
+b: -0.0
+c: 0.07
+1
+playCard: 6
+[8]
+total: 8
+deckAvg: 7.5476190476190474
+avg: 7.43452380952381
+total tricks: 1
+estimate: 7.90452380952381
+a: 0.5
+b: -0.1
+c: 0.07
+1
+[8]
+total: 8
+deckAvg: 7.333333333333333
+avg: 5.7333333333333325
+total tricks: 0
+estimate: 6.2333333333333325
+a: 0.5
+b: -0.0
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 7.933333333333334
+avg: 7.9333333333333345
+total tricks: 0
+estimate: 8.503333333333334
+a: 0.5
+b: -0.0
+c: 0.07
+0
+playCard: 8
+[9, 4]
+total: 13
+deckAvg: 7.933333333333334
+avg: 6.666666666666668
+total tricks: 1
+estimate: 7.136666666666668
+a: 0.5
+b: -0.1
+c: 0.07
+0
+playCard: 1
+[9, 4]
+total: 13
+deckAvg: 7.933333333333334
+avg: 8.888888888888891
+total tricks: 2
+estimate: 9.25888888888889
+a: 0.5
+b: -0.2
+c: 0.07
+0
+[6]
+total: 6
+deckAvg: 7.070707070707071
+avg: 5.870707070707072
+total tricks: 0
+estimate: 6.370707070707072
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 8
+[6]
+total: 6
+deckAvg: 7.070707070707071
+avg: 7.338383838383839
+total tricks: 1
+estimate: 7.7383838383838395
+a: 0.5
+b: -0.1
+c: 0.0
+3
+playCard: 8
+[6, 9, 6]
+total: 21
+deckAvg: 7.070707070707071
+avg: 4.7845117845117855
+total tricks: 2
+estimate: 5.084511784511785
+a: 0.5
+b: -0.2
+c: 0.0
+2
+playCard: 8
+[6, 9, 6]
+total: 21
+deckAvg: 7.070707070707071
+avg: 7.176767676767678
+total tricks: 3
+estimate: 7.376767676767678
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+2
+playCard: 3
+[6, 9, 6, 4, 7]
+total: 32
+deckAvg: 7.070707070707071
+avg: 3.3535353535353565
+total tricks: 4
+estimate: 3.4535353535353566
+a: 0.5
+b: -0.4
+c: 0.0
+2
+playCard: 1
+[4]
+total: 4
+deckAvg: 7.235955056179775
+avg: 6.4359550561797745
+total tricks: 0
+estimate: 6.865955056179774
+a: 0.5
+b: -0.0
+c: -0.07
+2
+playCard: 7
+[4]
+total: 4
+deckAvg: 7.235955056179775
+avg: 8.044943820224718
+total tricks: 1
+estimate: 8.374943820224718
+a: 0.5
+b: -0.1
+c: -0.07
+2
+playCard: 10
+[4, 13, 3]
+total: 20
+deckAvg: 7.235955056179775
+avg: 5.393258426966291
+total tricks: 2
+estimate: 5.6232584269662915
+a: 0.5
+b: -0.2
+c: -0.07
+1
+playCard: 2
+[4, 13, 3, 1]
+total: 21
+deckAvg: 7.235955056179775
+avg: 7.589887640449437
+total tricks: 3
+estimate: 7.7198876404494365
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+1
+playCard: 2
+[4, 13, 3, 1]
+total: 21
+deckAvg: 7.235955056179775
+avg: 13
+total tricks: 4
+estimate: 13.03
+a: 0.5
+b: -0.4
+c: -0.07
+2
+playCard: 3
+[4, 13, 3, 1]
+total: 21
+deckAvg: 7.235955056179775
+avg: 13
+total tricks: 4
+estimate: 13.03
+a: 0.5
+b: -0.4
+c: -0.07
+2
+[8]
+total: 8
+deckAvg: 7.2875
+avg: 5.6875
+total tricks: 0
+estimate: 6.0475
+a: 0.5
+b: -0.0
+c: -0.14
+4
+[]
+total: 0
+deckAvg: 7.445945945945946
+avg: 7.445945945945946
+total tricks: 0
+estimate: 7.875945945945945
+a: 0.5
+b: -0.0
+c: -0.07
+0
+playCard: 7
+[10]
+total: 10
+deckAvg: 7.445945945945946
+avg: 6.807432432432432
+total tricks: 1
+estimate: 7.137432432432432
+a: 0.5
+b: -0.1
+c: -0.07
+0
+[6]
+total: 6
+deckAvg: 7.323529411764706
+avg: 6.123529411764705
+total tricks: 0
+estimate: 6.483529411764706
+a: 0.5
+b: -0.0
+c: -0.14
+3
+playCard: 9
+[6]
+total: 6
+deckAvg: 7.323529411764706
+avg: 7.654411764705882
+total tricks: 1
+estimate: 7.914411764705882
+a: 0.5
+b: -0.1
+c: -0.14
+3
+playCard: 5
+[6, 9, 5]
+total: 20
+deckAvg: 7.323529411764706
+avg: 5.53921568627451
+total tricks: 2
+estimate: 5.69921568627451
+a: 0.5
+b: -0.2
+c: -0.14
+3
+playCard: 11
+[6, 9, 5]
+total: 20
+deckAvg: 7.323529411764706
+avg: 8.308823529411764
+total tricks: 3
+estimate: 8.368823529411765
+a: 0.5
+b: -0.30000000000000004
+c: -0.14
+3
+playCard: 5
+[6, 9, 5]
+total: 20
+deckAvg: 7.323529411764706
+avg: 13
+total tricks: 4
+estimate: 12.96
+a: 0.5
+b: -0.4
+c: -0.14
+3
+playCard: 13
+[]
+total: 0
+deckAvg: 7.517241379310345
+avg: 7.517241379310346
+total tricks: 0
+estimate: 7.947241379310346
+a: 0.5
+b: -0.0
+c: -0.07
+1
+playCard: 7
+[9, 3]
+total: 12
+deckAvg: 7.517241379310345
+avg: 6.396551724137932
+total tricks: 1
+estimate: 6.7265517241379325
+a: 0.5
+b: -0.1
+c: -0.07
+1
+playCard: 12
+[9, 3]
+total: 12
+deckAvg: 7.517241379310345
+avg: 8.52873563218391
+total tricks: 2
+estimate: 8.75873563218391
+a: 0.5
+b: -0.2
+c: -0.07
+1
+playCard: 2
+[9, 3, 4, 1]
+total: 17
+deckAvg: 7.517241379310345
+avg: 10.293103448275865
+total tricks: 3
+estimate: 10.423103448275866
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+1
+playCard: 2
+[9, 3, 4, 1]
+total: 17
+deckAvg: 7.517241379310345
+avg: 13
+total tricks: 4
+estimate: 13.03
+a: 0.5
+b: -0.4
+c: -0.07
+2
+playCard: 2
+[9, 3, 4, 1]
+total: 17
+deckAvg: 7.517241379310345
+avg: 13
+total tricks: 4
+estimate: 13.03
+a: 0.5
+b: -0.4
+c: -0.07
+2
+playCard: 3
+playCard: 9
+playCard: 8
+playCard: 7
+playCard: 9
+New game started: 256630
+[7]
+total: 7
+deckAvg: 6.97979797979798
+avg: 5.579797979797981
+total tricks: 0
+estimate: 6.079797979797981
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 9
+[7]
+total: 7
+deckAvg: 6.97979797979798
+avg: 6.974747474747476
+total tricks: 1
+estimate: 7.374747474747476
+a: 0.5
+b: -0.1
+c: 0.0
+3
+playCard: 2
+[7, 8, 1]
+total: 16
+deckAvg: 6.97979797979798
+avg: 6.299663299663301
+total tricks: 2
+estimate: 6.599663299663301
+a: 0.5
+b: -0.2
+c: 0.0
+3
+playCard: 12
+[7, 8, 1]
+total: 16
+deckAvg: 6.97979797979798
+avg: 9.449494949494952
+total tricks: 3
+estimate: 9.649494949494951
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+3
+playCard: 1
+[7, 8, 1]
+total: 16
+deckAvg: 6.97979797979798
+avg: 13
+total tricks: 4
+estimate: 13.1
+a: 0.5
+b: -0.4
+c: 0.0
+2
+playCard: 13
+[]
+total: 0
+deckAvg: 7.044943820224719
+avg: 7.044943820224719
+total tricks: 0
+estimate: 7.6149438202247195
+a: 0.5
+b: -0.0
+c: 0.07
+1
+playCard: 6
+[12, 5]
+total: 17
+deckAvg: 7.044943820224719
+avg: 4.556179775280899
+total tricks: 1
+estimate: 5.026179775280899
+a: 0.5
+b: -0.1
+c: 0.07
+2
+playCard: 6
+[12, 5]
+total: 17
+deckAvg: 7.044943820224719
+avg: 6.074906367041199
+total tricks: 2
+estimate: 6.444906367041199
+a: 0.5
+b: -0.2
+c: 0.07
+2
+playCard: 5
+[12, 5, 6]
+total: 23
+deckAvg: 7.044943820224719
+avg: 6.1123595505617985
+total tricks: 3
+estimate: 6.382359550561798
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+2
+[]
+total: 0
+deckAvg: 7.044943820224719
+avg: 7.044943820224719
+total tricks: 0
+estimate: 7.544943820224719
+a: 0.5
+b: -0.0
+c: 0.0
+4
+playCard: 11
+playCard: 7
+playCard: 11
+playCard: 9
+playCard: 9
+New game started: 256632
+[]
+total: 0
+deckAvg: 6.96969696969697
+avg: 6.969696969696971
+total tricks: 0
+estimate: 7.469696969696971
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 8
+[1]
+total: 1
+deckAvg: 6.96969696969697
+avg: 8.462121212121213
+total tricks: 1
+estimate: 8.862121212121213
+a: 0.5
+b: -0.1
+c: 0.0
+3
+playCard: 4
+[1, 6, 4]
+total: 11
+deckAvg: 6.96969696969697
+avg: 7.949494949494951
+total tricks: 2
+estimate: 8.24949494949495
+a: 0.5
+b: -0.2
+c: 0.0
+3
+playCard: 10
+[1, 6, 4]
+total: 11
+deckAvg: 6.96969696969697
+avg: 11.924242424242426
+total tricks: 3
+estimate: 12.124242424242425
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+3
+playCard: 3
+[1, 6, 4]
+total: 11
+deckAvg: 6.96969696969697
+avg: 13
+total tricks: 4
+estimate: 13.1
+a: 0.5
+b: -0.4
+c: 0.0
+2
+playCard: 13
+[]
+total: 0
+deckAvg: 7.0
+avg: 7.0
+total tricks: 0
+estimate: 7.57
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 7
+[]
+total: 0
+deckAvg: 7.0
+avg: 8.75
+total tricks: 1
+estimate: 9.22
+a: 0.5
+b: -0.1
+c: 0.07
+3
+playCard: 6
+[]
+total: 0
+deckAvg: 7.0
+avg: 11.666666666666666
+total tricks: 2
+estimate: 12.036666666666665
+a: 0.5
+b: -0.2
+c: 0.07
+0
+playCard: 10
+[4]
+total: 4
+deckAvg: 7.0
+avg: 13
+total tricks: 3
+estimate: 13.27
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+1
+playCard: 11
+[4, 5]
+total: 9
+deckAvg: 7.0
+avg: 13
+total tricks: 4
+estimate: 13.17
+a: 0.5
+b: -0.4
+c: 0.07
+2
+playCard: 12
+[]
+total: 0
+deckAvg: 7.1645569620253164
+avg: 7.164556962025317
+total tricks: 0
+estimate: 7.804556962025317
+a: 0.5
+b: -0.0
+c: 0.14
+2
+playCard: 8
+[10]
+total: 10
+deckAvg: 7.1645569620253164
+avg: 6.455696202531646
+total tricks: 1
+estimate: 6.995696202531646
+a: 0.5
+b: -0.1
+c: 0.14
+1
+[]
+total: 0
+deckAvg: 7.1645569620253164
+avg: 7.164556962025317
+total tricks: 0
+estimate: 7.734556962025318
+a: 0.5
+b: -0.0
+c: 0.07
+3
+[8]
+total: 8
+deckAvg: 7.082191780821918
+avg: 5.4821917808219185
+total tricks: 0
+estimate: 5.9821917808219185
+a: 0.5
+b: -0.0
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 6.985074626865671
+avg: 6.9850746268656705
+total tricks: 0
+estimate: 7.555074626865671
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 7
+[9, 1]
+total: 10
+deckAvg: 6.985074626865671
+avg: 6.231343283582088
+total tricks: 1
+estimate: 6.701343283582088
+a: 0.5
+b: -0.1
+c: 0.07
+3
+playCard: 5
+[9, 1]
+total: 10
+deckAvg: 6.985074626865671
+avg: 8.308457711442784
+total tricks: 2
+estimate: 8.678457711442784
+a: 0.5
+b: -0.2
+c: 0.07
+3
+playCard: 7
+[9, 1, 1]
+total: 11
+deckAvg: 6.985074626865671
+avg: 11.962686567164177
+total tricks: 3
+estimate: 12.232686567164176
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+2
+playCard: 10
+[9, 1, 1, 5]
+total: 16
+deckAvg: 6.985074626865671
+avg: 13
+total tricks: 4
+estimate: 13.17
+a: 0.5
+b: -0.4
+c: 0.07
+3
+playCard: 12
+[]
+total: 0
+deckAvg: 7.421052631578948
+avg: 7.421052631578948
+total tricks: 0
+estimate: 8.061052631578947
+a: 0.5
+b: -0.0
+c: 0.14
+1
+playCard: 7
+[11, 2]
+total: 13
+deckAvg: 7.421052631578948
+avg: 6.026315789473685
+total tricks: 1
+estimate: 6.566315789473685
+a: 0.5
+b: -0.1
+c: 0.14
+1
+playCard: 3
+[11, 2]
+total: 13
+deckAvg: 7.421052631578948
+avg: 8.035087719298247
+total tricks: 2
+estimate: 8.475087719298246
+a: 0.5
+b: -0.2
+c: 0.14
+2
+playCard: 9
+[11, 2, 12, 2]
+total: 27
+deckAvg: 7.421052631578948
+avg: 5.05263157894737
+total tricks: 3
+estimate: 5.39263157894737
+a: 0.5
+b: -0.30000000000000004
+c: 0.14
+1
+playCard: 3
+[11, 2, 12, 2]
+total: 27
+deckAvg: 7.421052631578948
+avg: 10.10526315789474
+total tricks: 4
+estimate: 10.34526315789474
+a: 0.5
+b: -0.4
+c: 0.14
+2
+playCard: 2
+[11, 2, 12, 2]
+total: 27
+deckAvg: 7.421052631578948
+avg: 10.10526315789474
+total tricks: 4
+estimate: 10.34526315789474
+a: 0.5
+b: -0.4
+c: 0.14
+2
+[3]
+total: 3
+deckAvg: 7.375
+avg: 6.775
+total tricks: 0
+estimate: 7.345000000000001
+a: 0.5
+b: -0.0
+c: 0.07
+4
+[]
+total: 0
+deckAvg: 7.904761904761905
+avg: 7.904761904761905
+total tricks: 0
+estimate: 8.544761904761906
+a: 0.5
+b: -0.0
+c: 0.14
+1
+playCard: 13
+[1]
+total: 1
+deckAvg: 7.904761904761905
+avg: 9.630952380952381
+total tricks: 1
+estimate: 10.170952380952382
+a: 0.5
+b: -0.1
+c: 0.14
+1
+playCard: 2
+[1, 5, 5]
+total: 11
+deckAvg: 7.904761904761905
+avg: 9.507936507936508
+total tricks: 2
+estimate: 9.947936507936507
+a: 0.5
+b: -0.2
+c: 0.14
+1
+playCard: 1
+[1, 5, 5, 5]
+total: 16
+deckAvg: 7.904761904761905
+avg: 11.761904761904763
+total tricks: 3
+estimate: 12.101904761904763
+a: 0.5
+b: -0.30000000000000004
+c: 0.14
+1
+playCard: 1
+[1, 5, 5, 5]
+total: 16
+deckAvg: 7.904761904761905
+avg: 13
+total tricks: 4
+estimate: 13.24
+a: 0.5
+b: -0.4
+c: 0.14
+1
+[1, 5, 5, 5]
+total: 16
+deckAvg: 7.904761904761905
+avg: 4.704761904761905
+total tricks: 0
+estimate: 5.274761904761905
+a: 0.5
+b: -0.0
+c: 0.07
+4
+playCard: 4
+playCard: 11
+playCard: 8
+playCard: 11
+playCard: 12
+New game started: 256634
+[5]
+total: 5
+deckAvg: 6.818181818181818
+avg: 5.818181818181818
+total tricks: 0
+estimate: 6.318181818181818
+a: 0.5
+b: -0.0
+c: 0.0
+5
+[]
+total: 0
+deckAvg: 6.827956989247312
+avg: 6.827956989247312
+total tricks: 0
+estimate: 7.397956989247312
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 9
+[12, 4]
+total: 16
+deckAvg: 6.827956989247312
+avg: 4.53494623655914
+total tricks: 1
+estimate: 5.00494623655914
+a: 0.5
+b: -0.1
+c: 0.07
+2
+playCard: 11
+[12, 4]
+total: 16
+deckAvg: 6.827956989247312
+avg: 6.046594982078854
+total tricks: 2
+estimate: 6.416594982078854
+a: 0.5
+b: -0.2
+c: 0.07
+2
+playCard: 1
+[12, 4, 3, 4]
+total: 23
+deckAvg: 6.827956989247312
+avg: 5.56989247311828
+total tricks: 3
+estimate: 5.8398924731182795
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+2
+playCard: 13
+[12, 4, 3, 4]
+total: 23
+deckAvg: 6.827956989247312
+avg: 11.13978494623656
+total tricks: 4
+estimate: 11.30978494623656
+a: 0.5
+b: -0.4
+c: 0.07
+2
+playCard: 1
+[12, 4, 3, 4]
+total: 23
+deckAvg: 6.827956989247312
+avg: 11.13978494623656
+total tricks: 4
+estimate: 11.30978494623656
+a: 0.5
+b: -0.4
+c: 0.07
+2
+[7]
+total: 7
+deckAvg: 6.892857142857143
+avg: 5.492857142857143
+total tricks: 0
+estimate: 5.992857142857143
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 8
+[7]
+total: 7
+deckAvg: 6.892857142857143
+avg: 6.866071428571429
+total tricks: 1
+estimate: 7.266071428571429
+a: 0.5
+b: -0.1
+c: 0.0
+2
+playCard: 7
+[7, 8, 2]
+total: 17
+deckAvg: 6.892857142857143
+avg: 5.821428571428572
+total tricks: 2
+estimate: 6.121428571428572
+a: 0.5
+b: -0.2
+c: 0.0
+2
+playCard: 5
+[7, 8, 2]
+total: 17
+deckAvg: 6.892857142857143
+avg: 8.732142857142858
+total tricks: 3
+estimate: 8.932142857142857
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+2
+playCard: 8
+[7, 8, 2, 12, 1]
+total: 30
+deckAvg: 6.892857142857143
+avg: 4.464285714285715
+total tricks: 4
+estimate: 4.564285714285715
+a: 0.5
+b: -0.4
+c: 0.0
+3
+playCard: 5
+[]
+total: 0
+deckAvg: 6.986486486486487
+avg: 6.986486486486487
+total tricks: 0
+estimate: 7.556486486486487
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 6
+[1]
+total: 1
+deckAvg: 6.986486486486487
+avg: 8.483108108108109
+total tricks: 1
+estimate: 8.95310810810811
+a: 0.5
+b: -0.1
+c: 0.07
+2
+playCard: 8
+[1, 3]
+total: 4
+deckAvg: 6.986486486486487
+avg: 10.310810810810812
+total tricks: 2
+estimate: 10.680810810810812
+a: 0.5
+b: -0.2
+c: 0.07
+2
+playCard: 8
+[1, 3, 3]
+total: 7
+deckAvg: 6.986486486486487
+avg: 13
+total tricks: 3
+estimate: 13.27
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+3
+playCard: 9
+[1, 3, 3, 4]
+total: 11
+deckAvg: 6.986486486486487
+avg: 13
+total tricks: 4
+estimate: 13.17
+a: 0.5
+b: -0.4
+c: 0.07
+4
+[]
+total: 0
+deckAvg: 7.092307692307692
+avg: 7.092307692307692
+total tricks: 0
+estimate: 7.732307692307692
+a: 0.5
+b: -0.0
+c: 0.14
+3
+playCard: 7
+[9]
+total: 9
+deckAvg: 7.092307692307692
+avg: 6.615384615384615
+total tricks: 1
+estimate: 7.155384615384615
+a: 0.5
+b: -0.1
+c: 0.14
+3
+[5]
+total: 5
+deckAvg: 7.203389830508475
+avg: 6.203389830508475
+total tricks: 0
+estimate: 6.773389830508475
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 6
+[5]
+total: 5
+deckAvg: 7.203389830508475
+avg: 7.754237288135593
+total tricks: 1
+estimate: 8.224237288135594
+a: 0.5
+b: -0.1
+c: 0.07
+2
+playCard: 7
+[5, 9, 5]
+total: 19
+deckAvg: 7.203389830508475
+avg: 5.6723163841807915
+total tricks: 2
+estimate: 6.042316384180792
+a: 0.5
+b: -0.2
+c: 0.07
+2
+playCard: 10
+[5, 9, 5]
+total: 19
+deckAvg: 7.203389830508475
+avg: 8.508474576271187
+total tricks: 3
+estimate: 8.778474576271186
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+2
+playCard: 3
+[5, 9, 5]
+total: 19
+deckAvg: 7.203389830508475
+avg: 13
+total tricks: 4
+estimate: 13.17
+a: 0.5
+b: -0.4
+c: 0.07
+2
+playCard: 1
+[]
+total: 0
+deckAvg: 7.530612244897959
+avg: 7.530612244897959
+total tricks: 0
+estimate: 8.10061224489796
+a: 0.5
+b: -0.0
+c: 0.07
+0
+playCard: 8
+[10]
+total: 10
+deckAvg: 7.530612244897959
+avg: 6.913265306122449
+total tricks: 1
+estimate: 7.383265306122449
+a: 0.5
+b: -0.1
+c: 0.07
+1
+[10]
+total: 10
+deckAvg: 7.511627906976744
+avg: 5.511627906976744
+total tricks: 0
+estimate: 6.011627906976744
+a: 0.5
+b: -0.0
+c: 0.0
+2
+playCard: 13
+[10]
+total: 10
+deckAvg: 7.511627906976744
+avg: 6.8895348837209305
+total tricks: 1
+estimate: 7.289534883720931
+a: 0.5
+b: -0.1
+c: 0.0
+2
+playCard: 6
+[10, 10, 6]
+total: 26
+deckAvg: 7.511627906976744
+avg: 3.852713178294574
+total tricks: 2
+estimate: 4.152713178294574
+a: 0.5
+b: -0.2
+c: 0.0
+2
+playCard: 10
+[10, 10, 6]
+total: 26
+deckAvg: 7.511627906976744
+avg: 5.779069767441861
+total tricks: 3
+estimate: 5.979069767441861
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+2
+playCard: 4
+[10, 10, 6, 12, 2]
+total: 40
+deckAvg: 7.511627906976744
+avg: -2.441860465116278
+total tricks: 4
+estimate: -2.341860465116278
+a: 0.5
+b: -0.4
+c: 0.0
+3
+playCard: 3
+[]
+total: 0
+deckAvg: 7.303030303030303
+avg: 7.303030303030303
+total tricks: 0
+estimate: 7.873030303030303
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 7
+[12, 4]
+total: 16
+deckAvg: 7.303030303030303
+avg: 5.128787878787879
+total tricks: 1
+estimate: 5.598787878787879
+a: 0.5
+b: -0.1
+c: 0.07
+4
+[]
+total: 0
+deckAvg: 7.384615384615385
+avg: 7.384615384615385
+total tricks: 0
+estimate: 8.024615384615386
+a: 0.5
+b: -0.0
+c: 0.14
+2
+playCard: 7
+[12]
+total: 12
+deckAvg: 7.384615384615385
+avg: 6.230769230769232
+total tricks: 1
+estimate: 6.770769230769232
+a: 0.5
+b: -0.1
+c: 0.14
+2
+[10]
+total: 10
+deckAvg: 7.02020202020202
+avg: 5.020202020202019
+total tricks: 0
+estimate: 5.590202020202019
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 12
+[10]
+total: 10
+deckAvg: 7.02020202020202
+avg: 6.275252525252524
+total tricks: 1
+estimate: 6.745252525252524
+a: 0.5
+b: -0.1
+c: 0.07
+1
+playCard: 6
+[10, 7, 10]
+total: 27
+deckAvg: 7.02020202020202
+avg: 2.700336700336699
+total tricks: 2
+estimate: 3.070336700336699
+a: 0.5
+b: -0.2
+c: 0.07
+4
+[]
+total: 0
+deckAvg: 7.032967032967033
+avg: 7.032967032967034
+total tricks: 0
+estimate: 7.672967032967033
+a: 0.5
+b: -0.0
+c: 0.14
+2
+playCard: 8
+[9]
+total: 9
+deckAvg: 7.032967032967033
+avg: 6.541208791208792
+total tricks: 1
+estimate: 7.081208791208792
+a: 0.5
+b: -0.1
+c: 0.14
+1
+[]
+total: 0
+deckAvg: 7.032967032967033
+avg: 7.032967032967034
+total tricks: 0
+estimate: 7.602967032967034
+a: 0.5
+b: -0.0
+c: 0.07
+2
+[5]
+total: 5
+deckAvg: 7.0588235294117645
+avg: 6.058823529411765
+total tricks: 0
+estimate: 6.558823529411765
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 6
+[5]
+total: 5
+deckAvg: 7.0588235294117645
+avg: 7.5735294117647065
+total tricks: 1
+estimate: 7.973529411764707
+a: 0.5
+b: -0.1
+c: 0.0
+3
+playCard: 7
+[5, 10, 2]
+total: 17
+deckAvg: 7.0588235294117645
+avg: 6.098039215686275
+total tricks: 2
+estimate: 6.398039215686275
+a: 0.5
+b: -0.2
+c: 0.0
+3
+playCard: 8
+[5, 10, 2]
+total: 17
+deckAvg: 7.0588235294117645
+avg: 9.147058823529413
+total tricks: 3
+estimate: 9.347058823529412
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+2
+playCard: 9
+[5, 10, 2, 12, 1]
+total: 30
+deckAvg: 7.0588235294117645
+avg: 5.294117647058826
+total tricks: 4
+estimate: 5.394117647058826
+a: 0.5
+b: -0.4
+c: 0.0
+2
+playCard: 1
+[4]
+total: 4
+deckAvg: 7.28
+avg: 6.4799999999999995
+total tricks: 0
+estimate: 6.9799999999999995
+a: 0.5
+b: -0.0
+c: 0.0
+2
+playCard: 7
+[4]
+total: 4
+deckAvg: 7.28
+avg: 8.1
+total tricks: 1
+estimate: 8.5
+a: 0.5
+b: -0.1
+c: 0.0
+1
+playCard: 8
+[4, 10, 3]
+total: 17
+deckAvg: 7.28
+avg: 6.466666666666666
+total tricks: 2
+estimate: 6.766666666666666
+a: 0.5
+b: -0.2
+c: 0.0
+1
+playCard: 4
+[4, 10, 3]
+total: 17
+deckAvg: 7.28
+avg: 9.7
+total tricks: 3
+estimate: 9.899999999999999
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+2
+playCard: 4
+[4, 10, 3, 11, 2]
+total: 30
+deckAvg: 7.28
+avg: 6.399999999999999
+total tricks: 4
+estimate: 6.499999999999998
+a: 0.5
+b: -0.4
+c: 0.0
+2
+playCard: 1
+[9]
+total: 9
+deckAvg: 7.276923076923077
+avg: 5.476923076923077
+total tricks: 0
+estimate: 5.906923076923077
+a: 0.5
+b: -0.0
+c: -0.07
+4
+[]
+total: 0
+deckAvg: 7.220338983050848
+avg: 7.220338983050849
+total tricks: 0
+estimate: 7.720338983050849
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 9
+[1]
+total: 1
+deckAvg: 7.220338983050848
+avg: 8.77542372881356
+total tricks: 1
+estimate: 9.175423728813561
+a: 0.5
+b: -0.1
+c: 0.0
+3
+playCard: 11
+[1, 2]
+total: 3
+deckAvg: 7.220338983050848
+avg: 11.033898305084747
+total tricks: 2
+estimate: 11.333898305084748
+a: 0.5
+b: -0.2
+c: 0.0
+3
+playCard: 3
+[1, 2, 5, 3]
+total: 11
+deckAvg: 7.220338983050848
+avg: 12.550847457627121
+total tricks: 3
+estimate: 12.75084745762712
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+3
+playCard: 13
+[1, 2, 5, 3]
+total: 11
+deckAvg: 7.220338983050848
+avg: 13
+total tricks: 4
+estimate: 13.1
+a: 0.5
+b: -0.4
+c: 0.0
+3
+playCard: 2
+[]
+total: 0
+deckAvg: 7.918367346938775
+avg: 7.918367346938775
+total tricks: 0
+estimate: 8.488367346938775
+a: 0.5
+b: -0.0
+c: 0.07
+0
+playCard: 8
+[]
+total: 0
+deckAvg: 7.918367346938775
+avg: 9.89795918367347
+total tricks: 1
+estimate: 10.36795918367347
+a: 0.5
+b: -0.1
+c: 0.07
+0
+playCard: 6
+[7, 7]
+total: 14
+deckAvg: 7.918367346938775
+avg: 8.53061224489796
+total tricks: 2
+estimate: 8.900612244897959
+a: 0.5
+b: -0.2
+c: 0.07
+0
+playCard: 1
+[7, 7]
+total: 14
+deckAvg: 7.918367346938775
+avg: 12.795918367346939
+total tricks: 3
+estimate: 13.065918367346939
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+0
+[5]
+total: 5
+deckAvg: 7.7317073170731705
+avg: 6.7317073170731705
+total tricks: 0
+estimate: 7.2317073170731705
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 6
+[5]
+total: 5
+deckAvg: 7.7317073170731705
+avg: 8.414634146341463
+total tricks: 1
+estimate: 8.814634146341463
+a: 0.5
+b: -0.1
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 7.885714285714286
+avg: 7.885714285714286
+total tricks: 0
+estimate: 8.455714285714286
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 5
+[6]
+total: 6
+deckAvg: 7.885714285714286
+avg: 8.357142857142858
+total tricks: 1
+estimate: 8.827142857142858
+a: 0.5
+b: -0.1
+c: 0.07
+2
+playCard: 6
+playCard: 9
+playCard: 4
+playCard: 11
+playCard: 12
+New game started: 256638
+[]
+total: 0
+deckAvg: 7.101010101010101
+avg: 7.101010101010101
+total tricks: 0
+estimate: 7.601010101010101
+a: 0.5
+b: -0.0
+c: 0.0
+0
+playCard: 7
+[9, 3]
+total: 12
+deckAvg: 7.101010101010101
+avg: 5.876262626262626
+total tricks: 1
+estimate: 6.276262626262627
+a: 0.5
+b: -0.1
+c: 0.0
+0
+playCard: 5
+[9, 3]
+total: 12
+deckAvg: 7.101010101010101
+avg: 7.835016835016835
+total tricks: 2
+estimate: 8.135016835016835
+a: 0.5
+b: -0.2
+c: 0.0
+1
+playCard: 6
+[9, 3, 7]
+total: 19
+deckAvg: 7.101010101010101
+avg: 8.252525252525253
+total tricks: 3
+estimate: 8.452525252525252
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+1
+[10]
+total: 10
+deckAvg: 7.164835164835165
+avg: 5.164835164835165
+total tricks: 0
+estimate: 5.594835164835165
+a: 0.5
+b: -0.0
+c: -0.07
+2
+playCard: 13
+[10]
+total: 10
+deckAvg: 7.164835164835165
+avg: 6.456043956043956
+total tricks: 1
+estimate: 6.786043956043956
+a: 0.5
+b: -0.1
+c: -0.07
+2
+playCard: 8
+[10, 10, 6]
+total: 26
+deckAvg: 7.164835164835165
+avg: 3.274725274725275
+total tricks: 2
+estimate: 3.504725274725275
+a: 0.5
+b: -0.2
+c: -0.07
+2
+playCard: 3
+[10, 10, 6]
+total: 26
+deckAvg: 7.164835164835165
+avg: 4.912087912087912
+total tricks: 3
+estimate: 5.042087912087912
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+1
+[4]
+total: 4
+deckAvg: 7.108433734939759
+avg: 6.308433734939759
+total tricks: 0
+estimate: 6.668433734939759
+a: 0.5
+b: -0.0
+c: -0.14
+3
+playCard: 5
+[4]
+total: 4
+deckAvg: 7.108433734939759
+avg: 7.885542168674698
+total tricks: 1
+estimate: 8.145542168674698
+a: 0.5
+b: -0.1
+c: -0.14
+3
+playCard: 8
+[4, 13, 4]
+total: 21
+deckAvg: 7.108433734939759
+avg: 4.847389558232931
+total tricks: 2
+estimate: 5.007389558232931
+a: 0.5
+b: -0.2
+c: -0.14
+3
+playCard: 9
+[4, 13, 4]
+total: 21
+deckAvg: 7.108433734939759
+avg: 7.2710843373493965
+total tricks: 3
+estimate: 7.331084337349396
+a: 0.5
+b: -0.30000000000000004
+c: -0.14
+3
+playCard: 13
+[4, 13, 4]
+total: 21
+deckAvg: 7.108433734939759
+avg: 13
+total tricks: 4
+estimate: 12.96
+a: 0.5
+b: -0.4
+c: -0.14
+2
+playCard: 1
+[]
+total: 0
+deckAvg: 7.178082191780822
+avg: 7.178082191780822
+total tricks: 0
+estimate: 7.608082191780822
+a: 0.5
+b: -0.0
+c: -0.07
+2
+playCard: 7
+[11, 5]
+total: 16
+deckAvg: 7.178082191780822
+avg: 4.972602739726028
+total tricks: 1
+estimate: 5.302602739726028
+a: 0.5
+b: -0.1
+c: -0.07
+2
+playCard: 10
+[11, 5]
+total: 16
+deckAvg: 7.178082191780822
+avg: 6.630136986301371
+total tricks: 2
+estimate: 6.86013698630137
+a: 0.5
+b: -0.2
+c: -0.07
+2
+playCard: 11
+[11, 5, 2]
+total: 18
+deckAvg: 7.178082191780822
+avg: 8.945205479452056
+total tricks: 3
+estimate: 9.075205479452057
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+2
+playCard: 2
+[11, 5, 2, 5, 5]
+total: 28
+deckAvg: 7.178082191780822
+avg: 7.890410958904113
+total tricks: 4
+estimate: 7.920410958904113
+a: 0.5
+b: -0.4
+c: -0.07
+2
+playCard: 1
+[11, 5, 2, 5, 5]
+total: 28
+deckAvg: 7.178082191780822
+avg: 1.5780821917808225
+total tricks: 0
+estimate: 1.9380821917808224
+a: 0.5
+b: -0.0
+c: -0.14
+5
+playCard: 12
+playCard: 7
+playCard: 2
+playCard: 6
+playCard: 9
+New game started: 256641
+[]
+total: 0
+deckAvg: 7.301587301587301
+avg: 7.301587301587301
+total tricks: 0
+estimate: 7.801587301587301
+a: 0.5
+b: -0.0
+c: 0.0
+3
+[6]
+total: 6
+deckAvg: 7.0
+avg: 5.8
+total tricks: 0
+estimate: 6.2299999999999995
+a: 0.5
+b: -0.0
+c: -0.07
+3
+playCard: 8
+[6]
+total: 6
+deckAvg: 7.0
+avg: 7.25
+total tricks: 1
+estimate: 7.58
+a: 0.5
+b: -0.1
+c: -0.07
+3
+playCard: 9
+[6, 13, 3]
+total: 22
+deckAvg: 7.0
+avg: 4.333333333333333
+total tricks: 2
+estimate: 4.563333333333333
+a: 0.5
+b: -0.2
+c: -0.07
+2
+playCard: 4
+[6, 13, 3]
+total: 22
+deckAvg: 7.0
+avg: 6.5
+total tricks: 3
+estimate: 6.63
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+3
+playCard: 3
+[6, 13, 3, 9, 1]
+total: 32
+deckAvg: 7.0
+avg: 3.0
+total tricks: 4
+estimate: 3.03
+a: 0.5
+b: -0.4
+c: -0.07
+3
+playCard: 11
+[]
+total: 0
+deckAvg: 7.213483146067416
+avg: 7.213483146067416
+total tricks: 0
+estimate: 7.713483146067416
+a: 0.5
+b: -0.0
+c: 0.0
+1
+playCard: 10
+[13, 3]
+total: 16
+deckAvg: 7.213483146067416
+avg: 5.0168539325842705
+total tricks: 1
+estimate: 5.416853932584271
+a: 0.5
+b: -0.1
+c: 0.0
+0
+playCard: 1
+[13, 3]
+total: 16
+deckAvg: 7.213483146067416
+avg: 6.689138576779027
+total tricks: 2
+estimate: 6.989138576779027
+a: 0.5
+b: -0.2
+c: 0.0
+0
+[13, 3]
+total: 16
+deckAvg: 7.213483146067416
+avg: 4.013483146067417
+total tricks: 0
+estimate: 4.4434831460674165
+a: 0.5
+b: -0.0
+c: -0.07
+4
+playCard: 11
+playCard: 6
+playCard: 11
+playCard: 5
+playCard: 2
+New game started: 256642
+[]
+total: 0
+deckAvg: 7.040404040404041
+avg: 7.04040404040404
+total tricks: 0
+estimate: 7.54040404040404
+a: 0.5
+b: -0.0
+c: 0.0
+2
+playCard: 9
+[10]
+total: 10
+deckAvg: 7.040404040404041
+avg: 6.30050505050505
+total tricks: 1
+estimate: 6.7005050505050505
+a: 0.5
+b: -0.1
+c: 0.0
+1
+[6]
+total: 6
+deckAvg: 6.913978494623656
+avg: 5.713978494623656
+total tricks: 0
+estimate: 6.1439784946236555
+a: 0.5
+b: -0.0
+c: -0.07
+3
+playCard: 10
+[6]
+total: 6
+deckAvg: 6.913978494623656
+avg: 7.14247311827957
+total tricks: 1
+estimate: 7.47247311827957
+a: 0.5
+b: -0.1
+c: -0.07
+3
+playCard: 5
+[6, 8, 4]
+total: 18
+deckAvg: 6.913978494623656
+avg: 5.523297491039426
+total tricks: 2
+estimate: 5.753297491039426
+a: 0.5
+b: -0.2
+c: -0.07
+3
+playCard: 12
+[6, 8, 4]
+total: 18
+deckAvg: 6.913978494623656
+avg: 8.28494623655914
+total tricks: 3
+estimate: 8.41494623655914
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+3
+playCard: 4
+[6, 8, 4, 8, 3]
+total: 29
+deckAvg: 6.913978494623656
+avg: 5.56989247311828
+total tricks: 4
+estimate: 5.59989247311828
+a: 0.5
+b: -0.4
+c: -0.07
+3
+playCard: 13
+[]
+total: 0
+deckAvg: 6.879518072289157
+avg: 6.879518072289157
+total tricks: 0
+estimate: 7.379518072289157
+a: 0.5
+b: -0.0
+c: 0.0
+2
+playCard: 7
+[8, 3]
+total: 11
+deckAvg: 6.879518072289157
+avg: 5.849397590361447
+total tricks: 1
+estimate: 6.249397590361447
+a: 0.5
+b: -0.1
+c: 0.0
+2
+playCard: 6
+[8, 3]
+total: 11
+deckAvg: 6.879518072289157
+avg: 7.799196787148595
+total tricks: 2
+estimate: 8.099196787148596
+a: 0.5
+b: -0.2
+c: 0.0
+3
+playCard: 6
+[8, 3, 9, 2]
+total: 22
+deckAvg: 6.879518072289157
+avg: 6.198795180722893
+total tricks: 3
+estimate: 6.398795180722893
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+3
+playCard: 11
+[8, 3, 9, 2]
+total: 22
+deckAvg: 6.879518072289157
+avg: 12.397590361445786
+total tricks: 4
+estimate: 12.497590361445786
+a: 0.5
+b: -0.4
+c: 0.0
+3
+playCard: 13
+[]
+total: 0
+deckAvg: 6.917808219178082
+avg: 6.917808219178082
+total tricks: 0
+estimate: 7.487808219178082
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 7
+[12, 5]
+total: 17
+deckAvg: 6.917808219178082
+avg: 4.397260273972602
+total tricks: 1
+estimate: 4.867260273972602
+a: 0.5
+b: -0.1
+c: 0.07
+3
+playCard: 9
+[12, 5]
+total: 17
+deckAvg: 6.917808219178082
+avg: 5.863013698630136
+total tricks: 2
+estimate: 6.2330136986301365
+a: 0.5
+b: -0.2
+c: 0.07
+3
+playCard: 9
+[12, 5, 13, 3]
+total: 33
+deckAvg: 6.917808219178082
+avg: 0.7945205479452042
+total tricks: 3
+estimate: 1.0645205479452042
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+3
+playCard: 13
+[12, 5, 13, 3]
+total: 33
+deckAvg: 6.917808219178082
+avg: 1.5890410958904084
+total tricks: 4
+estimate: 1.7590410958904084
+a: 0.5
+b: -0.4
+c: 0.07
+3
+playCard: 2
+[12, 5, 13, 3]
+total: 33
+deckAvg: 6.917808219178082
+avg: 1.5890410958904084
+total tricks: 4
+estimate: 1.7590410958904084
+a: 0.5
+b: -0.4
+c: 0.07
+3
+[]
+total: 0
+deckAvg: 6.917808219178082
+avg: 6.917808219178082
+total tricks: 0
+estimate: 7.417808219178082
+a: 0.5
+b: -0.0
+c: 0.0
+3
+[5]
+total: 5
+deckAvg: 6.765625
+avg: 5.765625
+total tricks: 0
+estimate: 6.195625
+a: 0.5
+b: -0.0
+c: -0.07
+4
+[]
+total: 0
+deckAvg: 6.706896551724138
+avg: 6.706896551724138
+total tricks: 0
+estimate: 7.206896551724138
+a: 0.5
+b: -0.0
+c: 0.0
+2
+playCard: 7
+[10, 2]
+total: 12
+deckAvg: 6.706896551724138
+avg: 5.383620689655173
+total tricks: 1
+estimate: 5.783620689655173
+a: 0.5
+b: -0.1
+c: 0.0
+3
+playCard: 6
+[10, 2]
+total: 12
+deckAvg: 6.706896551724138
+avg: 7.17816091954023
+total tricks: 2
+estimate: 7.47816091954023
+a: 0.5
+b: -0.2
+c: 0.0
+3
+playCard: 12
+[10, 2, 1]
+total: 13
+deckAvg: 6.706896551724138
+avg: 10.267241379310345
+total tricks: 3
+estimate: 10.467241379310344
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+3
+playCard: 1
+[10, 2, 1, 6]
+total: 19
+deckAvg: 6.706896551724138
+avg: 13
+total tricks: 4
+estimate: 13.1
+a: 0.5
+b: -0.4
+c: 0.0
+2
+[8]
+total: 8
+deckAvg: 7.020408163265306
+avg: 5.420408163265305
+total tricks: 0
+estimate: 5.850408163265305
+a: 0.5
+b: -0.0
+c: -0.07
+1
+playCard: 12
+[8]
+total: 8
+deckAvg: 7.020408163265306
+avg: 6.775510204081632
+total tricks: 1
+estimate: 7.105510204081632
+a: 0.5
+b: -0.1
+c: -0.07
+1
+playCard: 5
+[8, 8, 5]
+total: 21
+deckAvg: 7.020408163265306
+avg: 4.700680272108843
+total tricks: 2
+estimate: 4.930680272108843
+a: 0.5
+b: -0.2
+c: -0.07
+1
+playCard: 2
+[8, 8, 5]
+total: 21
+deckAvg: 7.020408163265306
+avg: 7.051020408163264
+total tricks: 3
+estimate: 7.181020408163264
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+1
+[9]
+total: 9
+deckAvg: 6.902439024390244
+avg: 5.102439024390245
+total tricks: 0
+estimate: 5.462439024390245
+a: 0.5
+b: -0.0
+c: -0.14
+3
+playCard: 11
+[9]
+total: 9
+deckAvg: 6.902439024390244
+avg: 6.378048780487806
+total tricks: 1
+estimate: 6.6380487804878054
+a: 0.5
+b: -0.1
+c: -0.14
+3
+playCard: 4
+[9, 9, 10]
+total: 28
+deckAvg: 6.902439024390244
+avg: 2.170731707317074
+total tricks: 2
+estimate: 2.3307317073170744
+a: 0.5
+b: -0.2
+c: -0.14
+3
+playCard: 11
+[9, 9, 10]
+total: 28
+deckAvg: 6.902439024390244
+avg: 3.2560975609756113
+total tricks: 3
+estimate: 3.3160975609756114
+a: 0.5
+b: -0.30000000000000004
+c: -0.14
+3
+playCard: 2
+[9, 9, 10, 11, 1]
+total: 40
+deckAvg: 6.902439024390244
+avg: -5.487804878048777
+total tricks: 4
+estimate: -5.527804878048777
+a: 0.5
+b: -0.4
+c: -0.14
+3
+playCard: 12
+[]
+total: 0
+deckAvg: 6.258064516129032
+avg: 6.258064516129032
+total tricks: 0
+estimate: 6.688064516129032
+a: 0.5
+b: -0.0
+c: -0.07
+5
+[]
+total: 0
+deckAvg: 6.878787878787879
+avg: 6.878787878787878
+total tricks: 0
+estimate: 7.378787878787878
+a: 0.5
+b: -0.0
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 6.787234042553192
+avg: 6.787234042553192
+total tricks: 0
+estimate: 7.357234042553192
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 4
+[7]
+total: 7
+deckAvg: 6.787234042553192
+avg: 6.73404255319149
+total tricks: 1
+estimate: 7.204042553191489
+a: 0.5
+b: -0.1
+c: 0.07
+3
+[4]
+total: 4
+deckAvg: 6.7727272727272725
+avg: 5.972727272727272
+total tricks: 0
+estimate: 6.472727272727272
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 6
+[4]
+total: 4
+deckAvg: 6.7727272727272725
+avg: 7.46590909090909
+total tricks: 1
+estimate: 7.86590909090909
+a: 0.5
+b: -0.1
+c: 0.0
+3
+playCard: 7
+[4, 10, 3]
+total: 17
+deckAvg: 6.7727272727272725
+avg: 5.62121212121212
+total tricks: 2
+estimate: 5.92121212121212
+a: 0.5
+b: -0.2
+c: 0.0
+3
+playCard: 10
+[4, 10, 3]
+total: 17
+deckAvg: 6.7727272727272725
+avg: 8.43181818181818
+total tricks: 3
+estimate: 8.63181818181818
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+3
+playCard: 11
+[4, 10, 3, 1]
+total: 18
+deckAvg: 6.7727272727272725
+avg: 13
+total tricks: 4
+estimate: 13.1
+a: 0.5
+b: -0.4
+c: 0.0
+3
+playCard: 1
+[]
+total: 0
+deckAvg: 6.923076923076923
+avg: 6.9230769230769225
+total tricks: 0
+estimate: 7.493076923076923
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 6
+[11, 4]
+total: 15
+deckAvg: 6.923076923076923
+avg: 4.903846153846153
+total tricks: 1
+estimate: 5.373846153846153
+a: 0.5
+b: -0.1
+c: 0.07
+2
+playCard: 8
+[11, 4]
+total: 15
+deckAvg: 6.923076923076923
+avg: 6.538461538461537
+total tricks: 2
+estimate: 6.9084615384615375
+a: 0.5
+b: -0.2
+c: 0.07
+2
+playCard: 4
+[11, 4, 5]
+total: 20
+deckAvg: 6.923076923076923
+avg: 7.307692307692307
+total tricks: 3
+estimate: 7.577692307692306
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+2
+[3]
+total: 3
+deckAvg: 7.1
+avg: 6.5
+total tricks: 0
+estimate: 7.0
+a: 0.5
+b: -0.0
+c: 0.0
+1
+playCard: 4
+[3]
+total: 3
+deckAvg: 7.1
+avg: 8.125
+total tricks: 1
+estimate: 8.525
+a: 0.5
+b: -0.1
+c: 0.0
+1
+playCard: 8
+[3, 11, 3]
+total: 17
+deckAvg: 7.1
+avg: 6.166666666666667
+total tricks: 2
+estimate: 6.466666666666667
+a: 0.5
+b: -0.2
+c: 0.0
+1
+playCard: 4
+[3, 11, 3]
+total: 17
+deckAvg: 7.1
+avg: 9.25
+total tricks: 3
+estimate: 9.45
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+2
+playCard: 5
+[3, 11, 3, 8, 3]
+total: 28
+deckAvg: 7.1
+avg: 7.5
+total tricks: 4
+estimate: 7.6
+a: 0.5
+b: -0.4
+c: 0.0
+2
+playCard: 2
+[6]
+total: 6
+deckAvg: 7.266666666666667
+avg: 6.066666666666667
+total tricks: 0
+estimate: 6.496666666666667
+a: 0.5
+b: -0.0
+c: -0.07
+3
+playCard: 7
+[6]
+total: 6
+deckAvg: 7.266666666666667
+avg: 7.583333333333334
+total tricks: 1
+estimate: 7.913333333333334
+a: 0.5
+b: -0.1
+c: -0.07
+3
+playCard: 8
+[6, 10, 6]
+total: 22
+deckAvg: 7.266666666666667
+avg: 4.777777777777779
+total tricks: 2
+estimate: 5.007777777777779
+a: 0.5
+b: -0.2
+c: -0.07
+2
+playCard: 12
+[6, 10, 6]
+total: 22
+deckAvg: 7.266666666666667
+avg: 7.166666666666668
+total tricks: 3
+estimate: 7.296666666666668
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+2
+playCard: 4
+[6, 10, 6, 5, 11]
+total: 38
+deckAvg: 7.266666666666667
+avg: -1.6666666666666643
+total tricks: 4
+estimate: -1.6366666666666643
+a: 0.5
+b: -0.4
+c: -0.07
+3
+playCard: 2
+playCard: 7
+playCard: 10
+playCard: 12
+playCard: 12
+playCard: 13
+New game started: 256646
+[6]
+total: 6
+deckAvg: 7.040404040404041
+avg: 5.8404040404040405
+total tricks: 0
+estimate: 6.3404040404040405
+a: 0.5
+b: -0.0
+c: 0.0
+2
+playCard: 8
+[6]
+total: 6
+deckAvg: 7.040404040404041
+avg: 7.30050505050505
+total tricks: 1
+estimate: 7.7005050505050505
+a: 0.5
+b: -0.1
+c: 0.0
+2
+playCard: 6
+[6, 12, 5]
+total: 23
+deckAvg: 7.040404040404041
+avg: 4.067340067340067
+total tricks: 2
+estimate: 4.367340067340066
+a: 0.5
+b: -0.2
+c: 0.0
+2
+playCard: 11
+[6, 12, 5]
+total: 23
+deckAvg: 7.040404040404041
+avg: 6.1010101010101
+total tricks: 3
+estimate: 6.3010101010101005
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+2
+playCard: 4
+[6, 12, 5, 13, 3]
+total: 39
+deckAvg: 7.040404040404041
+avg: -3.7979797979797993
+total tricks: 4
+estimate: -3.6979797979797993
+a: 0.5
+b: -0.4
+c: 0.0
+3
+playCard: 2
+[2]
+total: 2
+deckAvg: 7.067415730337078
+avg: 6.667415730337078
+total tricks: 0
+estimate: 7.097415730337078
+a: 0.5
+b: -0.0
+c: -0.07
+1
+playCard: 3
+[2]
+total: 2
+deckAvg: 7.067415730337078
+avg: 8.334269662921347
+total tricks: 1
+estimate: 8.664269662921347
+a: 0.5
+b: -0.1
+c: -0.07
+2
+playCard: 7
+[2, 1]
+total: 3
+deckAvg: 7.067415730337078
+avg: 10.779026217228463
+total tricks: 2
+estimate: 11.009026217228463
+a: 0.5
+b: -0.2
+c: -0.07
+3
+playCard: 6
+[2, 1, 2]
+total: 5
+deckAvg: 7.067415730337078
+avg: 13
+total tricks: 3
+estimate: 13.13
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+3
+playCard: 12
+[2, 1, 2, 4]
+total: 9
+deckAvg: 7.067415730337078
+avg: 13
+total tricks: 4
+estimate: 13.03
+a: 0.5
+b: -0.4
+c: -0.07
+4
+[]
+total: 0
+deckAvg: 7.2125
+avg: 7.2125
+total tricks: 0
+estimate: 7.7125
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 8
+[9]
+total: 9
+deckAvg: 7.2125
+avg: 6.765625
+total tricks: 1
+estimate: 7.165625
+a: 0.5
+b: -0.1
+c: 0.0
+2
+[7]
+total: 7
+deckAvg: 7.175675675675675
+avg: 5.775675675675676
+total tricks: 0
+estimate: 6.205675675675676
+a: 0.5
+b: -0.0
+c: -0.07
+3
+playCard: 9
+[7]
+total: 7
+deckAvg: 7.175675675675675
+avg: 7.219594594594595
+total tricks: 1
+estimate: 7.549594594594595
+a: 0.5
+b: -0.1
+c: -0.07
+2
+playCard: 7
+[7, 11, 3]
+total: 21
+deckAvg: 7.175675675675675
+avg: 4.95945945945946
+total tricks: 2
+estimate: 5.18945945945946
+a: 0.5
+b: -0.2
+c: -0.07
+2
+playCard: 4
+[7, 11, 3]
+total: 21
+deckAvg: 7.175675675675675
+avg: 7.4391891891891895
+total tricks: 3
+estimate: 7.569189189189189
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+3
+playCard: 5
+[7, 11, 3, 7, 1]
+total: 29
+deckAvg: 7.175675675675675
+avg: 6.878378378378379
+total tricks: 4
+estimate: 6.908378378378379
+a: 0.5
+b: -0.4
+c: -0.07
+3
+playCard: 12
+[]
+total: 0
+deckAvg: 7.09375
+avg: 7.09375
+total tricks: 0
+estimate: 7.59375
+a: 0.5
+b: -0.0
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 7.254237288135593
+avg: 7.254237288135593
+total tricks: 0
+estimate: 7.824237288135594
+a: 0.5
+b: -0.0
+c: 0.07
+1
+playCard: 7
+[8]
+total: 8
+deckAvg: 7.254237288135593
+avg: 7.067796610169491
+total tricks: 1
+estimate: 7.537796610169491
+a: 0.5
+b: -0.1
+c: 0.07
+1
+[]
+total: 0
+deckAvg: 7.254237288135593
+avg: 7.254237288135593
+total tricks: 0
+estimate: 7.754237288135593
+a: 0.5
+b: -0.0
+c: 0.0
+3
+[5]
+total: 5
+deckAvg: 7.226415094339623
+avg: 6.2264150943396235
+total tricks: 0
+estimate: 6.656415094339623
+a: 0.5
+b: -0.0
+c: -0.07
+3
+playCard: 7
+[5]
+total: 5
+deckAvg: 7.226415094339623
+avg: 7.783018867924529
+total tricks: 1
+estimate: 8.113018867924529
+a: 0.5
+b: -0.1
+c: -0.07
+3
+playCard: 4
+[5, 5, 4]
+total: 14
+deckAvg: 7.226415094339623
+avg: 7.3773584905660385
+total tricks: 2
+estimate: 7.607358490566039
+a: 0.5
+b: -0.2
+c: -0.07
+3
+playCard: 11
+[5, 5, 4]
+total: 14
+deckAvg: 7.226415094339623
+avg: 11.066037735849058
+total tricks: 3
+estimate: 11.196037735849059
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+3
+playCard: 3
+[5, 5, 4, 8, 1]
+total: 23
+deckAvg: 7.226415094339623
+avg: 13
+total tricks: 4
+estimate: 13.03
+a: 0.5
+b: -0.4
+c: -0.07
+2
+playCard: 12
+[]
+total: 0
+deckAvg: 7.534883720930233
+avg: 7.5348837209302335
+total tricks: 0
+estimate: 8.034883720930234
+a: 0.5
+b: -0.0
+c: 0.0
+1
+playCard: 8
+[10, 4]
+total: 14
+deckAvg: 7.534883720930233
+avg: 5.918604651162791
+total tricks: 1
+estimate: 6.318604651162792
+a: 0.5
+b: -0.1
+c: 0.0
+2
+playCard: 6
+[10, 4]
+total: 14
+deckAvg: 7.534883720930233
+avg: 7.891472868217055
+total tricks: 2
+estimate: 8.191472868217055
+a: 0.5
+b: -0.2
+c: 0.0
+2
+playCard: 7
+[10, 4, 12, 1]
+total: 27
+deckAvg: 7.534883720930233
+avg: 5.337209302325583
+total tricks: 3
+estimate: 5.537209302325583
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+2
+playCard: 2
+[10, 4, 12, 1]
+total: 27
+deckAvg: 7.534883720930233
+avg: 10.674418604651166
+total tricks: 4
+estimate: 10.774418604651165
+a: 0.5
+b: -0.4
+c: 0.0
+3
+playCard: 13
+[]
+total: 0
+deckAvg: 7.575757575757576
+avg: 7.575757575757576
+total tricks: 0
+estimate: 8.145757575757576
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 9
+[]
+total: 0
+deckAvg: 7.575757575757576
+avg: 9.46969696969697
+total tricks: 1
+estimate: 9.939696969696971
+a: 0.5
+b: -0.1
+c: 0.07
+2
+playCard: 6
+[9, 2]
+total: 11
+deckAvg: 7.575757575757576
+avg: 8.95959595959596
+total tricks: 2
+estimate: 9.32959595959596
+a: 0.5
+b: -0.2
+c: 0.07
+2
+playCard: 11
+[9, 2]
+total: 11
+deckAvg: 7.575757575757576
+avg: 13
+total tricks: 3
+estimate: 13.27
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+1
+playCard: 13
+[9, 2, 1]
+total: 12
+deckAvg: 7.575757575757576
+avg: 13
+total tricks: 4
+estimate: 13.17
+a: 0.5
+b: -0.4
+c: 0.07
+2
+playCard: 1
+[]
+total: 0
+deckAvg: 6.96969696969697
+avg: 6.969696969696971
+total tricks: 0
+estimate: 7.539696969696971
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 7
+[9, 3]
+total: 12
+deckAvg: 6.96969696969697
+avg: 5.712121212121213
+total tricks: 1
+estimate: 6.182121212121213
+a: 0.5
+b: -0.1
+c: 0.07
+2
+playCard: 5
+[9, 3]
+total: 12
+deckAvg: 6.96969696969697
+avg: 7.616161616161617
+total tricks: 2
+estimate: 7.986161616161617
+a: 0.5
+b: -0.2
+c: 0.07
+3
+playCard: 6
+[9, 3, 9]
+total: 21
+deckAvg: 6.96969696969697
+avg: 6.924242424242426
+total tricks: 3
+estimate: 7.194242424242425
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+3
+[8]
+total: 8
+deckAvg: 7.186813186813187
+avg: 5.5868131868131865
+total tricks: 0
+estimate: 6.0868131868131865
+a: 0.5
+b: -0.0
+c: 0.0
+0
+playCard: 1
+[8]
+total: 8
+deckAvg: 7.186813186813187
+avg: 6.983516483516484
+total tricks: 1
+estimate: 7.383516483516484
+a: 0.5
+b: -0.1
+c: 0.0
+0
+[9]
+total: 9
+deckAvg: 7.176470588235294
+avg: 5.376470588235295
+total tricks: 0
+estimate: 5.806470588235294
+a: 0.5
+b: -0.0
+c: -0.07
+3
+playCard: 11
+[9]
+total: 9
+deckAvg: 7.176470588235294
+avg: 6.720588235294118
+total tricks: 1
+estimate: 7.050588235294118
+a: 0.5
+b: -0.1
+c: -0.07
+3
+playCard: 8
+[9, 11, 7]
+total: 27
+deckAvg: 7.176470588235294
+avg: 2.9607843137254903
+total tricks: 2
+estimate: 3.1907843137254903
+a: 0.5
+b: -0.2
+c: -0.07
+3
+playCard: 9
+[9, 11, 7]
+total: 27
+deckAvg: 7.176470588235294
+avg: 4.4411764705882355
+total tricks: 3
+estimate: 4.571176470588235
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+3
+playCard: 5
+[9, 11, 7, 12, 1]
+total: 40
+deckAvg: 7.176470588235294
+avg: -4.117647058823529
+total tricks: 4
+estimate: -4.087647058823529
+a: 0.5
+b: -0.4
+c: -0.07
+3
+playCard: 3
+[]
+total: 0
+deckAvg: 6.8933333333333335
+avg: 6.8933333333333335
+total tricks: 0
+estimate: 7.3933333333333335
+a: 0.5
+b: -0.0
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 6.728571428571429
+avg: 6.7285714285714295
+total tricks: 0
+estimate: 7.29857142857143
+a: 0.5
+b: -0.0
+c: 0.07
+4
+[]
+total: 0
+deckAvg: 7.030769230769231
+avg: 7.030769230769231
+total tricks: 0
+estimate: 7.67076923076923
+a: 0.5
+b: -0.0
+c: 0.14
+0
+playCard: 6
+[9, 5]
+total: 14
+deckAvg: 7.030769230769231
+avg: 5.288461538461538
+total tricks: 1
+estimate: 5.828461538461538
+a: 0.5
+b: -0.1
+c: 0.14
+0
+playCard: 1
+[9, 5]
+total: 14
+deckAvg: 7.030769230769231
+avg: 7.051282051282051
+total tricks: 2
+estimate: 7.4912820512820515
+a: 0.5
+b: -0.2
+c: 0.14
+0
+[6]
+total: 6
+deckAvg: 6.9655172413793105
+avg: 5.765517241379311
+total tricks: 0
+estimate: 6.3355172413793115
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 12
+[6]
+total: 6
+deckAvg: 6.9655172413793105
+avg: 7.206896551724139
+total tricks: 1
+estimate: 7.6768965517241385
+a: 0.5
+b: -0.1
+c: 0.07
+2
+playCard: 6
+[6, 8, 3]
+total: 17
+deckAvg: 6.9655172413793105
+avg: 5.942528735632185
+total tricks: 2
+estimate: 6.312528735632185
+a: 0.5
+b: -0.2
+c: 0.07
+2
+playCard: 5
+[6, 8, 3]
+total: 17
+deckAvg: 6.9655172413793105
+avg: 8.913793103448278
+total tricks: 3
+estimate: 9.183793103448277
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+3
+playCard: 3
+[6, 8, 3, 8, 2]
+total: 27
+deckAvg: 6.9655172413793105
+avg: 7.827586206896555
+total tricks: 4
+estimate: 7.997586206896555
+a: 0.5
+b: -0.4
+c: 0.07
+3
+playCard: 13
+[]
+total: 0
+deckAvg: 7.166666666666667
+avg: 7.166666666666667
+total tricks: 0
+estimate: 7.806666666666667
+a: 0.5
+b: -0.0
+c: 0.14
+2
+playCard: 7
+[9]
+total: 9
+deckAvg: 7.166666666666667
+avg: 6.708333333333334
+total tricks: 1
+estimate: 7.248333333333334
+a: 0.5
+b: -0.1
+c: 0.14
+2
+[]
+total: 0
+deckAvg: 7.166666666666667
+avg: 7.166666666666667
+total tricks: 0
+estimate: 7.736666666666667
+a: 0.5
+b: -0.0
+c: 0.07
+4
+playCard: 8
+playCard: 4
+playCard: 10
+playCard: 13
+playCard: 13
+New game started: 256649
+[]
+total: 0
+deckAvg: 7.05050505050505
+avg: 7.05050505050505
+total tricks: 0
+estimate: 7.55050505050505
+a: 0.5
+b: -0.0
+c: 0.0
+1
+playCard: 7
+[12]
+total: 12
+deckAvg: 7.05050505050505
+avg: 5.813131313131313
+total tricks: 1
+estimate: 6.2131313131313135
+a: 0.5
+b: -0.1
+c: 0.0
+1
+[7]
+total: 7
+deckAvg: 7.053763440860215
+avg: 5.653763440860215
+total tricks: 0
+estimate: 6.083763440860214
+a: 0.5
+b: -0.0
+c: -0.07
+2
+playCard: 8
+[7]
+total: 7
+deckAvg: 7.053763440860215
+avg: 7.067204301075268
+total tricks: 1
+estimate: 7.397204301075268
+a: 0.5
+b: -0.1
+c: -0.07
+2
+playCard: 5
+[7, 7, 9]
+total: 23
+deckAvg: 7.053763440860215
+avg: 4.089605734767024
+total tricks: 2
+estimate: 4.319605734767023
+a: 0.5
+b: -0.2
+c: -0.07
+2
+playCard: 12
+[7, 7, 9]
+total: 23
+deckAvg: 7.053763440860215
+avg: 6.134408602150536
+total tricks: 3
+estimate: 6.264408602150536
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+2
+playCard: 4
+[7, 7, 9, 13, 2]
+total: 38
+deckAvg: 7.053763440860215
+avg: -2.7311827956989276
+total tricks: 4
+estimate: -2.701182795698928
+a: 0.5
+b: -0.4
+c: -0.07
+3
+playCard: 1
+[7]
+total: 7
+deckAvg: 6.843373493975903
+avg: 5.443373493975903
+total tricks: 0
+estimate: 5.803373493975903
+a: 0.5
+b: -0.0
+c: -0.14
+5
+[]
+total: 0
+deckAvg: 6.909090909090909
+avg: 6.909090909090909
+total tricks: 0
+estimate: 7.339090909090909
+a: 0.5
+b: -0.0
+c: -0.07
+2
+playCard: 3
+[6]
+total: 6
+deckAvg: 6.909090909090909
+avg: 7.136363636363637
+total tricks: 1
+estimate: 7.466363636363637
+a: 0.5
+b: -0.1
+c: -0.07
+2
+[4]
+total: 4
+deckAvg: 6.929577464788732
+avg: 6.129577464788733
+total tricks: 0
+estimate: 6.489577464788733
+a: 0.5
+b: -0.0
+c: -0.14
+3
+playCard: 7
+[4]
+total: 4
+deckAvg: 6.929577464788732
+avg: 7.661971830985916
+total tricks: 1
+estimate: 7.921971830985916
+a: 0.5
+b: -0.1
+c: -0.14
+3
+playCard: 4
+[4, 6, 3]
+total: 13
+deckAvg: 6.929577464788732
+avg: 7.215962441314555
+total tricks: 2
+estimate: 7.375962441314555
+a: 0.5
+b: -0.2
+c: -0.14
+3
+playCard: 10
+[4, 6, 3]
+total: 13
+deckAvg: 6.929577464788732
+avg: 10.823943661971832
+total tricks: 3
+estimate: 10.883943661971832
+a: 0.5
+b: -0.30000000000000004
+c: -0.14
+2
+playCard: 10
+[4, 6, 3, 12, 1]
+total: 26
+deckAvg: 6.929577464788732
+avg: 8.647887323943664
+total tricks: 4
+estimate: 8.607887323943665
+a: 0.5
+b: -0.4
+c: -0.14
+2
+playCard: 3
+[]
+total: 0
+deckAvg: 6.967213114754099
+avg: 6.9672131147541
+total tricks: 0
+estimate: 7.397213114754099
+a: 0.5
+b: -0.0
+c: -0.07
+3
+playCard: 5
+[7, 2]
+total: 9
+deckAvg: 6.967213114754099
+avg: 6.459016393442624
+total tricks: 1
+estimate: 6.789016393442624
+a: 0.5
+b: -0.1
+c: -0.07
+3
+playCard: 4
+[7, 2]
+total: 9
+deckAvg: 6.967213114754099
+avg: 8.6120218579235
+total tricks: 2
+estimate: 8.8420218579235
+a: 0.5
+b: -0.2
+c: -0.07
+4
+[]
+total: 0
+deckAvg: 6.962962962962963
+avg: 6.962962962962964
+total tricks: 0
+estimate: 7.462962962962964
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 6
+[12, 4]
+total: 16
+deckAvg: 6.962962962962963
+avg: 4.703703703703704
+total tricks: 1
+estimate: 5.1037037037037045
+a: 0.5
+b: -0.1
+c: 0.0
+3
+playCard: 8
+[12, 4]
+total: 16
+deckAvg: 6.962962962962963
+avg: 6.271604938271605
+total tricks: 2
+estimate: 6.571604938271605
+a: 0.5
+b: -0.2
+c: 0.0
+3
+playCard: 9
+[12, 4, 13, 4]
+total: 33
+deckAvg: 6.962962962962963
+avg: 0.9074074074074083
+total tricks: 3
+estimate: 1.1074074074074083
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+3
+playCard: 13
+[12, 4, 13, 4]
+total: 33
+deckAvg: 6.962962962962963
+avg: 1.8148148148148167
+total tricks: 4
+estimate: 1.9148148148148167
+a: 0.5
+b: -0.4
+c: 0.0
+3
+playCard: 4
+[12, 4, 13, 4]
+total: 33
+deckAvg: 6.962962962962963
+avg: 1.8148148148148167
+total tricks: 4
+estimate: 1.9148148148148167
+a: 0.5
+b: -0.4
+c: 0.0
+3
+[5]
+total: 5
+deckAvg: 7.177777777777778
+avg: 6.177777777777779
+total tricks: 0
+estimate: 6.607777777777779
+a: 0.5
+b: -0.0
+c: -0.07
+1
+playCard: 12
+[5]
+total: 5
+deckAvg: 7.177777777777778
+avg: 7.722222222222223
+total tricks: 1
+estimate: 8.052222222222223
+a: 0.5
+b: -0.1
+c: -0.07
+1
+playCard: 3
+[5, 5, 5]
+total: 15
+deckAvg: 7.177777777777778
+avg: 6.962962962962965
+total tricks: 2
+estimate: 7.192962962962964
+a: 0.5
+b: -0.2
+c: -0.07
+1
+playCard: 1
+[5, 5, 5, 1]
+total: 16
+deckAvg: 7.177777777777778
+avg: 9.944444444444446
+total tricks: 3
+estimate: 10.074444444444447
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+1
+playCard: 2
+[5, 5, 5, 1]
+total: 16
+deckAvg: 7.177777777777778
+avg: 13
+total tricks: 4
+estimate: 13.03
+a: 0.5
+b: -0.4
+c: -0.07
+2
+playCard: 2
+[5, 5, 5, 1]
+total: 16
+deckAvg: 7.177777777777778
+avg: 13
+total tricks: 4
+estimate: 13.03
+a: 0.5
+b: -0.4
+c: -0.07
+2
+[5]
+total: 5
+deckAvg: 7.055555555555555
+avg: 6.055555555555555
+total tricks: 0
+estimate: 6.415555555555556
+a: 0.5
+b: -0.0
+c: -0.14
+5
+[]
+total: 0
+deckAvg: 6.833333333333333
+avg: 6.833333333333333
+total tricks: 0
+estimate: 7.263333333333333
+a: 0.5
+b: -0.0
+c: -0.07
+4
+[]
+total: 0
+deckAvg: 6.94949494949495
+avg: 6.94949494949495
+total tricks: 0
+estimate: 7.44949494949495
+a: 0.5
+b: -0.0
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 6.8936170212765955
+avg: 6.8936170212765955
+total tricks: 0
+estimate: 7.463617021276596
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 7
+[8]
+total: 8
+deckAvg: 6.8936170212765955
+avg: 6.617021276595745
+total tricks: 1
+estimate: 7.0870212765957445
+a: 0.5
+b: -0.1
+c: 0.07
+2
+[]
+total: 0
+deckAvg: 6.8936170212765955
+avg: 6.8936170212765955
+total tricks: 0
+estimate: 7.3936170212765955
+a: 0.5
+b: -0.0
+c: 0.0
+3
+[9]
+total: 9
+deckAvg: 6.886363636363637
+avg: 5.086363636363638
+total tricks: 0
+estimate: 5.5163636363636375
+a: 0.5
+b: -0.0
+c: -0.07
+3
+playCard: 11
+[9]
+total: 9
+deckAvg: 6.886363636363637
+avg: 6.357954545454547
+total tricks: 1
+estimate: 6.687954545454547
+a: 0.5
+b: -0.1
+c: -0.07
+2
+playCard: 6
+[9, 12, 3]
+total: 24
+deckAvg: 6.886363636363637
+avg: 3.477272727272729
+total tricks: 2
+estimate: 3.707272727272729
+a: 0.5
+b: -0.2
+c: -0.07
+4
+[]
+total: 0
+deckAvg: 6.85
+avg: 6.85
+total tricks: 0
+estimate: 7.35
+a: 0.5
+b: -0.0
+c: 0.0
+2
+playCard: 6
+[9]
+total: 9
+deckAvg: 6.85
+avg: 6.3125
+total tricks: 1
+estimate: 6.7125
+a: 0.5
+b: -0.1
+c: 0.0
+2
+[8]
+total: 8
+deckAvg: 6.675675675675675
+avg: 5.075675675675676
+total tricks: 0
+estimate: 5.5056756756756755
+a: 0.5
+b: -0.0
+c: -0.07
+4
+[]
+total: 0
+deckAvg: 6.6911764705882355
+avg: 6.691176470588235
+total tricks: 0
+estimate: 7.191176470588235
+a: 0.5
+b: -0.0
+c: 0.0
+1
+playCard: 7
+[8, 4]
+total: 12
+deckAvg: 6.6911764705882355
+avg: 5.3639705882352935
+total tricks: 1
+estimate: 5.763970588235294
+a: 0.5
+b: -0.1
+c: 0.0
+2
+playCard: 5
+[8, 4]
+total: 12
+deckAvg: 6.6911764705882355
+avg: 7.151960784313725
+total tricks: 2
+estimate: 7.451960784313725
+a: 0.5
+b: -0.2
+c: 0.0
+2
+playCard: 6
+[8, 4, 8, 3]
+total: 23
+deckAvg: 6.6911764705882355
+avg: 5.227941176470587
+total tricks: 3
+estimate: 5.427941176470587
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+2
+playCard: 11
+[8, 4, 8, 3]
+total: 23
+deckAvg: 6.6911764705882355
+avg: 10.455882352941174
+total tricks: 4
+estimate: 10.555882352941174
+a: 0.5
+b: -0.4
+c: 0.0
+2
+playCard: 2
+[8, 4, 8, 3]
+total: 23
+deckAvg: 6.6911764705882355
+avg: 10.455882352941174
+total tricks: 4
+estimate: 10.555882352941174
+a: 0.5
+b: -0.4
+c: 0.0
+2
+playCard: 7
+playCard: 4
+playCard: 11
+playCard: 2
+playCard: 13
+New game started: 256651
+[3]
+total: 3
+deckAvg: 6.888888888888889
+avg: 6.288888888888889
+total tricks: 0
+estimate: 6.788888888888889
+a: 0.5
+b: -0.0
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 6.89247311827957
+avg: 6.89247311827957
+total tricks: 0
+estimate: 7.46247311827957
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 7
+[12]
+total: 12
+deckAvg: 6.89247311827957
+avg: 5.615591397849462
+total tricks: 1
+estimate: 6.085591397849462
+a: 0.5
+b: -0.1
+c: 0.07
+3
+[6]
+total: 6
+deckAvg: 6.7701149425287355
+avg: 5.570114942528735
+total tricks: 0
+estimate: 6.070114942528735
+a: 0.5
+b: -0.0
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 6.728395061728395
+avg: 6.728395061728395
+total tricks: 0
+estimate: 7.298395061728395
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 7
+[8, 4]
+total: 12
+deckAvg: 6.728395061728395
+avg: 5.410493827160494
+total tricks: 1
+estimate: 5.880493827160493
+a: 0.5
+b: -0.1
+c: 0.07
+3
+playCard: 6
+[8, 4]
+total: 12
+deckAvg: 6.728395061728395
+avg: 7.213991769547325
+total tricks: 2
+estimate: 7.583991769547325
+a: 0.5
+b: -0.2
+c: 0.07
+3
+playCard: 9
+[8, 4, 13, 3]
+total: 28
+deckAvg: 6.728395061728395
+avg: 2.8209876543209873
+total tricks: 3
+estimate: 3.0909876543209873
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+3
+playCard: 4
+[8, 4, 13, 3]
+total: 28
+deckAvg: 6.728395061728395
+avg: 5.641975308641975
+total tricks: 4
+estimate: 5.8119753086419745
+a: 0.5
+b: -0.4
+c: 0.07
+3
+playCard: 12
+[]
+total: 0
+deckAvg: 6.802816901408451
+avg: 6.802816901408451
+total tricks: 0
+estimate: 7.442816901408451
+a: 0.5
+b: -0.0
+c: 0.14
+1
+playCard: 6
+[9, 2]
+total: 11
+deckAvg: 6.802816901408451
+avg: 5.753521126760564
+total tricks: 1
+estimate: 6.293521126760564
+a: 0.5
+b: -0.1
+c: 0.14
+1
+playCard: 4
+[9, 2]
+total: 11
+deckAvg: 6.802816901408451
+avg: 7.671361502347419
+total tricks: 2
+estimate: 8.11136150234742
+a: 0.5
+b: -0.2
+c: 0.14
+1
+playCard: 6
+[9, 2, 9]
+total: 20
+deckAvg: 6.802816901408451
+avg: 7.007042253521128
+total tricks: 3
+estimate: 7.347042253521128
+a: 0.5
+b: -0.30000000000000004
+c: 0.14
+2
+[5]
+total: 5
+deckAvg: 6.7936507936507935
+avg: 5.7936507936507935
+total tricks: 0
+estimate: 6.363650793650794
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 6
+[5]
+total: 5
+deckAvg: 6.7936507936507935
+avg: 7.242063492063492
+total tricks: 1
+estimate: 7.712063492063492
+a: 0.5
+b: -0.1
+c: 0.07
+3
+playCard: 3
+[5, 6, 2]
+total: 13
+deckAvg: 6.7936507936507935
+avg: 6.98941798941799
+total tricks: 2
+estimate: 7.35941798941799
+a: 0.5
+b: -0.2
+c: 0.07
+3
+playCard: 11
+[5, 6, 2]
+total: 13
+deckAvg: 6.7936507936507935
+avg: 10.484126984126984
+total tricks: 3
+estimate: 10.754126984126984
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+3
+playCard: 2
+[5, 6, 2, 13, 1]
+total: 27
+deckAvg: 6.7936507936507935
+avg: 6.968253968253968
+total tricks: 4
+estimate: 7.138253968253968
+a: 0.5
+b: -0.4
+c: 0.07
+3
+playCard: 13
+[]
+total: 0
+deckAvg: 6.981132075471698
+avg: 6.981132075471697
+total tricks: 0
+estimate: 7.621132075471697
+a: 0.5
+b: -0.0
+c: 0.14
+2
+playCard: 4
+[10, 1]
+total: 11
+deckAvg: 6.981132075471698
+avg: 5.976415094339622
+total tricks: 1
+estimate: 6.516415094339622
+a: 0.5
+b: -0.1
+c: 0.14
+2
+playCard: 3
+[10, 1]
+total: 11
+deckAvg: 6.981132075471698
+avg: 7.968553459119495
+total tricks: 2
+estimate: 8.408553459119496
+a: 0.5
+b: -0.2
+c: 0.14
+3
+playCard: 4
+[10, 1, 10, 1]
+total: 22
+deckAvg: 6.981132075471698
+avg: 6.452830188679243
+total tricks: 3
+estimate: 6.792830188679243
+a: 0.5
+b: -0.30000000000000004
+c: 0.14
+3
+playCard: 10
+[10, 1, 10, 1]
+total: 22
+deckAvg: 6.981132075471698
+avg: 12.905660377358487
+total tricks: 4
+estimate: 13.145660377358487
+a: 0.5
+b: -0.4
+c: 0.14
+2
+playCard: 10
+[]
+total: 0
+deckAvg: 7.1395348837209305
+avg: 7.13953488372093
+total tricks: 0
+estimate: 7.84953488372093
+a: 0.5
+b: -0.0
+c: 0.21000000000000002
+3
+playCard: 7
+[8, 3]
+total: 11
+deckAvg: 7.1395348837209305
+avg: 6.174418604651162
+total tricks: 1
+estimate: 6.7844186046511625
+a: 0.5
+b: -0.1
+c: 0.21000000000000002
+3
+playCard: 9
+[8, 3]
+total: 11
+deckAvg: 7.1395348837209305
+avg: 8.232558139534882
+total tricks: 2
+estimate: 8.742558139534882
+a: 0.5
+b: -0.2
+c: 0.21000000000000002
+3
+playCard: 10
+[8, 3, 11, 1]
+total: 23
+deckAvg: 7.1395348837209305
+avg: 6.348837209302324
+total tricks: 3
+estimate: 6.758837209302325
+a: 0.5
+b: -0.30000000000000004
+c: 0.21000000000000002
+2
+playCard: 12
+[8, 3, 11, 1]
+total: 23
+deckAvg: 7.1395348837209305
+avg: 12.697674418604649
+total tricks: 4
+estimate: 13.00767441860465
+a: 0.5
+b: -0.4
+c: 0.21000000000000002
+2
+playCard: 1
+[8, 3, 11, 1]
+total: 23
+deckAvg: 7.1395348837209305
+avg: 12.697674418604649
+total tricks: 4
+estimate: 13.00767441860465
+a: 0.5
+b: -0.4
+c: 0.21000000000000002
+2
+[8]
+total: 8
+deckAvg: 7.411764705882353
+avg: 5.811764705882354
+total tricks: 0
+estimate: 6.451764705882353
+a: 0.5
+b: -0.0
+c: 0.14
+2
+playCard: 9
+[8]
+total: 8
+deckAvg: 7.411764705882353
+avg: 7.264705882352942
+total tricks: 1
+estimate: 7.804705882352942
+a: 0.5
+b: -0.1
+c: 0.14
+2
+playCard: 8
+[8, 9, 3]
+total: 20
+deckAvg: 7.411764705882353
+avg: 5.686274509803923
+total tricks: 2
+estimate: 6.126274509803923
+a: 0.5
+b: -0.2
+c: 0.14
+1
+playCard: 5
+[8, 9, 3]
+total: 20
+deckAvg: 7.411764705882353
+avg: 8.529411764705884
+total tricks: 3
+estimate: 8.869411764705884
+a: 0.5
+b: -0.30000000000000004
+c: 0.14
+2
+playCard: 5
+[8, 9, 3, 12, 1]
+total: 33
+deckAvg: 7.411764705882353
+avg: 4.058823529411768
+total tricks: 4
+estimate: 4.298823529411768
+a: 0.5
+b: -0.4
+c: 0.14
+3
+playCard: 5
+[]
+total: 0
+deckAvg: 7.208333333333333
+avg: 7.208333333333333
+total tricks: 0
+estimate: 7.918333333333333
+a: 0.5
+b: -0.0
+c: 0.21000000000000002
+3
+playCard: 7
+[10]
+total: 10
+deckAvg: 7.208333333333333
+avg: 6.510416666666666
+total tricks: 1
+estimate: 7.120416666666666
+a: 0.5
+b: -0.1
+c: 0.21000000000000002
+3
+[9]
+total: 9
+deckAvg: 7.040404040404041
+avg: 5.24040404040404
+total tricks: 0
+estimate: 5.88040404040404
+a: 0.5
+b: -0.0
+c: 0.14
+3
+playCard: 12
+[9]
+total: 9
+deckAvg: 7.040404040404041
+avg: 6.55050505050505
+total tricks: 1
+estimate: 7.09050505050505
+a: 0.5
+b: -0.1
+c: 0.14
+1
+playCard: 6
+[9, 9, 6]
+total: 24
+deckAvg: 7.040404040404041
+avg: 3.7340067340067336
+total tricks: 2
+estimate: 4.174006734006734
+a: 0.5
+b: -0.2
+c: 0.14
+3
+playCard: 2
+[9, 9, 6]
+total: 24
+deckAvg: 7.040404040404041
+avg: 5.6010101010101
+total tricks: 3
+estimate: 5.9410101010101
+a: 0.5
+b: -0.30000000000000004
+c: 0.14
+2
+[7]
+total: 7
+deckAvg: 7.043956043956044
+avg: 5.6439560439560434
+total tricks: 0
+estimate: 6.213956043956044
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 8
+[7]
+total: 7
+deckAvg: 7.043956043956044
+avg: 7.054945054945055
+total tricks: 1
+estimate: 7.5249450549450545
+a: 0.5
+b: -0.1
+c: 0.07
+2
+playCard: 7
+[7, 8, 6]
+total: 21
+deckAvg: 7.043956043956044
+avg: 4.73992673992674
+total tricks: 2
+estimate: 5.10992673992674
+a: 0.5
+b: -0.2
+c: 0.07
+3
+playCard: 10
+[7, 8, 6]
+total: 21
+deckAvg: 7.043956043956044
+avg: 7.1098901098901095
+total tricks: 3
+estimate: 7.379890109890109
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+2
+playCard: 6
+[7, 8, 6, 12, 2]
+total: 35
+deckAvg: 7.043956043956044
+avg: 0.219780219780219
+total tricks: 4
+estimate: 0.389780219780219
+a: 0.5
+b: -0.4
+c: 0.07
+3
+playCard: 1
+[2]
+total: 2
+deckAvg: 6.91358024691358
+avg: 6.5135802469135795
+total tricks: 0
+estimate: 7.0135802469135795
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 7
+[2]
+total: 2
+deckAvg: 6.91358024691358
+avg: 8.141975308641975
+total tricks: 1
+estimate: 8.541975308641975
+a: 0.5
+b: -0.1
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 6.866666666666666
+avg: 6.866666666666665
+total tricks: 0
+estimate: 7.436666666666666
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 5
+[8]
+total: 8
+deckAvg: 6.866666666666666
+avg: 6.583333333333332
+total tricks: 1
+estimate: 7.053333333333332
+a: 0.5
+b: -0.1
+c: 0.07
+3
+[4]
+total: 4
+deckAvg: 6.739130434782608
+avg: 5.939130434782608
+total tricks: 0
+estimate: 6.439130434782608
+a: 0.5
+b: -0.0
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 6.666666666666667
+avg: 6.666666666666667
+total tricks: 0
+estimate: 7.236666666666667
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 6
+[8, 2]
+total: 10
+deckAvg: 6.666666666666667
+avg: 5.833333333333334
+total tricks: 1
+estimate: 6.303333333333334
+a: 0.5
+b: -0.1
+c: 0.07
+2
+playCard: 3
+[8, 2]
+total: 10
+deckAvg: 6.666666666666667
+avg: 7.777777777777779
+total tricks: 2
+estimate: 8.147777777777778
+a: 0.5
+b: -0.2
+c: 0.07
+3
+playCard: 6
+[8, 2, 13, 2]
+total: 25
+deckAvg: 6.666666666666667
+avg: 4.166666666666668
+total tricks: 3
+estimate: 4.436666666666667
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+3
+playCard: 13
+[8, 2, 13, 2]
+total: 25
+deckAvg: 6.666666666666667
+avg: 8.333333333333336
+total tricks: 4
+estimate: 8.503333333333336
+a: 0.5
+b: -0.4
+c: 0.07
+3
+playCard: 13
+[]
+total: 0
+deckAvg: 6.90566037735849
+avg: 6.9056603773584895
+total tricks: 0
+estimate: 7.545660377358489
+a: 0.5
+b: -0.0
+c: 0.14
+1
+playCard: 5
+[7]
+total: 7
+deckAvg: 6.90566037735849
+avg: 6.882075471698112
+total tricks: 1
+estimate: 7.422075471698112
+a: 0.5
+b: -0.1
+c: 0.14
+1
+[]
+total: 0
+deckAvg: 6.90566037735849
+avg: 6.9056603773584895
+total tricks: 0
+estimate: 7.47566037735849
+a: 0.5
+b: -0.0
+c: 0.07
+1
+playCard: 11
+playCard: 6
+playCard: 5
+playCard: 9
+playCard: 10
+New game started: 256655
+[]
+total: 0
+deckAvg: 6.818181818181818
+avg: 6.818181818181818
+total tricks: 0
+estimate: 7.318181818181818
+a: 0.5
+b: -0.0
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 6.904255319148936
+avg: 6.904255319148936
+total tricks: 0
+estimate: 7.474255319148936
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 8
+[11, 5]
+total: 16
+deckAvg: 6.904255319148936
+avg: 4.63031914893617
+total tricks: 1
+estimate: 5.10031914893617
+a: 0.5
+b: -0.1
+c: 0.07
+1
+playCard: 12
+[11, 5]
+total: 16
+deckAvg: 6.904255319148936
+avg: 6.173758865248227
+total tricks: 2
+estimate: 6.543758865248227
+a: 0.5
+b: -0.2
+c: 0.07
+1
+playCard: 3
+[11, 5, 8]
+total: 24
+deckAvg: 6.904255319148936
+avg: 5.26063829787234
+total tricks: 3
+estimate: 5.53063829787234
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+1
+[6]
+total: 6
+deckAvg: 7.0813953488372094
+avg: 5.881395348837209
+total tricks: 0
+estimate: 6.381395348837209
+a: 0.5
+b: -0.0
+c: 0.0
+0
+playCard: 1
+[6, 3]
+total: 9
+deckAvg: 7.0813953488372094
+avg: 6.601744186046512
+total tricks: 1
+estimate: 7.001744186046512
+a: 0.5
+b: -0.1
+c: 0.0
+0
+playCard: 4
+[6, 3]
+total: 9
+deckAvg: 7.0813953488372094
+avg: 8.80232558139535
+total tricks: 2
+estimate: 9.10232558139535
+a: 0.5
+b: -0.2
+c: 0.0
+1
+playCard: 5
+[6, 3, 6]
+total: 15
+deckAvg: 7.0813953488372094
+avg: 10.203488372093023
+total tricks: 3
+estimate: 10.403488372093022
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+1
+[8]
+total: 8
+deckAvg: 7.1923076923076925
+avg: 5.592307692307692
+total tricks: 0
+estimate: 6.022307692307692
+a: 0.5
+b: -0.0
+c: -0.07
+2
+playCard: 9
+[8]
+total: 8
+deckAvg: 7.1923076923076925
+avg: 6.990384615384615
+total tricks: 1
+estimate: 7.320384615384615
+a: 0.5
+b: -0.1
+c: -0.07
+2
+playCard: 6
+[8, 11, 6]
+total: 25
+deckAvg: 7.1923076923076925
+avg: 3.6538461538461533
+total tricks: 2
+estimate: 3.8838461538461533
+a: 0.5
+b: -0.2
+c: -0.07
+3
+playCard: 10
+[8, 11, 6]
+total: 25
+deckAvg: 7.1923076923076925
+avg: 5.48076923076923
+total tricks: 3
+estimate: 5.61076923076923
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+3
+playCard: 6
+[8, 11, 6, 12, 3]
+total: 40
+deckAvg: 7.1923076923076925
+avg: -4.03846153846154
+total tricks: 4
+estimate: -4.00846153846154
+a: 0.5
+b: -0.4
+c: -0.07
+3
+playCard: 2
+[8]
+total: 8
+deckAvg: 7.147058823529412
+avg: 5.547058823529412
+total tricks: 0
+estimate: 5.907058823529412
+a: 0.5
+b: -0.0
+c: -0.14
+3
+playCard: 9
+[8]
+total: 8
+deckAvg: 7.147058823529412
+avg: 6.9338235294117645
+total tricks: 1
+estimate: 7.193823529411764
+a: 0.5
+b: -0.1
+c: -0.14
+2
+playCard: 6
+[8, 8, 9]
+total: 25
+deckAvg: 7.147058823529412
+avg: 3.5784313725490193
+total tricks: 2
+estimate: 3.7384313725490195
+a: 0.5
+b: -0.2
+c: -0.14
+3
+playCard: 12
+[8, 8, 9]
+total: 25
+deckAvg: 7.147058823529412
+avg: 5.367647058823529
+total tricks: 3
+estimate: 5.427647058823529
+a: 0.5
+b: -0.30000000000000004
+c: -0.14
+2
+playCard: 5
+[8, 8, 9]
+total: 25
+deckAvg: 7.147058823529412
+avg: 10.735294117647058
+total tricks: 4
+estimate: 10.695294117647059
+a: 0.5
+b: -0.4
+c: -0.14
+2
+playCard: 3
+[]
+total: 0
+deckAvg: 7.362068965517241
+avg: 7.362068965517241
+total tricks: 0
+estimate: 7.722068965517241
+a: 0.5
+b: -0.0
+c: -0.14
+0
+playCard: 7
+[8, 3]
+total: 11
+deckAvg: 7.362068965517241
+avg: 6.452586206896552
+total tricks: 1
+estimate: 6.712586206896551
+a: 0.5
+b: -0.1
+c: -0.14
+0
+playCard: 4
+[8, 3]
+total: 11
+deckAvg: 7.362068965517241
+avg: 8.60344827586207
+total tricks: 2
+estimate: 8.76344827586207
+a: 0.5
+b: -0.2
+c: -0.14
+1
+playCard: 4
+[8, 3, 9, 2]
+total: 22
+deckAvg: 7.362068965517241
+avg: 7.405172413793103
+total tricks: 3
+estimate: 7.465172413793103
+a: 0.5
+b: -0.30000000000000004
+c: -0.14
+1
+playCard: 1
+[8, 3, 9, 2]
+total: 22
+deckAvg: 7.362068965517241
+avg: 13
+total tricks: 4
+estimate: 12.96
+a: 0.5
+b: -0.4
+c: -0.14
+1
+[7]
+total: 7
+deckAvg: 7.469387755102041
+avg: 6.06938775510204
+total tricks: 0
+estimate: 6.35938775510204
+a: 0.5
+b: -0.0
+c: -0.21000000000000002
+4
+[]
+total: 0
+deckAvg: 7.5813953488372094
+avg: 7.5813953488372094
+total tricks: 0
+estimate: 7.94139534883721
+a: 0.5
+b: -0.0
+c: -0.14
+1
+playCard: 7
+[11]
+total: 11
+deckAvg: 7.5813953488372094
+avg: 6.726744186046512
+total tricks: 1
+estimate: 6.986744186046511
+a: 0.5
+b: -0.1
+c: -0.14
+2
+[4]
+total: 4
+deckAvg: 7.513513513513513
+avg: 6.713513513513513
+total tricks: 0
+estimate: 7.003513513513513
+a: 0.5
+b: -0.0
+c: -0.21000000000000002
+3
+playCard: 10
+[4]
+total: 4
+deckAvg: 7.513513513513513
+avg: 8.391891891891891
+total tricks: 1
+estimate: 8.58189189189189
+a: 0.5
+b: -0.1
+c: -0.21000000000000002
+3
+playCard: 10
+[4, 2]
+total: 6
+deckAvg: 7.513513513513513
+avg: 10.522522522522522
+total tricks: 2
+estimate: 10.612522522522521
+a: 0.5
+b: -0.2
+c: -0.21000000000000002
+3
+playCard: 4
+[4, 2, 6, 2]
+total: 14
+deckAvg: 7.513513513513513
+avg: 11.783783783783782
+total tricks: 3
+estimate: 11.773783783783783
+a: 0.5
+b: -0.30000000000000004
+c: -0.21000000000000002
+3
+playCard: 12
+[4, 2, 6, 2]
+total: 14
+deckAvg: 7.513513513513513
+avg: 13
+total tricks: 4
+estimate: 12.89
+a: 0.5
+b: -0.4
+c: -0.21000000000000002
+3
+playCard: 1
+[]
+total: 0
+deckAvg: 7.888888888888889
+avg: 7.888888888888888
+total tricks: 0
+estimate: 8.248888888888889
+a: 0.5
+b: -0.0
+c: -0.14
+2
+playCard: 7
+[9, 1]
+total: 10
+deckAvg: 7.888888888888889
+avg: 7.361111111111111
+total tricks: 1
+estimate: 7.6211111111111105
+a: 0.5
+b: -0.1
+c: -0.14
+2
+playCard: 3
+[9, 1]
+total: 10
+deckAvg: 7.888888888888889
+avg: 9.814814814814815
+total tricks: 2
+estimate: 9.974814814814815
+a: 0.5
+b: -0.2
+c: -0.14
+3
+playCard: 7
+[9, 1, 9]
+total: 19
+deckAvg: 7.888888888888889
+avg: 10.222222222222221
+total tricks: 3
+estimate: 10.282222222222222
+a: 0.5
+b: -0.30000000000000004
+c: -0.14
+3
+[]
+total: 0
+deckAvg: 7.888888888888889
+avg: 7.888888888888888
+total tricks: 0
+estimate: 8.178888888888888
+a: 0.5
+b: -0.0
+c: -0.21000000000000002
+2
+[7]
+total: 7
+deckAvg: 8.526315789473685
+avg: 7.126315789473685
+total tricks: 0
+estimate: 7.346315789473684
+a: 0.5
+b: -0.0
+c: -0.28
+2
+playCard: 10
+[7]
+total: 7
+deckAvg: 8.526315789473685
+avg: 8.907894736842106
+total tricks: 1
+estimate: 9.027894736842105
+a: 0.5
+b: -0.1
+c: -0.28
+2
+playCard: 7
+[7, 10, 2]
+total: 19
+deckAvg: 8.526315789473685
+avg: 7.877192982456141
+total tricks: 2
+estimate: 7.897192982456141
+a: 0.5
+b: -0.2
+c: -0.28
+2
+playCard: 13
+[7, 10, 2]
+total: 19
+deckAvg: 8.526315789473685
+avg: 11.815789473684212
+total tricks: 3
+estimate: 11.735789473684212
+a: 0.5
+b: -0.30000000000000004
+c: -0.28
+2
+playCard: 1
+[7, 10, 2]
+total: 19
+deckAvg: 8.526315789473685
+avg: 13
+total tricks: 4
+estimate: 12.82
+a: 0.5
+b: -0.4
+c: -0.28
+2
+playCard: 1
+[]
+total: 0
+deckAvg: 10.222222222222221
+avg: 10.222222222222221
+total tricks: 0
+estimate: 10.442222222222222
+a: 0.5
+b: -0.0
+c: -0.28
+1
+playCard: 10
+[11, 4]
+total: 15
+deckAvg: 10.222222222222221
+avg: 9.027777777777777
+total tricks: 1
+estimate: 9.147777777777776
+a: 0.5
+b: -0.1
+c: -0.28
+1
+playCard: 8
+[11, 4]
+total: 15
+deckAvg: 10.222222222222221
+avg: 12.037037037037036
+total tricks: 2
+estimate: 12.057037037037036
+a: 0.5
+b: -0.2
+c: -0.28
+1
+playCard: 11
+[11, 4, 2]
+total: 17
+deckAvg: 10.222222222222221
+avg: 13
+total tricks: 3
+estimate: 12.92
+a: 0.5
+b: -0.30000000000000004
+c: -0.28
+2
+playCard: 9
+[11, 4, 2, 11, 6]
+total: 34
+deckAvg: 10.222222222222221
+avg: 13
+total tricks: 4
+estimate: 12.82
+a: 0.5
+b: -0.4
+c: -0.28
+2
+playCard: 1
+[7]
+total: 7
+deckAvg: -24.0
+avg: -25.4
+total tricks: 0
+estimate: -25.25
+a: 0.5
+b: -0.0
+c: -0.35000000000000003
+5
+[]
+total: 0
+deckAvg: 2.7142857142857144
+avg: 2.7142857142857144
+total tricks: 0
+estimate: 2.934285714285714
+a: 0.5
+b: -0.0
+c: -0.28
+4
+[]
+total: 0
+deckAvg: 3.3333333333333335
+avg: 3.3333333333333335
+total tricks: 0
+estimate: 3.6233333333333335
+a: 0.5
+b: -0.0
+c: -0.21000000000000002
+4
+[]
+total: 0
+deckAvg: 4.705882352941177
+avg: 4.705882352941177
+total tricks: 0
+estimate: 5.065882352941177
+a: 0.5
+b: -0.0
+c: -0.14
+4
+[]
+total: 0
+deckAvg: 5.2272727272727275
+avg: 5.2272727272727275
+total tricks: 0
+estimate: 5.657272727272727
+a: 0.5
+b: -0.0
+c: -0.07
+3
+playCard: 5
+[8]
+total: 8
+deckAvg: 5.2272727272727275
+avg: 4.534090909090909
+total tricks: 1
+estimate: 4.864090909090909
+a: 0.5
+b: -0.1
+c: -0.07
+3
+playCard: 8
+playCard: 11
+playCard: 6
+playCard: 3
+playCard: 3
+New game started: 256659
+[4]
+total: 4
+deckAvg: 7.151515151515151
+avg: 6.351515151515152
+total tricks: 0
+estimate: 6.851515151515152
+a: 0.5
+b: -0.0
+c: 0.0
+1
+playCard: 6
+[4]
+total: 4
+deckAvg: 7.151515151515151
+avg: 7.9393939393939394
+total tricks: 1
+estimate: 8.33939393939394
+a: 0.5
+b: -0.1
+c: 0.0
+1
+playCard: 7
+[4, 11, 2]
+total: 17
+deckAvg: 7.151515151515151
+avg: 6.252525252525253
+total tricks: 2
+estimate: 6.552525252525252
+a: 0.5
+b: -0.2
+c: 0.0
+1
+playCard: 3
+[4, 11, 2]
+total: 17
+deckAvg: 7.151515151515151
+avg: 9.378787878787879
+total tricks: 3
+estimate: 9.578787878787878
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+2
+playCard: 3
+[4, 11, 2, 12, 1]
+total: 30
+deckAvg: 7.151515151515151
+avg: 5.757575757575758
+total tricks: 4
+estimate: 5.857575757575757
+a: 0.5
+b: -0.4
+c: 0.0
+2
+playCard: 1
+[8]
+total: 8
+deckAvg: 7.191011235955056
+avg: 5.591011235955056
+total tricks: 0
+estimate: 6.091011235955056
+a: 0.5
+b: -0.0
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 7.096385542168675
+avg: 7.096385542168674
+total tricks: 0
+estimate: 7.666385542168674
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 5
+[10]
+total: 10
+deckAvg: 7.096385542168675
+avg: 6.370481927710843
+total tricks: 1
+estimate: 6.840481927710843
+a: 0.5
+b: -0.1
+c: 0.07
+3
+[4]
+total: 4
+deckAvg: 7.207792207792208
+avg: 6.407792207792208
+total tricks: 0
+estimate: 6.907792207792208
+a: 0.5
+b: -0.0
+c: 0.0
+2
+playCard: 6
+[4]
+total: 4
+deckAvg: 7.207792207792208
+avg: 8.00974025974026
+total tricks: 1
+estimate: 8.40974025974026
+a: 0.5
+b: -0.1
+c: 0.0
+1
+playCard: 7
+[4, 8, 2]
+total: 14
+deckAvg: 7.207792207792208
+avg: 7.346320346320347
+total tricks: 2
+estimate: 7.646320346320347
+a: 0.5
+b: -0.2
+c: 0.0
+1
+playCard: 3
+[4, 8, 2]
+total: 14
+deckAvg: 7.207792207792208
+avg: 11.01948051948052
+total tricks: 3
+estimate: 11.21948051948052
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+2
+playCard: 7
+[4, 8, 2, 1]
+total: 15
+deckAvg: 7.207792207792208
+avg: 13
+total tricks: 4
+estimate: 13.1
+a: 0.5
+b: -0.4
+c: 0.0
+3
+playCard: 1
+[]
+total: 0
+deckAvg: 7.492537313432836
+avg: 7.492537313432836
+total tricks: 0
+estimate: 8.062537313432836
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 6
+[7]
+total: 7
+deckAvg: 7.492537313432836
+avg: 7.615671641791044
+total tricks: 1
+estimate: 8.085671641791045
+a: 0.5
+b: -0.1
+c: 0.07
+2
+[8]
+total: 8
+deckAvg: 7.524590163934426
+avg: 5.924590163934425
+total tricks: 0
+estimate: 6.424590163934425
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 9
+[8]
+total: 8
+deckAvg: 7.524590163934426
+avg: 7.405737704918032
+total tricks: 1
+estimate: 7.805737704918032
+a: 0.5
+b: -0.1
+c: 0.0
+3
+playCard: 8
+[8, 9, 6]
+total: 23
+deckAvg: 7.524590163934426
+avg: 4.874316939890709
+total tricks: 2
+estimate: 5.1743169398907085
+a: 0.5
+b: -0.2
+c: 0.0
+2
+playCard: 12
+[8, 9, 6]
+total: 23
+deckAvg: 7.524590163934426
+avg: 7.3114754098360635
+total tricks: 3
+estimate: 7.511475409836064
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+2
+playCard: 5
+[8, 9, 6, 11, 2]
+total: 36
+deckAvg: 7.524590163934426
+avg: 1.622950819672127
+total tricks: 4
+estimate: 1.722950819672127
+a: 0.5
+b: -0.4
+c: 0.0
+3
+playCard: 2
+[5]
+total: 5
+deckAvg: 7.372549019607843
+avg: 6.372549019607843
+total tricks: 0
+estimate: 6.872549019607843
+a: 0.5
+b: -0.0
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 7.466666666666667
+avg: 7.466666666666667
+total tricks: 0
+estimate: 8.036666666666667
+a: 0.5
+b: -0.0
+c: 0.07
+1
+playCard: 7
+[8]
+total: 8
+deckAvg: 7.466666666666667
+avg: 7.333333333333334
+total tricks: 1
+estimate: 7.803333333333334
+a: 0.5
+b: -0.1
+c: 0.07
+1
+[]
+total: 0
+deckAvg: 7.466666666666667
+avg: 7.466666666666667
+total tricks: 0
+estimate: 7.966666666666667
+a: 0.5
+b: -0.0
+c: 0.0
+3
+[3]
+total: 3
+deckAvg: 7.717948717948718
+avg: 7.117948717948718
+total tricks: 0
+estimate: 7.547948717948718
+a: 0.5
+b: -0.0
+c: -0.07
+1
+playCard: 4
+[3]
+total: 3
+deckAvg: 7.717948717948718
+avg: 8.897435897435898
+total tricks: 1
+estimate: 9.227435897435898
+a: 0.5
+b: -0.1
+c: -0.07
+2
+playCard: 6
+[3, 8, 3]
+total: 14
+deckAvg: 7.717948717948718
+avg: 8.196581196581198
+total tricks: 2
+estimate: 8.426581196581198
+a: 0.5
+b: -0.2
+c: -0.07
+2
+playCard: 6
+[3, 8, 3]
+total: 14
+deckAvg: 7.717948717948718
+avg: 12.294871794871796
+total tricks: 3
+estimate: 12.424871794871796
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+2
+playCard: 10
+[3, 8, 3, 1]
+total: 15
+deckAvg: 7.717948717948718
+avg: 13
+total tricks: 4
+estimate: 13.03
+a: 0.5
+b: -0.4
+c: -0.07
+3
+playCard: 1
+[]
+total: 0
+deckAvg: 6.929292929292929
+avg: 6.929292929292929
+total tricks: 0
+estimate: 7.429292929292929
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 6
+[7, 4]
+total: 11
+deckAvg: 6.929292929292929
+avg: 5.911616161616161
+total tricks: 1
+estimate: 6.311616161616161
+a: 0.5
+b: -0.1
+c: 0.0
+3
+playCard: 11
+[7, 4]
+total: 11
+deckAvg: 6.929292929292929
+avg: 7.8821548821548815
+total tricks: 2
+estimate: 8.182154882154881
+a: 0.5
+b: -0.2
+c: 0.0
+3
+playCard: 11
+[7, 4, 2]
+total: 13
+deckAvg: 6.929292929292929
+avg: 10.823232323232322
+total tricks: 3
+estimate: 11.023232323232321
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+3
+playCard: 2
+[7, 4, 2, 8, 10]
+total: 31
+deckAvg: 6.929292929292929
+avg: 3.6464646464646435
+total tricks: 4
+estimate: 3.7464646464646436
+a: 0.5
+b: -0.4
+c: 0.0
+3
+playCard: 12
+[]
+total: 0
+deckAvg: 6.98876404494382
+avg: 6.988764044943819
+total tricks: 0
+estimate: 7.558764044943819
+a: 0.5
+b: -0.0
+c: 0.07
+1
+playCard: 7
+[8]
+total: 8
+deckAvg: 6.98876404494382
+avg: 6.735955056179774
+total tricks: 1
+estimate: 7.205955056179774
+a: 0.5
+b: -0.1
+c: 0.07
+1
+[]
+total: 0
+deckAvg: 6.98876404494382
+avg: 6.988764044943819
+total tricks: 0
+estimate: 7.488764044943819
+a: 0.5
+b: -0.0
+c: 0.0
+0
+[7]
+total: 7
+deckAvg: 7.0120481927710845
+avg: 5.612048192771084
+total tricks: 0
+estimate: 6.042048192771084
+a: 0.5
+b: -0.0
+c: -0.07
+3
+playCard: 9
+[7]
+total: 7
+deckAvg: 7.0120481927710845
+avg: 7.015060240963855
+total tricks: 1
+estimate: 7.345060240963855
+a: 0.5
+b: -0.1
+c: -0.07
+2
+playCard: 7
+[7, 8, 6]
+total: 21
+deckAvg: 7.0120481927710845
+avg: 4.686746987951807
+total tricks: 2
+estimate: 4.916746987951807
+a: 0.5
+b: -0.2
+c: -0.07
+2
+playCard: 11
+[7, 8, 6]
+total: 21
+deckAvg: 7.0120481927710845
+avg: 7.03012048192771
+total tricks: 3
+estimate: 7.16012048192771
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+2
+playCard: 3
+[7, 8, 6, 4, 9]
+total: 34
+deckAvg: 7.0120481927710845
+avg: 1.0602409638554207
+total tricks: 4
+estimate: 1.0902409638554207
+a: 0.5
+b: -0.4
+c: -0.07
+3
+playCard: 2
+[6]
+total: 6
+deckAvg: 6.958904109589041
+avg: 5.758904109589041
+total tricks: 0
+estimate: 6.1189041095890415
+a: 0.5
+b: -0.0
+c: -0.14
+4
+[]
+total: 0
+deckAvg: 7.014925373134329
+avg: 7.0149253731343295
+total tricks: 0
+estimate: 7.444925373134329
+a: 0.5
+b: -0.0
+c: -0.07
+2
+playCard: 7
+[8, 6]
+total: 14
+deckAvg: 7.014925373134329
+avg: 5.268656716417912
+total tricks: 1
+estimate: 5.598656716417912
+a: 0.5
+b: -0.1
+c: -0.07
+2
+playCard: 9
+[8, 6]
+total: 14
+deckAvg: 7.014925373134329
+avg: 7.024875621890549
+total tricks: 2
+estimate: 7.254875621890548
+a: 0.5
+b: -0.2
+c: -0.07
+2
+playCard: 5
+[8, 6, 7, 2]
+total: 23
+deckAvg: 7.014925373134329
+avg: 6.037313432835823
+total tricks: 3
+estimate: 6.167313432835823
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+2
+playCard: 10
+[8, 6, 7, 2]
+total: 23
+deckAvg: 7.014925373134329
+avg: 12.074626865671647
+total tricks: 4
+estimate: 12.104626865671646
+a: 0.5
+b: -0.4
+c: -0.07
+2
+playCard: 1
+[8, 6, 7, 2]
+total: 23
+deckAvg: 7.014925373134329
+avg: 12.074626865671647
+total tricks: 4
+estimate: 12.104626865671646
+a: 0.5
+b: -0.4
+c: -0.07
+2
+[6]
+total: 6
+deckAvg: 6.879310344827586
+avg: 5.679310344827586
+total tricks: 0
+estimate: 6.039310344827586
+a: 0.5
+b: -0.0
+c: -0.14
+4
+[]
+total: 0
+deckAvg: 7.115384615384615
+avg: 7.115384615384615
+total tricks: 0
+estimate: 7.545384615384615
+a: 0.5
+b: -0.0
+c: -0.07
+0
+playCard: 6
+[7]
+total: 7
+deckAvg: 7.115384615384615
+avg: 7.144230769230768
+total tricks: 1
+estimate: 7.474230769230768
+a: 0.5
+b: -0.1
+c: -0.07
+0
+playCard: 12
+playCard: 9
+playCard: 13
+playCard: 3
+playCard: 1
+New game started: 256664
+[]
+total: 0
+deckAvg: 7.090909090909091
+avg: 7.090909090909091
+total tricks: 0
+estimate: 7.590909090909091
+a: 0.5
+b: -0.0
+c: 0.0
+1
+playCard: 9
+[11]
+total: 11
+deckAvg: 7.090909090909091
+avg: 6.113636363636363
+total tricks: 1
+estimate: 6.513636363636364
+a: 0.5
+b: -0.1
+c: 0.0
+0
+[8]
+total: 8
+deckAvg: 7.10752688172043
+avg: 5.50752688172043
+total tricks: 0
+estimate: 5.93752688172043
+a: 0.5
+b: -0.0
+c: -0.07
+3
+playCard: 9
+[8]
+total: 8
+deckAvg: 7.10752688172043
+avg: 6.884408602150538
+total tricks: 1
+estimate: 7.214408602150538
+a: 0.5
+b: -0.1
+c: -0.07
+2
+playCard: 7
+[8, 9, 6]
+total: 23
+deckAvg: 7.10752688172043
+avg: 4.17921146953405
+total tricks: 2
+estimate: 4.40921146953405
+a: 0.5
+b: -0.2
+c: -0.07
+2
+playCard: 10
+[8, 9, 6]
+total: 23
+deckAvg: 7.10752688172043
+avg: 6.268817204301076
+total tricks: 3
+estimate: 6.398817204301076
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+2
+playCard: 3
+[8, 9, 6, 5, 10]
+total: 38
+deckAvg: 7.10752688172043
+avg: -2.462365591397848
+total tricks: 4
+estimate: -2.4323655913978484
+a: 0.5
+b: -0.4
+c: -0.07
+3
+playCard: 1
+[10]
+total: 10
+deckAvg: 7.048192771084337
+avg: 5.048192771084336
+total tricks: 0
+estimate: 5.4081927710843365
+a: 0.5
+b: -0.0
+c: -0.14
+4
+[]
+total: 0
+deckAvg: 7.12987012987013
+avg: 7.12987012987013
+total tricks: 0
+estimate: 7.55987012987013
+a: 0.5
+b: -0.0
+c: -0.07
+1
+playCard: 8
+[11, 2]
+total: 13
+deckAvg: 7.12987012987013
+avg: 5.662337662337663
+total tricks: 1
+estimate: 5.992337662337663
+a: 0.5
+b: -0.1
+c: -0.07
+2
+playCard: 4
+[11, 2]
+total: 13
+deckAvg: 7.12987012987013
+avg: 7.549783549783551
+total tricks: 2
+estimate: 7.77978354978355
+a: 0.5
+b: -0.2
+c: -0.07
+1
+playCard: 6
+[11, 2]
+total: 13
+deckAvg: 7.12987012987013
+avg: 11.324675324675326
+total tricks: 3
+estimate: 11.454675324675327
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+1
+playCard: 6
+[11, 2, 13]
+total: 26
+deckAvg: 7.12987012987013
+avg: 9.649350649350652
+total tricks: 4
+estimate: 9.679350649350651
+a: 0.5
+b: -0.4
+c: -0.07
+1
+[9]
+total: 9
+deckAvg: 7.029411764705882
+avg: 5.229411764705882
+total tricks: 0
+estimate: 5.589411764705883
+a: 0.5
+b: -0.0
+c: -0.14
+3
+playCard: 11
+[9]
+total: 9
+deckAvg: 7.029411764705882
+avg: 6.536764705882353
+total tricks: 1
+estimate: 6.796764705882353
+a: 0.5
+b: -0.1
+c: -0.14
+3
+playCard: 8
+[9, 11, 5]
+total: 25
+deckAvg: 7.029411764705882
+avg: 3.382352941176471
+total tricks: 2
+estimate: 3.542352941176471
+a: 0.5
+b: -0.2
+c: -0.14
+3
+playCard: 12
+[9, 11, 5]
+total: 25
+deckAvg: 7.029411764705882
+avg: 5.0735294117647065
+total tricks: 3
+estimate: 5.133529411764706
+a: 0.5
+b: -0.30000000000000004
+c: -0.14
+2
+playCard: 5
+[9, 11, 5, 12, 1]
+total: 38
+deckAvg: 7.029411764705882
+avg: -2.852941176470587
+total tricks: 4
+estimate: -2.892941176470587
+a: 0.5
+b: -0.4
+c: -0.14
+3
+playCard: 3
+[]
+total: 0
+deckAvg: 7.086206896551724
+avg: 7.086206896551724
+total tricks: 0
+estimate: 7.516206896551724
+a: 0.5
+b: -0.0
+c: -0.07
+1
+playCard: 7
+[12, 4]
+total: 16
+deckAvg: 7.086206896551724
+avg: 4.857758620689655
+total tricks: 1
+estimate: 5.187758620689655
+a: 0.5
+b: -0.1
+c: -0.07
+2
+playCard: 5
+[12, 4]
+total: 16
+deckAvg: 7.086206896551724
+avg: 6.477011494252873
+total tricks: 2
+estimate: 6.707011494252873
+a: 0.5
+b: -0.2
+c: -0.07
+3
+playCard: 7
+[12, 4, 1]
+total: 17
+deckAvg: 7.086206896551724
+avg: 9.21551724137931
+total tricks: 3
+estimate: 9.34551724137931
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+2
+playCard: 8
+[12, 4, 1, 7]
+total: 24
+deckAvg: 7.086206896551724
+avg: 11.43103448275862
+total tricks: 4
+estimate: 11.461034482758619
+a: 0.5
+b: -0.4
+c: -0.07
+3
+playCard: 2
+[]
+total: 0
+deckAvg: 6.895833333333333
+avg: 6.895833333333333
+total tricks: 0
+estimate: 7.395833333333333
+a: 0.5
+b: -0.0
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 6.837209302325581
+avg: 6.837209302325581
+total tricks: 0
+estimate: 7.407209302325581
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 6
+[9]
+total: 9
+deckAvg: 6.837209302325581
+avg: 6.296511627906977
+total tricks: 1
+estimate: 6.766511627906977
+a: 0.5
+b: -0.1
+c: 0.07
+3
+[6]
+total: 6
+deckAvg: 6.594594594594595
+avg: 5.3945945945945954
+total tricks: 0
+estimate: 5.8945945945945954
+a: 0.5
+b: -0.0
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 6.580645161290323
+avg: 6.580645161290323
+total tricks: 0
+estimate: 7.150645161290323
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 4
+[5, 4]
+total: 9
+deckAvg: 6.580645161290323
+avg: 5.975806451612904
+total tricks: 1
+estimate: 6.445806451612904
+a: 0.5
+b: -0.1
+c: 0.07
+2
+playCard: 11
+[5, 4]
+total: 9
+deckAvg: 6.580645161290323
+avg: 7.967741935483872
+total tricks: 2
+estimate: 8.337741935483871
+a: 0.5
+b: -0.2
+c: 0.07
+2
+playCard: 3
+[5, 4, 6, 3]
+total: 18
+deckAvg: 6.580645161290323
+avg: 7.451612903225808
+total tricks: 3
+estimate: 7.721612903225807
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+2
+playCard: 13
+[5, 4, 6, 3]
+total: 18
+deckAvg: 6.580645161290323
+avg: 13
+total tricks: 4
+estimate: 13.17
+a: 0.5
+b: -0.4
+c: 0.07
+2
+playCard: 3
+[5, 4, 6, 3]
+total: 18
+deckAvg: 6.580645161290323
+avg: 13
+total tricks: 4
+estimate: 13.17
+a: 0.5
+b: -0.4
+c: 0.07
+2
+[4]
+total: 4
+deckAvg: 7.05050505050505
+avg: 6.25050505050505
+total tricks: 0
+estimate: 6.75050505050505
+a: 0.5
+b: -0.0
+c: 0.0
+2
+playCard: 10
+[4]
+total: 4
+deckAvg: 7.05050505050505
+avg: 7.813131313131313
+total tricks: 1
+estimate: 8.213131313131314
+a: 0.5
+b: -0.1
+c: 0.0
+2
+playCard: 3
+[4, 5, 3]
+total: 12
+deckAvg: 7.05050505050505
+avg: 7.750841750841751
+total tricks: 2
+estimate: 8.050841750841752
+a: 0.5
+b: -0.2
+c: 0.0
+2
+playCard: 13
+[4, 5, 3]
+total: 12
+deckAvg: 7.05050505050505
+avg: 11.626262626262626
+total tricks: 3
+estimate: 11.826262626262626
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+2
+playCard: 2
+[4, 5, 3, 6, 1]
+total: 19
+deckAvg: 7.05050505050505
+avg: 13
+total tricks: 4
+estimate: 13.1
+a: 0.5
+b: -0.4
+c: 0.0
+2
+playCard: 2
+[]
+total: 0
+deckAvg: 7.235955056179775
+avg: 7.235955056179774
+total tricks: 0
+estimate: 7.805955056179775
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 8
+[]
+total: 0
+deckAvg: 7.235955056179775
+avg: 9.044943820224718
+total tricks: 1
+estimate: 9.514943820224719
+a: 0.5
+b: -0.1
+c: 0.07
+2
+playCard: 10
+[2]
+total: 2
+deckAvg: 7.235955056179775
+avg: 11.393258426966291
+total tricks: 2
+estimate: 11.76325842696629
+a: 0.5
+b: -0.2
+c: 0.07
+1
+playCard: 4
+[2, 6, 4]
+total: 12
+deckAvg: 7.235955056179775
+avg: 12.089887640449437
+total tricks: 3
+estimate: 12.359887640449436
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+1
+playCard: 11
+[2, 6, 4]
+total: 12
+deckAvg: 7.235955056179775
+avg: 13
+total tricks: 4
+estimate: 13.17
+a: 0.5
+b: -0.4
+c: 0.07
+2
+playCard: 2
+[]
+total: 0
+deckAvg: 7.2405063291139244
+avg: 7.2405063291139244
+total tricks: 0
+estimate: 7.810506329113925
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 7
+[8, 4]
+total: 12
+deckAvg: 7.2405063291139244
+avg: 6.050632911392405
+total tricks: 1
+estimate: 6.520632911392405
+a: 0.5
+b: -0.1
+c: 0.07
+3
+playCard: 12
+[8, 4]
+total: 12
+deckAvg: 7.2405063291139244
+avg: 8.067510548523208
+total tricks: 2
+estimate: 8.437510548523207
+a: 0.5
+b: -0.2
+c: 0.07
+3
+playCard: 13
+[8, 4, 3]
+total: 15
+deckAvg: 7.2405063291139244
+avg: 10.60126582278481
+total tricks: 3
+estimate: 10.87126582278481
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+3
+playCard: 13
+[8, 4, 3, 6]
+total: 21
+deckAvg: 7.2405063291139244
+avg: 13
+total tricks: 4
+estimate: 13.17
+a: 0.5
+b: -0.4
+c: 0.07
+3
+playCard: 1
+[]
+total: 0
+deckAvg: 7.304347826086956
+avg: 7.304347826086956
+total tricks: 0
+estimate: 7.944347826086956
+a: 0.5
+b: -0.0
+c: 0.14
+3
+playCard: 6
+[7]
+total: 7
+deckAvg: 7.304347826086956
+avg: 7.380434782608695
+total tricks: 1
+estimate: 7.920434782608695
+a: 0.5
+b: -0.1
+c: 0.14
+3
+[8]
+total: 8
+deckAvg: 7.222222222222222
+avg: 5.622222222222223
+total tricks: 0
+estimate: 6.192222222222223
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 11
+[8]
+total: 8
+deckAvg: 7.222222222222222
+avg: 7.027777777777779
+total tricks: 1
+estimate: 7.497777777777778
+a: 0.5
+b: -0.1
+c: 0.07
+3
+playCard: 3
+[8, 5, 8]
+total: 21
+deckAvg: 7.222222222222222
+avg: 5.037037037037038
+total tricks: 2
+estimate: 5.407037037037038
+a: 0.5
+b: -0.2
+c: 0.07
+3
+playCard: 12
+[8, 5, 8]
+total: 21
+deckAvg: 7.222222222222222
+avg: 7.555555555555557
+total tricks: 3
+estimate: 7.825555555555557
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+3
+playCard: 3
+[8, 5, 8, 8, 10]
+total: 39
+deckAvg: 7.222222222222222
+avg: -2.8888888888888857
+total tricks: 4
+estimate: -2.718888888888886
+a: 0.5
+b: -0.4
+c: 0.07
+3
+playCard: 13
+[]
+total: 0
+deckAvg: 7.245283018867925
+avg: 7.245283018867925
+total tricks: 0
+estimate: 7.885283018867924
+a: 0.5
+b: -0.0
+c: 0.14
+2
+playCard: 9
+[13, 4]
+total: 17
+deckAvg: 7.245283018867925
+avg: 4.806603773584905
+total tricks: 1
+estimate: 5.3466037735849055
+a: 0.5
+b: -0.1
+c: 0.14
+1
+playCard: 5
+[13, 4]
+total: 17
+deckAvg: 7.245283018867925
+avg: 6.408805031446541
+total tricks: 2
+estimate: 6.848805031446541
+a: 0.5
+b: -0.2
+c: 0.14
+2
+playCard: 3
+[13, 4, 5, 1]
+total: 23
+deckAvg: 7.245283018867925
+avg: 6.613207547169811
+total tricks: 3
+estimate: 6.953207547169811
+a: 0.5
+b: -0.30000000000000004
+c: 0.14
+2
+playCard: 3
+[13, 4, 5, 1]
+total: 23
+deckAvg: 7.245283018867925
+avg: 13
+total tricks: 4
+estimate: 13.24
+a: 0.5
+b: -0.4
+c: 0.14
+2
+playCard: 12
+[]
+total: 0
+deckAvg: 7.441860465116279
+avg: 7.44186046511628
+total tricks: 0
+estimate: 8.151860465116279
+a: 0.5
+b: -0.0
+c: 0.21000000000000002
+2
+playCard: 8
+[11]
+total: 11
+deckAvg: 7.441860465116279
+avg: 6.552325581395349
+total tricks: 1
+estimate: 7.16232558139535
+a: 0.5
+b: -0.1
+c: 0.21000000000000002
+2
+[]
+total: 0
+deckAvg: 7.441860465116279
+avg: 7.44186046511628
+total tricks: 0
+estimate: 8.08186046511628
+a: 0.5
+b: -0.0
+c: 0.14
+1
+[]
+total: 0
+deckAvg: 7.441860465116279
+avg: 7.44186046511628
+total tricks: 0
+estimate: 8.01186046511628
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 2
+playCard: 9
+playCard: 7
+playCard: 2
+playCard: 9
+New game started: 256668
+[5]
+total: 5
+deckAvg: 6.94949494949495
+avg: 5.94949494949495
+total tricks: 0
+estimate: 6.44949494949495
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 9
+[5]
+total: 5
+deckAvg: 6.94949494949495
+avg: 7.436868686868687
+total tricks: 1
+estimate: 7.836868686868687
+a: 0.5
+b: -0.1
+c: 0.0
+3
+playCard: 3
+[5, 6, 3]
+total: 14
+deckAvg: 6.94949494949495
+avg: 6.915824915824916
+total tricks: 2
+estimate: 7.215824915824916
+a: 0.5
+b: -0.2
+c: 0.0
+3
+playCard: 12
+[5, 6, 3]
+total: 14
+deckAvg: 6.94949494949495
+avg: 10.373737373737374
+total tricks: 3
+estimate: 10.573737373737373
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+3
+playCard: 3
+[5, 6, 3, 8, 2]
+total: 24
+deckAvg: 6.94949494949495
+avg: 10.747474747474747
+total tricks: 4
+estimate: 10.847474747474747
+a: 0.5
+b: -0.4
+c: 0.0
+3
+playCard: 13
+[]
+total: 0
+deckAvg: 6.887640449438202
+avg: 6.887640449438203
+total tricks: 0
+estimate: 7.457640449438204
+a: 0.5
+b: -0.0
+c: 0.07
+4
+[]
+total: 0
+deckAvg: 7.095238095238095
+avg: 7.095238095238095
+total tricks: 0
+estimate: 7.735238095238095
+a: 0.5
+b: -0.0
+c: 0.14
+0
+playCard: 6
+[10, 3]
+total: 13
+deckAvg: 7.095238095238095
+avg: 5.619047619047619
+total tricks: 1
+estimate: 6.159047619047619
+a: 0.5
+b: -0.1
+c: 0.14
+0
+playCard: 5
+[10, 3]
+total: 13
+deckAvg: 7.095238095238095
+avg: 7.492063492063491
+total tricks: 2
+estimate: 7.932063492063492
+a: 0.5
+b: -0.2
+c: 0.14
+1
+playCard: 3
+[10, 3, 5, 2]
+total: 20
+deckAvg: 7.095238095238095
+avg: 7.738095238095237
+total tricks: 3
+estimate: 8.078095238095237
+a: 0.5
+b: -0.30000000000000004
+c: 0.14
+1
+playCard: 1
+[10, 3, 5, 2]
+total: 20
+deckAvg: 7.095238095238095
+avg: 13
+total tricks: 4
+estimate: 13.24
+a: 0.5
+b: -0.4
+c: 0.14
+1
+[6]
+total: 6
+deckAvg: 7.053333333333334
+avg: 5.8533333333333335
+total tricks: 0
+estimate: 6.423333333333334
+a: 0.5
+b: -0.0
+c: 0.07
+4
+[]
+total: 0
+deckAvg: 7.217391304347826
+avg: 7.217391304347826
+total tricks: 0
+estimate: 7.857391304347826
+a: 0.5
+b: -0.0
+c: 0.14
+2
+playCard: 9
+[13, 2]
+total: 15
+deckAvg: 7.217391304347826
+avg: 5.271739130434783
+total tricks: 1
+estimate: 5.811739130434783
+a: 0.5
+b: -0.1
+c: 0.14
+1
+playCard: 12
+[13, 2]
+total: 15
+deckAvg: 7.217391304347826
+avg: 7.028985507246378
+total tricks: 2
+estimate: 7.468985507246378
+a: 0.5
+b: -0.2
+c: 0.14
+1
+playCard: 2
+[13, 2, 5, 1]
+total: 21
+deckAvg: 7.217391304347826
+avg: 7.543478260869566
+total tricks: 3
+estimate: 7.883478260869566
+a: 0.5
+b: -0.30000000000000004
+c: 0.14
+1
+playCard: 1
+[13, 2, 5, 1]
+total: 21
+deckAvg: 7.217391304347826
+avg: 13
+total tricks: 4
+estimate: 13.24
+a: 0.5
+b: -0.4
+c: 0.14
+1
+[7]
+total: 7
+deckAvg: 7.633333333333334
+avg: 6.233333333333334
+total tricks: 0
+estimate: 6.803333333333335
+a: 0.5
+b: -0.0
+c: 0.07
+1
+playCard: 1
+[7, 5]
+total: 12
+deckAvg: 7.633333333333334
+avg: 6.541666666666668
+total tricks: 1
+estimate: 7.011666666666668
+a: 0.5
+b: -0.1
+c: 0.07
+0
+playCard: 7
+[7, 5]
+total: 12
+deckAvg: 7.633333333333334
+avg: 8.722222222222223
+total tricks: 2
+estimate: 9.092222222222222
+a: 0.5
+b: -0.2
+c: 0.07
+1
+playCard: 5
+[7, 5, 9, 4]
+total: 25
+deckAvg: 7.633333333333334
+avg: 6.583333333333336
+total tricks: 3
+estimate: 6.853333333333335
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+1
+playCard: 2
+[7, 5, 9, 4]
+total: 25
+deckAvg: 7.633333333333334
+avg: 13
+total tricks: 4
+estimate: 13.17
+a: 0.5
+b: -0.4
+c: 0.07
+1
+[7]
+total: 7
+deckAvg: 7.509803921568627
+avg: 6.109803921568627
+total tricks: 0
+estimate: 6.609803921568627
+a: 0.5
+b: -0.0
+c: 0.0
+5
+[]
+total: 0
+deckAvg: 7.644444444444445
+avg: 7.644444444444444
+total tricks: 0
+estimate: 8.214444444444444
+a: 0.5
+b: -0.0
+c: 0.07
+1
+playCard: 7
+[10, 2]
+total: 12
+deckAvg: 7.644444444444445
+avg: 6.555555555555555
+total tricks: 1
+estimate: 7.025555555555555
+a: 0.5
+b: -0.1
+c: 0.07
+1
+playCard: 4
+[10, 2]
+total: 12
+deckAvg: 7.644444444444445
+avg: 8.74074074074074
+total tricks: 2
+estimate: 9.11074074074074
+a: 0.5
+b: -0.2
+c: 0.07
+2
+playCard: 6
+[10, 2, 7]
+total: 19
+deckAvg: 7.644444444444445
+avg: 9.61111111111111
+total tricks: 3
+estimate: 9.88111111111111
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+2
+[6]
+total: 6
+deckAvg: 7.513513513513513
+avg: 6.313513513513513
+total tricks: 0
+estimate: 6.813513513513513
+a: 0.5
+b: -0.0
+c: 0.0
+5
+[]
+total: 0
+deckAvg: 7.516129032258065
+avg: 7.516129032258066
+total tricks: 0
+estimate: 8.086129032258066
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 5
+[9]
+total: 9
+deckAvg: 7.516129032258065
+avg: 7.145161290322582
+total tricks: 1
+estimate: 7.615161290322582
+a: 0.5
+b: -0.1
+c: 0.07
+2
+[4]
+total: 4
+deckAvg: 7.161616161616162
+avg: 6.361616161616162
+total tricks: 0
+estimate: 6.861616161616162
+a: 0.5
+b: -0.0
+c: 0.0
+1
+playCard: 8
+[4]
+total: 4
+deckAvg: 7.161616161616162
+avg: 7.952020202020202
+total tricks: 1
+estimate: 8.352020202020203
+a: 0.5
+b: -0.1
+c: 0.0
+1
+playCard: 4
+[4, 8, 3]
+total: 15
+deckAvg: 7.161616161616162
+avg: 6.936026936026937
+total tricks: 2
+estimate: 7.236026936026937
+a: 0.5
+b: -0.2
+c: 0.0
+1
+playCard: 2
+[4, 8, 3, 2]
+total: 17
+deckAvg: 7.161616161616162
+avg: 9.404040404040405
+total tricks: 3
+estimate: 9.604040404040404
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+1
+playCard: 3
+[4, 8, 3, 2]
+total: 17
+deckAvg: 7.161616161616162
+avg: 13
+total tricks: 4
+estimate: 13.1
+a: 0.5
+b: -0.4
+c: 0.0
+2
+playCard: 2
+[4, 8, 3, 2]
+total: 17
+deckAvg: 7.161616161616162
+avg: 13
+total tricks: 4
+estimate: 13.1
+a: 0.5
+b: -0.4
+c: 0.0
+2
+[4]
+total: 4
+deckAvg: 7.144444444444445
+avg: 6.344444444444444
+total tricks: 0
+estimate: 6.774444444444444
+a: 0.5
+b: -0.0
+c: -0.07
+3
+playCard: 6
+[4]
+total: 4
+deckAvg: 7.144444444444445
+avg: 7.930555555555555
+total tricks: 1
+estimate: 8.260555555555555
+a: 0.5
+b: -0.1
+c: -0.07
+4
+[]
+total: 0
+deckAvg: 7.321428571428571
+avg: 7.321428571428571
+total tricks: 0
+estimate: 7.821428571428571
+a: 0.5
+b: -0.0
+c: 0.0
+0
+playCard: 7
+[10]
+total: 10
+deckAvg: 7.321428571428571
+avg: 6.6517857142857135
+total tricks: 1
+estimate: 7.051785714285714
+a: 0.5
+b: -0.1
+c: 0.0
+0
+[]
+total: 0
+deckAvg: 7.321428571428571
+avg: 7.321428571428571
+total tricks: 0
+estimate: 7.751428571428571
+a: 0.5
+b: -0.0
+c: -0.07
+3
+[]
+total: 0
+deckAvg: 7.321428571428571
+avg: 7.321428571428571
+total tricks: 0
+estimate: 7.6814285714285715
+a: 0.5
+b: -0.0
+c: -0.14
+3
+playCard: 4
+playCard: 12
+playCard: 2
+playCard: 1
+playCard: 2
+New game started: 256671
+[]
+total: 0
+deckAvg: 7.05050505050505
+avg: 7.05050505050505
+total tricks: 0
+estimate: 7.55050505050505
+a: 0.5
+b: -0.0
+c: 0.0
+1
+playCard: 7
+[9]
+total: 9
+deckAvg: 7.05050505050505
+avg: 6.563131313131313
+total tricks: 1
+estimate: 6.9631313131313135
+a: 0.5
+b: -0.1
+c: 0.0
+1
+[6]
+total: 6
+deckAvg: 7.129032258064516
+avg: 5.929032258064515
+total tricks: 0
+estimate: 6.359032258064515
+a: 0.5
+b: -0.0
+c: -0.07
+1
+playCard: 12
+[6]
+total: 6
+deckAvg: 7.129032258064516
+avg: 7.411290322580644
+total tricks: 1
+estimate: 7.741290322580644
+a: 0.5
+b: -0.1
+c: -0.07
+1
+playCard: 6
+[6, 7, 1]
+total: 14
+deckAvg: 7.129032258064516
+avg: 7.215053763440859
+total tricks: 2
+estimate: 7.445053763440859
+a: 0.5
+b: -0.2
+c: -0.07
+1
+playCard: 3
+[6, 7, 1]
+total: 14
+deckAvg: 7.129032258064516
+avg: 10.822580645161288
+total tricks: 3
+estimate: 10.952580645161289
+a: 0.5
+b: -0.30000000000000004
+c: -0.07
+2
+playCard: 4
+[6, 7, 1, 10, 1]
+total: 25
+deckAvg: 7.129032258064516
+avg: 10.645161290322577
+total tricks: 4
+estimate: 10.675161290322576
+a: 0.5
+b: -0.4
+c: -0.07
+2
+playCard: 1
+[8]
+total: 8
+deckAvg: 7.132530120481928
+avg: 5.532530120481928
+total tricks: 0
+estimate: 5.962530120481928
+a: 0.5
+b: -0.0
+c: -0.07
+5
+[]
+total: 0
+deckAvg: 7.025974025974026
+avg: 7.025974025974025
+total tricks: 0
+estimate: 7.525974025974025
+a: 0.5
+b: -0.0
+c: 0.0
+3
+playCard: 6
+[7, 5]
+total: 12
+deckAvg: 7.025974025974026
+avg: 5.782467532467532
+total tricks: 1
+estimate: 6.182467532467532
+a: 0.5
+b: -0.1
+c: 0.0
+3
+playCard: 10
+[7, 5]
+total: 12
+deckAvg: 7.025974025974026
+avg: 7.7099567099567095
+total tricks: 2
+estimate: 8.00995670995671
+a: 0.5
+b: -0.2
+c: 0.0
+3
+playCard: 4
+[7, 5, 9, 2]
+total: 23
+deckAvg: 7.025974025974026
+avg: 6.064935064935064
+total tricks: 3
+estimate: 6.264935064935064
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+3
+playCard: 11
+[7, 5, 9, 2]
+total: 23
+deckAvg: 7.025974025974026
+avg: 12.129870129870127
+total tricks: 4
+estimate: 12.229870129870127
+a: 0.5
+b: -0.4
+c: 0.0
+2
+playCard: 12
+[]
+total: 0
+deckAvg: 7.164179104477612
+avg: 7.164179104477613
+total tricks: 0
+estimate: 7.734179104477613
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 9
+[12]
+total: 12
+deckAvg: 7.164179104477612
+avg: 5.955223880597016
+total tricks: 1
+estimate: 6.425223880597016
+a: 0.5
+b: -0.1
+c: 0.07
+1
+[9]
+total: 9
+deckAvg: 7.262295081967213
+avg: 5.462295081967213
+total tricks: 0
+estimate: 5.962295081967213
+a: 0.5
+b: -0.0
+c: 0.0
+2
+playCard: 11
+[9]
+total: 9
+deckAvg: 7.262295081967213
+avg: 6.827868852459016
+total tricks: 1
+estimate: 7.227868852459016
+a: 0.5
+b: -0.1
+c: 0.0
+1
+playCard: 7
+[9, 10, 4]
+total: 23
+deckAvg: 7.262295081967213
+avg: 4.437158469945355
+total tricks: 2
+estimate: 4.737158469945355
+a: 0.5
+b: -0.2
+c: 0.0
+1
+playCard: 1
+[9, 10, 4]
+total: 23
+deckAvg: 7.262295081967213
+avg: 6.655737704918032
+total tricks: 3
+estimate: 6.855737704918032
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+1
+[10]
+total: 10
+deckAvg: 7.264150943396227
+avg: 5.264150943396227
+total tricks: 0
+estimate: 5.6941509433962265
+a: 0.5
+b: -0.0
+c: -0.07
+4
+[]
+total: 0
+deckAvg: 6.914893617021277
+avg: 6.914893617021276
+total tricks: 0
+estimate: 7.414893617021276
+a: 0.5
+b: -0.0
+c: 0.0
+4
+[]
+total: 0
+deckAvg: 6.880952380952381
+avg: 6.880952380952381
+total tricks: 0
+estimate: 7.450952380952382
+a: 0.5
+b: -0.0
+c: 0.07
+2
+playCard: 7
+[8]
+total: 8
+deckAvg: 6.880952380952381
+avg: 6.601190476190476
+total tricks: 1
+estimate: 7.071190476190476
+a: 0.5
+b: -0.1
+c: 0.07
+2
+[4]
+total: 4
+deckAvg: 7.138888888888889
+avg: 6.338888888888889
+total tricks: 0
+estimate: 6.838888888888889
+a: 0.5
+b: -0.0
+c: 0.0
+1
+playCard: 5
+[4]
+total: 4
+deckAvg: 7.138888888888889
+avg: 7.923611111111111
+total tricks: 1
+estimate: 8.323611111111111
+a: 0.5
+b: -0.1
+c: 0.0
+2
+playCard: 5
+[4, 8, 3]
+total: 15
+deckAvg: 7.138888888888889
+avg: 6.898148148148148
+total tricks: 2
+estimate: 7.198148148148148
+a: 0.5
+b: -0.2
+c: 0.0
+2
+playCard: 10
+[4, 8, 3]
+total: 15
+deckAvg: 7.138888888888889
+avg: 10.347222222222221
+total tricks: 3
+estimate: 10.54722222222222
+a: 0.5
+b: -0.30000000000000004
+c: 0.0
+2
+playCard: 2
+[4, 8, 3, 11, 1]
+total: 27
+deckAvg: 7.138888888888889
+avg: 8.694444444444443
+total tricks: 4
+estimate: 8.794444444444443
+a: 0.5
+b: -0.4
+c: 0.0
+2
+playCard: 2
+[]
+total: 0
+deckAvg: 6.94949494949495
+avg: 6.94949494949495
+total tricks: 0
+estimate: 7.51949494949495
+a: 0.5
+b: -0.0
+c: 0.07
+3
+playCard: 6
+[9, 3]
+total: 12
+deckAvg: 6.94949494949495
+avg: 5.686868686868687
+total tricks: 1
+estimate: 6.156868686868687
+a: 0.5
+b: -0.1
+c: 0.07
+3
+playCard: 10
+[9, 3]
+total: 12
+deckAvg: 6.94949494949495
+avg: 7.582491582491582
+total tricks: 2
+estimate: 7.952491582491582
+a: 0.5
+b: -0.2
+c: 0.07
+3
+playCard: 11
+[9, 3, 2]
+total: 14
+deckAvg: 6.94949494949495
+avg: 10.373737373737374
+total tricks: 3
+estimate: 10.643737373737373
+a: 0.5
+b: -0.30000000000000004
+c: 0.07
+3
+playCard: 11
+[9, 3, 2, 6]
+total: 20
+deckAvg: 6.94949494949495
+avg: 13
+total tricks: 4
+estimate: 13.17
+a: 0.5
+b: -0.4
+c: 0.07
+3
+playCard: 2
+[]
+total: 0
+deckAvg: 6.876404494382022
+avg: 6.876404494382022
+total tricks: 0
+estimate: 7.516404494382022
+a: 0.5
+b: -0.0
+c: 0.14
+4
+[]
+total: 0
+deckAvg: 6.976190476190476
+avg: 6.976190476190476
+total tricks: 0
+estimate: 7.686190476190476
+a: 0.5
+b: -0.0
+c: 0.21000000000000002
+2
+playCard: 8
+[10, 4]
+total: 14
+deckAvg: 6.976190476190476
+avg: 5.220238095238095
+total tricks: 1
+estimate: 5.830238095238095
+a: 0.5
+b: -0.1
+c: 0.21000000000000002
+1
+playCard: 5
+[10, 4]
+total: 14
+deckAvg: 6.976190476190476
+avg: 6.96031746031746
+total tricks: 2
+estimate: 7.470317460317459
+a: 0.5
+b: -0.2
+c: 0.21000000000000002
+2
+playCard: 9
+[10, 4, 11, 1]
+total: 26
+deckAvg: 6.976190476190476
+avg: 4.44047619047619
+total tricks: 3
+estimate: 4.85047619047619
+a: 0.5
+b: -0.30000000000000004
+c: 0.21000000000000002
+1
+playCard: 3
+[10, 4, 11, 1]
+total: 26
+deckAvg: 6.976190476190476
+avg: 8.88095238095238
+total tricks: 4
+estimate: 9.19095238095238
+a: 0.5
+b: -0.4
+c: 0.21000000000000002
+2
+playCard: 1
+[10, 4, 11, 1]
+total: 26
+deckAvg: 6.976190476190476
+avg: 8.88095238095238
+total tricks: 4
+estimate: 9.19095238095238
+a: 0.5
+b: -0.4
+c: 0.21000000000000002
+2
+[8]
+total: 8
+deckAvg: 7.026666666666666
+avg: 5.426666666666667
+total tricks: 0
+estimate: 6.066666666666666
+a: 0.5
+b: -0.0
+c: 0.14
+2
+playCard: 11
+[8]
+total: 8
+deckAvg: 7.026666666666666
+avg: 6.783333333333333
+total tricks: 1

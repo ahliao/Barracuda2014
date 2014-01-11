@@ -15,18 +15,20 @@ class Player:
 		self.opponent_cards = []
 		self.playerlead = None # me or notme as to who played the first card of the trick
 		self.deckAvg = 6
-		self.alpha = 0.5
-		self.beta = 0.02
-		self.epsilon = 0.05
+		self.alpha = .5 # base tolerance
+		self.beta = 0.1
+		self.epsilon = 0.07
 
 	def playRequest(self, comm):
 	#refreshes deck every 10 hands and removes cards in hand
 
 		if comm.total_tricks == 0:
+			self.opponent_cards = []
 			if comm.hand_id % 10 == 1:
 				self.counter.refreshDeck()
 			for i in range(0, len(comm.hand)):
 				self.counter.updateDeck(comm.hand[i])
+
 			self.deckAvg = self.counter.getAvg()
 
 		#card counting update when other plays first
@@ -38,7 +40,7 @@ class Player:
 			self.playerlead = "me"
 
 		#challenge logic
-		if comm.can_challenge and self.calc_challenge(comm) > 3:
+		if comm.can_challenge and self.calc_challenge(comm) > 2:
 			comm.sendChallenge()
 			return
 
@@ -59,13 +61,12 @@ class Player:
 				if comm.hand[x] > comm.card:
 					playCard = x
 					break
-		print("playCard: " + str(comm.hand[playCard]))
 
 		self.lastPlayed = comm.hand[playCard]
 		comm.playCard(comm.hand[playCard])
 		
 	def challenged(self, comm): 
-		if (self.calc_challenge(comm) > 3):
+		if (self.calc_challenge(comm) > 2):
 			comm.acceptChallenge()
 		else:
 			comm.rejectChallenge()
@@ -77,6 +78,7 @@ class Player:
 				self.opponent_cards.append(comm.card)
 			elif comm.resultType == "trick_tied":
 				self.counter.updateDeck(self.lastPlayed)
+				self.opponent_cards.append(self.lastPlayed)
 			if comm.resultType == "hand_done":
 				self.opponent_cards = []
 		# if comm.player_num == 0 and (comm.resultType == "trick_won" or comm.resultType == "trick_tied"):
@@ -86,16 +88,34 @@ class Player:
 			# self.opponent_cards = []
 
 	def calc_challenge(self, comm):
+		if (comm.their_points == 9):
+			return 5
+
 		total = 0;
 		for card in self.opponent_cards:
 			total += card
+		print(self.opponent_cards)
 
-		estimate = (5 * self.deckAvg - total) / (5 - comm.total_tricks)
+		if len(self.opponent_cards) == 5:
+			return 0
 
+		estimate = (5 * self.deckAvg - total) / (5 - len(self.opponent_cards))
+		if (estimate > 13):
+			estimate = 13
+		print("total: " + str(total))
+
+		print("deckAvg: " + str(self.deckAvg))
+		print("avg: " + str(estimate))
+		a = self.alpha
+		b = self.beta * comm.total_tricks
+		print("total tricks: " + str(comm.total_tricks))
+		c = self.epsilon * (comm.your_points - comm.their_points)
+		estimate += a - b + c
 
 		numCards = 0
 		for card in comm.hand:
-			if (card > estimate + self.alpha - (self.beta * comm.total_tricks) + (self.epsilon * (comm.your_points - comm.their_points))):
+			if (card > estimate):
 				numCards += 1
 
+		print(numCards + comm.your_tricks)
 		return numCards + comm.your_tricks
