@@ -15,6 +15,12 @@ class Player:
 		self.opponent_cards = []
 
 	def playRequest(self, comm):
+	#refreshes deck every 10 hands and removes cards in hand
+		if comm.hand_id %10 == 1 and comm.total_tricks == 0:
+			counter.refreshDeck()
+			for i in range (0,len(comm.hand):
+				updateDeck(comm.hand[i])
+		
 		if comm.player_num == 1:
 			self.counter.updateDeck(comm.card)
 			self.opponent_cards.append(comm.card)
