@@ -18,36 +18,36 @@ class Player:
 	def playRequest(self, comm):
 	#refreshes deck every 10 hands and removes cards in hand
 		if comm.hand_id %10 == 1 and comm.total_tricks == 0:
-			counter.refreshDeck()
-			for i in range (0,len(comm.hand):
-				updateDeck(comm.hand[i])
-		
+			self.counter.refreshDeck()
+			for i in range (0,len(comm.hand)):
+				self.counter.updateDeck(comm.hand[i])
+	#card counting update when other plays first
 		if comm.card != None:
 			self.playerlead = "notme"
 			self.counter.updateDeck(comm.card)
 			self.opponent_cards.append(comm.card)
 		else:
 			self.playerlead = "me"
-
+	#challenge logic
 		if comm.can_challenge and self.calc_challenge(comm) > 3:
 			comm.sendChallenge()
 			return
 
 		print(comm.hand)
-		print("Hand Value: " + str(Prob.Prob.handValue(counter, comm)))
+		# print("Hand Value: " + str(Prob.Prob.handValue(self.counter, comm)))
 		playCard = 0
 		comm.hand.sort()
 		if (comm.card == None):
-			playCard = comm.hand[int(math.floor(len(comm.hand) / 2))]
+			playCard = int(math.floor(int(len(comm.hand)) / 2))
 		else:
-			for card in comm.hand:
-				if card > comm.card:
-					playCard = card
+			for x in range(0,len(comm.hand)):
+				if comm.hand[x] > comm.card:
+					playCard = x
 					break
 
-		print("playCard: " + str(playCard))
-		lastPlayed = playCard
-		comm.playCard(playCard)
+		print("playCard: " + str(comm.hand[playCard]))
+		self.lastPlayed = comm.hand[playCard]
+		comm.playCard(comm.hand[playCard])
 		
 	def challenged(self, comm): 
 		if (self.calc_challenge(comm) > 3):
@@ -61,7 +61,7 @@ class Player:
 				self.counter.updateDeck(comm.card)
 				self.opponent_cards.append(comm.card)
 			elif comm.resultType == "trick_tied":
-				self.counter.updateDeck(lastplayed)
+				self.counter.updateDeck(self.lastPlayed)
 			if comm.resultType == "hand_done":
 				self.opponent_cards = []
 		# if comm.player_num == 0 and (comm.resultType == "trick_won" or comm.resultType == "trick_tied"):
