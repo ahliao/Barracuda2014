@@ -47,7 +47,14 @@ class Player:
 		playCard = 0
 		comm.hand.sort()
 		if (comm.card == None):
-			playCard = int(math.floor(int(len(comm.hand)) / 2))
+			indexClosest = 0
+			diff = 13
+			for x in range(0,len(comm.hand)):
+				if abs(comm.hand[x] - 6) < diff:
+					indexClosest = x
+					diff = abs(comm.hand[x] - 6)
+#			playCard = int(math.floor(int(len(comm.hand)) / 2))
+			playCard = indexClosest
 		else:
 			for x in range(0,len(comm.hand)):
 				if comm.hand[x] > comm.card:
