@@ -27,4 +27,6 @@ class CardCount:
 		for cards in self.deck:
 			numCards += cards
 
+		if (numCards == 0):
+			numCards = 1
 		return total / numCards

@@ -15,8 +15,8 @@ class Player:
 		self.opponent_cards = []
 		self.playerlead = None # me or notme as to who played the first card of the trick
 		self.deckAvg = 6
-		self.alpha = .5 # base tolerance
-		self.beta = 0.1
+		self.alpha = 1 # base tolerance
+		self.beta = 0.2
 		self.epsilon = 0.07
 
 	def playRequest(self, comm):
@@ -50,17 +50,22 @@ class Player:
 		if (comm.card == None):
 			indexClosest = 0
 			diff = 13
-			for x in range(0,len(comm.hand)):
+			for x in range(0,math.ceil(len(comm.hand)/2)):
 				if abs(comm.hand[x] - self.deckAvg) < diff:
+
 					indexClosest = x
 					diff = abs(comm.hand[x] - self.deckAvg)
 #			playCard = int(math.floor(int(len(comm.hand)) / 2))
 			playCard = indexClosest
 		else:
-			for x in range(0,len(comm.hand)):
-				if comm.hand[x] > comm.card:
-					playCard = x
-					break
+			if comm.your_tricks > comm.their_tricks:
+				# play lowest card
+				playCard = 0
+			else:
+				for x in range(0,len(comm.hand)):
+					if comm.hand[x] > comm.card:
+						playCard = x
+						break
 
 		self.lastPlayed = comm.hand[playCard]
 		comm.playCard(comm.hand[playCard])
@@ -111,7 +116,7 @@ class Player:
 		print("total tricks: " + str(comm.total_tricks))
 		c = self.epsilon * (comm.your_points - comm.their_points)
 		estimate += a - b + c
-
+		print("threshold: " + str(estimate))
 		numCards = 0
 		for card in comm.hand:
 			if (card > estimate):
