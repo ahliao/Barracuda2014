@@ -19,27 +19,16 @@ class Player:
 			self.counter.updateDeck(comm.card)
 			self.opponent_cards.append(comm.card)
 
-		if comm.can_challenge and self.calc_challenge(comm) > 3:
-			comm.sendChallenge()
-			return
-
-		print(comm.hand)
-		print("Hand Value: " + str(Prob.Prob.handValue(counter, comm)))
-		playCard = 0
 		comm.hand.sort()
-		if (comm.card == None):
-			playCard = int(math.floor(len(comm.hand) / 2))
-		else:
-			for i in range(len(comm.hand)):
-				if comm.hand[i] > comm.card:
-					playCard = i
-					break
+		# before you play any cards
+		if len(comm.hand) == 5:
+			# update deck according to your cards
+			for card in comm.hand:
+				self.counter.updateDeck(card)
 
-		print("playCard: " + str(playCard))
-		lastPlayed = comm.hand[playCard]
-		comm.playCard(comm.hand[playCard])
-		self.counter.updateDeck(comm.hand[playCard])
-		
+		if (comm.card == None):
+			
+
 	def challenged(self, comm): 
 		if (self.calc_challenge(comm) > 3):
 			comm.acceptChallenge()
