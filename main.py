@@ -72,4 +72,4 @@ def loop(player, *args):
 
 
 if __name__ == "__main__":
-    loop(player, "cuda.contest", 9999)#9999) #The test bot
+    loop(player, "cuda.contest", 9999)
