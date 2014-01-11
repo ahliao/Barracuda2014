@@ -4,19 +4,16 @@ import struct
 import time
 import sys
 
-import socketLayer
 import Comm
 import Player
+import cardCount
 
-
-def player(host, port):
-    comm = Comm.Comm()
-	player = Player.Player()
-
+def player():
     gameId = None
 
     comm = Comm.Comm()
-    deckCount = cardCount.cardCount()
+    deckCount = cardCount.CardCount()
+    player = Player.Player()
 
     while True:
         comm.refresh()
@@ -30,27 +27,24 @@ def player(host, port):
             if comm.game_id != gameId:
                 gameId = comm.game_id;
                 print("New game started: " + str(gameId))
+
+
             if comm.request == "request_card":
                 player.playRequest(comm)
             elif comm.request == "challenge_offered":
                 player.challenged(comm)
         elif comm.type == "result":
-<<<<<<< HEAD
-            if (comm.resultType == "game_won"):
-                print(comm.getWinner())
-=======
-			player.result(comm)
+            player.result(comm)
             print(comm.resultType)
             print(comm.player_num)
             
->>>>>>> 1b97073165f61a7182e0a6aca27372ff2f58b18a
         elif comm.type == "greetings_program":
             print("Connected to the server.")
 
-def loop(player, *args):
+def loop(player):
     while True:
         try:
-            player(*args)
+            player()
         except KeyboardInterrupt:
             sys.exit(0)
         except Exception as e:
@@ -59,4 +53,4 @@ def loop(player, *args):
 
 
 if __name__ == "__main__":
-    loop(player, "cuda.contest", 9999)
+    loop(player)

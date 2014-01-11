@@ -5,10 +5,8 @@ import time
 import sys
 
 class CardCount:
-    deck = [8]*13
-
     def __init__(self):
-        pass
+        self.deck = [8]*13
 
     def refreshDeck():
         deck = [8]*13

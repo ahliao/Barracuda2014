@@ -67,8 +67,6 @@ class Comm:
 		# player num
 		self.player_number = None
 
-        # msg (debugging)
-        self.msg = None
 		self.host = None
 
 		self.by = None
@@ -76,7 +74,6 @@ class Comm:
 	# gets next message in socket
 	def refresh(self):
 		msg = self.s.pump()
-        self.msg = msg
 
 		self.type = msg["type"]
 		if (self.type == "request"):
@@ -118,16 +115,6 @@ class Comm:
 		elif (self.type == "error"):
 			comm.host = msg["seen_host"]
 
-<<<<<<< HEAD
-=======
-
-		# self.type = msg["type"]
-		# if (self.type == "result"):
-		# 	
-		# elif (self.type == "request"):
-		# 	
-
->>>>>>> 1b97073165f61a7182e0a6aca27372ff2f58b18a
 	# sends information
 	def acceptChallenge(self):
 		self.s.send({"type": "move", "request_id": self.request_id, "response": {"type": "accept_challenge"}})
