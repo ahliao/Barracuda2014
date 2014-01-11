@@ -67,14 +67,16 @@ class Comm:
 		# player num
 		self.player_number = None
 
+        # msg (debugging)
+        self.msg = None
 		self.host = None
 
 		self.by = None
 		
-
 	# gets next message in socket
 	def refresh(self):
 		msg = self.s.pump()
+        self.msg = msg
 
 		self.type = msg["type"]
 		if (self.type == "request"):
@@ -117,8 +119,6 @@ class Comm:
 				self.card = msg["result"]["card"]
 		elif (self.type == "error"):
 			comm.host = msg["seen_host"]
-
-
 
 
 		# self.type = msg["type"]
