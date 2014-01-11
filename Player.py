@@ -264,8 +264,8 @@ class Player:
 		# 	if (comm.hand[i] > estimate and i != beat):
 		# 		numCards += 1
 
-		if len(comm.hand) == 1 and comm.card != None and comm.your_tricks >= 2:
-			if comm.hand[0] >= comm.card:
+		if comm.card != None and comm.your_tricks >= 2:
+			if comm.hand[len(com.hand) - 1] >= comm.card:
 				return 5
 
 		if (comm.your_tricks == 2 and (comm.their_tricks == 1 or comm.their_tricks == 0) and len(comm.hand) == 1):
