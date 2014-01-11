@@ -30,9 +30,9 @@ class Player:
 		lastPlayed = playCard
 		comm.playCard(playCard)
 		self.counter.updateDeck(playCard)
-
 		
 	def challenged(self, comm):
+
 		comm.acceptChallenge()
 
 	def result(self, comm):
