@@ -42,7 +42,6 @@ class Player:
 			comm.sendChallenge()
 			return
 
-
 		# normal playing
 		playCard = 0
 		comm.hand.sort()
@@ -50,9 +49,9 @@ class Player:
 			indexClosest = 0
 			diff = 13
 			for x in range(0,len(comm.hand)):
-				if abs(comm.hand[x] - 6) < diff:
+				if abs(comm.hand[x] - self.deckAvg) < diff:
 					indexClosest = x
-					diff = abs(comm.hand[x] - 6)
+					diff = abs(comm.hand[x] - self.deckAvg)
 #			playCard = int(math.floor(int(len(comm.hand)) / 2))
 			playCard = indexClosest
 		else:
