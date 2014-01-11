@@ -27,7 +27,6 @@ def playTurn():
                 print("New game started: " + str(gameId))
                 player.counter.refreshDeck()
 
-            print(player.counter.numCards)
 
             if comm.request == "request_card":
                 player.playRequest(comm)
