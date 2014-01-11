@@ -44,28 +44,78 @@ class Player:
 			comm.sendChallenge()
 			return
 
+
 		# normal playing
+# 		playCard = 0
+# 		comm.hand.sort()
+# 		if (comm.card == None):
+# 			indexClosest = 0
+# 			diff = 13
+# 			for x in range(0,math.ceil(len(comm.hand)/2)):
+# 				if abs(comm.hand[x] - self.deckAvg) < diff:
+
+# 					indexClosest = x
+# 					diff = abs(comm.hand[x] - self.deckAvg)
+# #			playCard = int(math.floor(int(len(comm.hand)) / 2))
+# 			playCard = indexClosest
+# 		else:
+# 			if comm.your_tricks > comm.their_tricks:
+# 				# play lowest card
+# 				playCard = 0
+
+# 		print(comm.hand)
+
+		#normal play
 		playCard = 0
 		comm.hand.sort()
-		if (comm.card == None):
-			indexClosest = 0
-			diff = 13
-			for x in range(0,math.ceil(len(comm.hand)/2)):
-				if abs(comm.hand[x] - self.deckAvg) < diff:
-
-					indexClosest = x
-					diff = abs(comm.hand[x] - self.deckAvg)
-#			playCard = int(math.floor(int(len(comm.hand)) / 2))
-			playCard = indexClosest
-		else:
-			if comm.your_tricks > comm.their_tricks:
-				# play lowest card
-				playCard = 0
+		
+		if comm.total_tricks == 0:
+			if comm.card == None:
+				if comm.hand[1] - comm.hand[0] > 3: 
+					playCard = self.MidCard(comm, self.deckAvg)
+				else:
+					playCard = 1
 			else:
-				for x in range(0,len(comm.hand)):
-					if comm.hand[x] > comm.card:
-						playCard = x
-						break
+				playCard = self.WinifDiff(comm, 4)
+				# playCard = WinorLowest(comm)
+		
+		elif comm.total_tricks == 1:
+			if comm.your_tricks == 1:
+				playCard = self.LowCard(comm)
+			elif comm.their_tricks == 1:
+				playCard = self.WinifDiff(comm, 4)
+				# playCard = WinorLowest(comm)
+			else: #tied?
+				if comm.card == None:
+					#pass
+					playCard = self.MidCard(comm, self.deckAvg)
+				else:
+					playCard = self.WinifDiff(comm, 4)
+					# playCard = WinorLowest(comm)
+			
+		elif comm.your_tricks >= 2:
+			if comm.card == None:
+				playCard = self.LowCard(comm)
+			else:
+				playCard = self.WinorLowest(comm)
+				
+		elif comm.their_tricks == 2:
+			if comm.card == None:
+				playCard = self.HighCard(comm)
+			else:
+				playCard = self.WinorLowest(comm)
+			
+			
+		# if (comm.card == None):
+		# else:
+			# if comm.your_tricks > comm.their_tricks:
+				#play lowest card
+				# playCard = 0
+			# else:
+				# for x in range(0,len(comm.hand)):
+					# if comm.hand[x] > comm.card:
+						# playCard = x
+						# break
 
 		self.lastPlayed = comm.hand[playCard]
 		comm.playCard(comm.hand[playCard])
@@ -95,6 +145,9 @@ class Player:
 	def calc_challenge(self, comm):
 		if (comm.their_points == 9):
 			return 5
+
+		if (comm.their_tricks == 2):
+			return 0
 
 		total = 0;
 		for card in self.opponent_cards:
@@ -133,11 +186,62 @@ class Player:
 		# for i in range(len(comm.hand)):
 		# 	if (comm.hand[i] > estimate and i != beat):
 		# 		numCards += 1
-
-		for card in comm.hand:
-			if (card > estimate):
-				numCards += 1
-
+		if (comm.your_points < 9):
+			for card in comm.hand:
+				if (card > estimate):
+					numCards += 1
+		else:
+			for card in range(2,len(comm.hand)):
+				if (card > estimate):
+					numCards += 1
 
 		print(numCards + comm.your_tricks)
 		return numCards + comm.your_tricks
+
+		#return list 1, 2, 3, 4, 5 card average
+	def CalcUpperCards(self, comm):
+		comm.hand.sort()
+		avgs = None
+		for i in xrange(0,len(comm.hand)):
+			sum = 0
+			for j in xrange(i,len(comm.hand)):
+				sum += comm.hand[j]
+			avgs.insert(0,sum)
+		for k in xrange(0, 5-len(comm.hand)):
+			avgs.append(0)
+		return avgs
+		
+	#different actions for each situation in normal play
+	#you starts
+	def WinorLowest(self, comm):
+		cardindex = 0
+		for x in range(0,len(comm.hand)):
+			if comm.hand[x] > comm.card: 
+				cardindex = x
+				break
+		return cardindex
+	def WinifDiff(self, comm, diff):
+		cardindex = 0
+		for x in range(0,len(comm.hand)):
+			if comm.hand[x] >= comm.card: #allows ties
+				if comm.hand[x] - comm.card <= diff:
+					cardindex = x
+					break
+		return cardindex
+		
+	#I starts no comm.card
+	def LowCard(self, comm):
+		cardindex = 0
+		return cardindex
+	def HighCard(self, comm):
+		cardindex = len(comm.hand)-1
+		return cardindex
+	def MidCard(self, comm, avg):
+		indexClosest = 0
+		diff = 13 #max diff
+		for x in range(0,math.ceil(len(comm.hand)/2)):
+			if abs(comm.hand[x] - avg) < diff:
+				indexClosest = x
+				diff = abs(comm.hand[x] - avg)
+		cardindex = indexClosest
+		return cardindex
