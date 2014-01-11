@@ -4,13 +4,19 @@ import struct
 import time
 import sys
 
+import socketLayer
 import Comm
+import Player
 
 
 def player(host, port):
     comm = Comm.Comm()
+	player = Player.Player()
 
     gameId = None
+
+    comm = Comm.Comm()
+    deckCount = cardCount.cardCount()
 
     while True:
         comm.refresh()
@@ -19,20 +25,27 @@ def player(host, port):
             print("The server doesn't know your IP. It saw: " + comm.host)
             sys.exit(1)
         elif comm.type == "request":
+
+            # If a new game is starting
             if comm.game_id != gameId:
                 gameId = comm.game_id;
                 print("New game started: " + str(gameId))
-
             if comm.request == "request_card":
-                comm.playCard(comm.hand[0])
+                player.playRequest(comm)
             elif comm.request == "challenge_offered":
-                comm.acceptChallenge()
+                player.challenged(comm)
         elif comm.type == "result":
+<<<<<<< HEAD
             if (comm.resultType == "game_won"):
                 print(comm.getWinner())
+=======
+			player.result(comm)
+            print(comm.resultType)
+            print(comm.player_num)
+            
+>>>>>>> 1b97073165f61a7182e0a6aca27372ff2f58b18a
         elif comm.type == "greetings_program":
             print("Connected to the server.")
-
 
 def loop(player, *args):
     while True:
