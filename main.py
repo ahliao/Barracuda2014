@@ -41,7 +41,13 @@ def player(host, port):
                 # Sam is awesome
                 
             elif msg["request"] == "challenge_offered":
-                s.send({"type": "move", "request_id": msg["request_id"],
+                # Adding basic logic because people are op
+                hand = msg["state"]["hand"]
+                if sum(hand) > 17:
+                    s.send({"type": "move", "request_id": msg["request_id"],
+                        "response": {"type": "accept_challenge"}})
+                else:
+                    s.send({"type": "move", "request_id": msg["request_id"],
                         "response": {"type": "reject_challenge"}})
 
         elif msg["type"] == "result":
