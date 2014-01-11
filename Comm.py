@@ -19,9 +19,6 @@ class Comm:
 		# if resultType == error, gives reason
 		self.reason = None
 
-		# "win", "loss"
-		self.outcome = None
-
 		# will be either "request_card" or "challenge_offered"
 		self.request = None
 
@@ -70,30 +67,28 @@ class Comm:
 		# player num
 		self.player_number = None
 
+		self.host = None
+
+		self.by = None
 		
 
 	# gets next message in socket
 	def refresh(self):
 		msg = self.s.pump()
+
 		self.type = msg["type"]
-		if (self.type == "result"):
-			self.resultType = msg["result"]["type"]
-			self.player_num = msg["result"]["your_player_num"]
-			if (self.resultType == "hand_won" or self.resultType == "game_won"):
-				if (self.player_num == msg["result"]["by"]):
-					self.outcome = "win"
-				else:
-					self.outcome = "lose"
-			elif (self.resultType == "tie"):
-				self.outcome = "tie"
-			elif (self.resultType == "error"):
-				self.reason = msg["result"]["reason"]
-		elif (self.type == "request"):
+		if (self.type == "request"):
 			self.request = msg["request"]
 			self.remaining = msg["remaining"]
 			self.request_id = msg["request_id"]
 			self.hand = msg["state"]["hand"]
-			self.card = msg["state"]["card"]
+			
+
+			try: 
+				self.card = msg["state"]["card"]
+			except:
+				self.card = None
+
 			self.hand_id = msg["state"]["hand_id"]
 			self.game_id = msg["state"]["game_id"]
 			self.your_tricks = msg["state"]["your_tricks"]
@@ -105,8 +100,28 @@ class Comm:
 			self.opponent_id = msg["state"]["opponent_id"]
 			self.their_points = msg["state"]["their_points"]
 			self.player_num = msg["state"]["player_number"]
+			self.game_id = msg["state"]["game_id"]
+			
+		elif (self.type == "result"):
+			self.resultType = msg["result"]["type"]
+			self.player_num = msg["your_player_num"]
+			if (self.resultType == "trick_won" or self.resultType == "hand_done" or self.resultType == "game_won"):
+				self.by = msg["result"]["by"]
+			elif (self.resultType == "trick_won"):
+				self.card = msg["result"]["card"]
+		elif (self.type == "error"):
+			comm.host = msg["seen_host"]
+
+		self.msg = msg
 
 
+
+
+		# self.type = msg["type"]
+		# if (self.type == "result"):
+		# 	
+		# elif (self.type == "request"):
+		# 	
 
 	# sends information
 	def acceptChallenge(self):

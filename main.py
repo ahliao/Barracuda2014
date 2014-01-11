@@ -4,55 +4,36 @@ import struct
 import time
 import sys
 
-import socketLayer
+import Comm
 
 
 def player(host, port):
-    s = socketLayer.SocketLayer(host, port)
+    comm = Comm.Comm()
 
     gameId = None
 
-    deck = [8]*13
-
     while True:
-        msg = s.pump()
-        if msg["type"] == "error":
-            print("The server doesn't know your IP. It saw: " + msg["seen_host"])
+        comm.refresh()
+
+        if comm.type == "error":
+            print("The server doesn't know your IP. It saw: " + comm.host)
             sys.exit(1)
-        elif msg["type"] == "request":
-            if msg["state"]["game_id"] != gameId:
-                # reset the deck counter
-                deck = [8]*13
-                gameId = msg["state"]["game_id"]
+        elif comm.type == "request":
+            if comm.game_id != gameId:
+                gameId = comm.game_id;
                 print("New game started: " + str(gameId))
 
-            if msg["request"] == "request_card":
-                hand = msg["state"]["hand"]
-                index = hand.index(max(hand))
-                cardToPlay = hand[index] #This gets the top card
-                print("Playing: " + str(cardToPlay));
-                
-
-#                print(sum(msg["state"]["hand"])) #Gets the total sum of the hand
-                s.send({"type": "move", "request_id": msg["request_id"],
-                    "response": {"type": "play_card", "card": cardToPlay}})
-
-
-                # Sam is awesome
-                
-            elif msg["request"] == "challenge_offered":
-                s.send({"type": "move", "request_id": msg["request_id"],
-                        "response": {"type": "reject_challenge"}})
-
-        elif msg["type"] == "result":
-            if msg["result"]["type"] == "trick_won":
-                cardVal = msg["result"]["card"]
-                deck[cardVal - 1] -= 1
-                print("Other Card: " + str(cardVal))
-                print("Deck: " + str(deck))
-
-        elif msg["type"] == "greetings_program":
+            if comm.request == "request_card":
+                cardToPlay = comm.hand[0]
+                comm.playCard(cardToPlay)
+            elif comm.request == "challenge_offered":
+                comm.acceptChallenge()
+        elif comm.type == "result":
+            print(comm.resultType)
+            print(comm.player_num)
+        elif comm.type == "greetings_program":
             print("Connected to the server.")
+
 
 def loop(player, *args):
     while True:
@@ -61,7 +42,7 @@ def loop(player, *args):
         except KeyboardInterrupt:
             sys.exit(0)
         except Exception as e:
-            print(repr(e))
+            print(e)
         time.sleep(10)
 
 
