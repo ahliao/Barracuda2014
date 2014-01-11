@@ -15,9 +15,9 @@ class Player:
 		self.opponent_cards = []
 		self.playerlead = None # me or notme as to who played the first card of the trick
 		self.deckAvg = 6
-		self.alpha = 1 # base tolerance
-		self.beta = 0.2
-		self.epsilon = 0.07
+		self.alpha = 1.1 # base tolerance
+		self.beta = 0.35
+		self.epsilon = 0.1
 
 	def playRequest(self, comm):
 	#refreshes deck every 10 hands and removes cards in hand
@@ -118,9 +118,26 @@ class Player:
 		estimate += a - b + c
 		print("threshold: " + str(estimate))
 		numCards = 0
+
+
+		# beat = -1
+		# # if there is a card on the field
+		# if (comm.card != None):
+		# 	for i in range(len(comm.hand)):
+		# 		if comm.hand[i] > comm.card:
+		# 			beat = i
+		# 			numCards += 1
+		# 			break
+
+
+		# for i in range(len(comm.hand)):
+		# 	if (comm.hand[i] > estimate and i != beat):
+		# 		numCards += 1
+
 		for card in comm.hand:
 			if (card > estimate):
 				numCards += 1
+
 
 		print(numCards + comm.your_tricks)
 		return numCards + comm.your_tricks
