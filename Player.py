@@ -202,11 +202,12 @@ class Player:
 		if (comm.their_points == 9):
 			return 5
 
-		if (comm.card != None and comm.their_tricks == 2 and comm.your_tricks == 2):
-			if (comm.card <= comm.hand[0]):
+		if comm.their_tricks == 2 and comm.your_tricks == 2:
+			if comm.hand[0] > 9:
 				return 5
 			else:
 				return 0
+
 
 		total = 0;
 		for card in self.opponent_cards:
@@ -218,7 +219,8 @@ class Player:
 
 		estimate = (5 * self.deckAvg - total) / (5 - len(self.opponent_cards))
 		if (estimate > 13):
-			estimate = 11.0
+			estimate = 12
+
 		print("total: " + str(total))
 
 		print("deckAvg: " + str(self.deckAvg))
@@ -235,9 +237,7 @@ class Player:
 		if comm.your_points == 9 and comm.their_points >= 7:
 			estimate -= 2
 
-		if comm.your_tricks == comm.their_tricks and comm.your_tricks == 2:
-			if estimate < 8:
-				estimate = 8
+		
 
 		if comm.your_tricks == 2 and comm.their_tricks == 0:
 			return 5
@@ -263,17 +263,18 @@ class Player:
 		# 	if (comm.hand[i] > estimate and i != beat):
 		# 		numCards += 1
 
-		if len(comm.hand) == 1 and comm.card != None:
+		if len(comm.hand) == 1 and comm.card != None and comm.your_tricks >= 2:
 			if comm.hand[0] >= comm.card:
 				return 5
 
 		if (comm.your_tricks == 2 and (comm.their_tricks == 1 or comm.their_tricks == 0) and len(comm.hand) == 1):
 			return 5
 
-		if (comm.your_points < 9):
-			for card in comm.hand:
-				if (card > estimate):
-					numCards += 1
+		
+
+		for card in comm.hand:
+			if (card > estimate):
+				numCards += 1
 
 		print(numCards + comm.your_tricks)
 
