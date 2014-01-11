@@ -5,18 +5,21 @@ import time
 import sys
 
 import socketLayer
+import Comm
 
 
 def player(host, port):
-    s = socketLayer.SocketLayer(host, port)
+#s = socketLayer.SocketLayer(host, port)
 
     gameId = None
 
     deck = [8]*13
 
+    comm = Comm.Comm()
+
     while True:
-        msg = s.pump()
-        if msg["type"] == "error":
+        comm.refresh()
+        '''if msg["type"] == "error":
             print("The server doesn't know your IP. It saw: " + msg["seen_host"])
             sys.exit(1)
         elif msg["type"] == "request":
@@ -58,7 +61,7 @@ def player(host, port):
                 print("Deck: " + str(deck))
 
         elif msg["type"] == "greetings_program":
-            print("Connected to the server.")
+            print("Connected to the server.")'''
 
 def loop(player, *args):
     while True:

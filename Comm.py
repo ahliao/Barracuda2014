@@ -70,11 +70,13 @@ class Comm:
 		# player num
 		self.player_number = None
 
-		
+        # msg (debugging)
+        self.msg = None
 
 	# gets next message in socket
 	def refresh(self):
 		msg = self.s.pump()
+        self.msg = msg
 		self.type = msg["type"]
 		if (self.type == "result"):
 			self.resultType = msg["result"]["type"]
