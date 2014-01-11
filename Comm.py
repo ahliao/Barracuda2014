@@ -106,13 +106,17 @@ class Comm:
 			self.resultType = msg["result"]["type"]
 			self.player_num = msg["your_player_num"]
 			if (self.resultType == "trick_won" or self.resultType == "hand_done" or self.resultType == "game_won"):
-				self.by = msg["result"]["by"]
-			elif (self.resultType == "trick_won"):
+				try:
+					self.by = msg["result"]["by"]
+				except:
+					self.by = None
+			else:
+				self.by = None
+
+			if (self.resultType == "trick_won"):
 				self.card = msg["result"]["card"]
 		elif (self.type == "error"):
 			comm.host = msg["seen_host"]
-
-		self.msg = msg
 
 
 
