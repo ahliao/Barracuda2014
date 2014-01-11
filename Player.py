@@ -39,7 +39,6 @@ class Player:
 		playCard = 0
 		comm.hand.sort()
 		maxdiff = 4
-		option = 0
 		tied_tricks = comm.total_tricks - comm.their_tricks - comm.your_tricks
 		if tied_tricks == 1:
 			comm.total_tricks = 0
