@@ -16,7 +16,7 @@ class Player:
 		self.playerlead = None # me or notme as to who played the first card of the trick
 		self.deckAvg = 6
 		self.alpha = 1.5 # base tolerance
-		self.beta = 0.25
+		self.beta = 0.15
 		self.epsilon = 0.25
 
 	def playRequest(self, comm):
@@ -235,12 +235,10 @@ class Player:
 		estimate += a - b + c
 
 		if challenged:
-			estimate += 1
+			estimate += .5
 
-		if comm.your_points == 9 and comm.their_points >= 7:
-			estimate -= 2
-
-		
+		if comm.your_points == 9 and comm.their_points >= 6:
+			estimate -= 1.2
 
 		if comm.your_tricks == 2 and comm.their_tricks == 0:
 			return 5
@@ -272,8 +270,6 @@ class Player:
 
 		if (comm.your_tricks == 2 and (comm.their_tricks == 1 or comm.their_tricks == 0) and len(comm.hand) == 1):
 			return 5
-
-		
 
 		for card in comm.hand:
 			if (card > estimate):
