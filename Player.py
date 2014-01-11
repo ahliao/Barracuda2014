@@ -12,10 +12,12 @@ class Player:
 	def __init__(self):
 		self.counter = cardCount.CardCount()
 		self.lastPlayed = None
+		self.opponent_cards = []
 
 	def playRequest(self, comm):
 		if comm.player_num == 1:
 			self.counter.updateDeck(comm.card)
+			self.opponent_cards.append(comm.card)
 
 		playCard = 0
 		comm.hand.sort()
@@ -31,10 +33,12 @@ class Player:
 		comm.playCard(playCard)
 		self.counter.updateDeck(playCard)
 		
-	def challenged(self, comm):
-
+	def challenged(self, comm): 
 		comm.acceptChallenge()
 
 	def result(self, comm):
 		if comm.player_num == 0 and (comm.resultType == "trick_won" or comm.resultType == "trick_tied"):
 			self.counter.updateDeck(comm.card)
+			self.opponent_cards.append(comm.card)
+		if comm.resultType == "hand_done":
+			self.opponent_cards = []

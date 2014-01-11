@@ -110,14 +110,12 @@ class Comm:
 				except:
 					self.by = None
 
-
-
 			if (self.resultType == "trick_won"):
 				self.card = msg["result"]["card"]
 			elif (self.resultType == "trick_tied"):
 				self.card = player.lastPlayed
 		elif (self.type == "error"):
-			comm.host = msg["seen_host"]
+			self.host = msg["seen_host"]
 
 	# sends information
 	def acceptChallenge(self):
