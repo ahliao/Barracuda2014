@@ -90,3 +90,16 @@ class Player:
 				numCards += 1
 		print(numCards)
 		return numCards + comm.your_tricks
+
+		#return list 1, 2, 3, 4, 5 card average
+	def CalcUpperCards(self, comm):
+		comm.hand.sort()
+		avgs = None
+		for i in xrange(0,len(comm.hand)):
+			sum = 0
+			for j in xrange(i,len(comm.hand)):
+				sum += comm.hand[j]
+			avgs.insert(0,sum)
+		for k in xrange(0, 5-len(comm.hand)):
+			avgs.append(0)
+		return avgs
