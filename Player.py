@@ -15,9 +15,9 @@ class Player:
 		self.opponent_cards = []
 		self.playerlead = None # me or notme as to who played the first card of the trick
 		self.deckAvg = 6
-		self.alpha = 1.1 # base tolerance
-		self.beta = 0.35
-		self.epsilon = 0.1
+		self.alpha = 1.5 # base tolerance
+		self.beta = 0.25
+		self.epsilon = 0.25
 
 	def playRequest(self, comm):
 	#refreshes deck every 10 hands and removes cards in hand
@@ -40,10 +40,9 @@ class Player:
 			self.playerlead = "me"
 
 		#challenge logic
-		if comm.can_challenge and self.calc_challenge(comm) > 2:
+		if comm.can_challenge and comm.total_tricks != 0 and self.calc_challenge(comm) > 2:
 			comm.sendChallenge()
 			return
-
 
 		# normal playing
 # 		playCard = 0
@@ -68,42 +67,99 @@ class Player:
 		#normal play
 		playCard = 0
 		comm.hand.sort()
+
 		
+		# if comm.total_tricks == 0:
+		# 	if comm.card == None:
+		# 		if comm.hand[1] - comm.hand[0] > 3: 
+		# 			playCard = self.MidCard(comm, self.deckAvg)
+		# 		else:
+		# 			playCard = 1
+		# 	else:
+		# 		playCard = self.WinifDiff(comm, 4)
+
+		maxdiff = 3
+		tied_tricks = comm.total_tricks - comm.their_tricks - comm.your_tricks
+		if tied_tricks == 1:
+			comm.total_tricks = 0
+		elif tied_tricks == 2 or tied_tricks == 3:
+			comm.your_tricks += 1
+			comm.their_tricks += 1
+			
 		if comm.total_tricks == 0:
-			if comm.card == None:
-				if comm.hand[1] - comm.hand[0] > 3: 
-					playCard = self.MidCard(comm, self.deckAvg)
-				else:
-					playCard = 1
-			else:
-				playCard = self.WinifDiff(comm, 4)
-				# playCard = WinorLowest(comm)
+			if comm.card == None: # our lead
+				playCard = self.MidCard(comm, self.deckAvg)#self.LowCard(comm)
+			else: # their lead
+				playCard = self.WinifDiffnotEqual(comm, maxdiff)
+				#playCard = self.WinorLowest(comm)
 		
 		elif comm.total_tricks == 1:
-			if comm.your_tricks == 1:
+			if comm.your_tricks == 1: # and their_tricks == 0
 				playCard = self.LowCard(comm)
-			elif comm.their_tricks == 1:
-				playCard = self.WinifDiff(comm, 4)
+			elif comm.their_tricks == 1: # and our_tricks == 0
+				playCard = self.WinifDiffnotEqual(comm, maxdiff)
+
+		# 		playCard = self.WinifDiff(comm, 4)
+		# 		# playCard = WinorLowest(comm)
+		# 	else: #tied?
+		# 		if comm.card == None:
+		# 			#pass
+		# 			playCard = self.MidCard(comm, self.deckAvg)
+		# 		else:
+		# 			playCard = self.WinifDiff(comm, 4)
+		# 			# playCard = WinorLowest(comm)
+			
+		# elif comm.your_tricks >= 2:
+		# 	if comm.card == None:
+		# 		playCard = self.LowCard(comm)
+		# 	else:
+		# 		playCard = self.WinorLowest(comm)
+				
+		# elif comm.their_tricks == 2:
+		# 	if comm.card == None:
+		# 		playCard = self.HighCard(comm)
+		# 	else:
+		# 		playCard = self.WinorLowest(comm)
+
 				# playCard = WinorLowest(comm)
 			else: #tied?
 				if comm.card == None:
-					#pass
-					playCard = self.MidCard(comm, self.deckAvg)
+					playCard = self.MidCard(comm, avg)
 				else:
-					playCard = self.WinifDiff(comm, 4)
+					playCard = self.WinifDiff(comm, maxdiff)
 					# playCard = WinorLowest(comm)
-			
+		
+		elif comm.your_tricks == 1 and comm.their_tricks == 1:
+			if comm.card == None:
+				playCard = self.LowCard(comm)
+			else:
+				playCard = self.WinifDiff(comm, maxdiff)
+				# playCard = WinorLowest(comm)
+				
 		elif comm.your_tricks >= 2:
 			if comm.card == None:
 				playCard = self.LowCard(comm)
 			else:
 				playCard = self.WinorLowest(comm)
 				
-		elif comm.their_tricks == 2:
+		elif comm.their_tricks >= 2:
 			if comm.card == None:
 				playCard = self.HighCard(comm)
 			else:
-				playCard = self.WinorLowest(comm)
+				#playCard = self.WinifDiff(comm, maxdiff)
+				playCard = self.WinorLowestnoTie(comm)
+			
+		# elif comm.total_tricks == 2:
+			
+			
+			
+			
+		# elif comm.total_tricks > 2:
+			# if comm.card == None:
+				# playCard = self.HighCard(comm)
+			# else:
+				# playCard = self.WinorLowest(comm)
+
 			
 			
 		# if (comm.card == None):
@@ -121,7 +177,7 @@ class Player:
 		comm.playCard(comm.hand[playCard])
 		
 	def challenged(self, comm): 
-		if (self.calc_challenge(comm) > 2):
+		if (self.calc_challenge(comm, True) > 2):
 			comm.acceptChallenge()
 		else:
 			comm.rejectChallenge()
@@ -142,12 +198,15 @@ class Player:
 		# if comm.resultType == "hand_done":
 			# self.opponent_cards = []
 
-	def calc_challenge(self, comm):
+	def calc_challenge(self, comm, challenged = False):
 		if (comm.their_points == 9):
 			return 5
 
-		if (comm.their_tricks == 2):
-			return 0
+		if (comm.card != None and comm.their_tricks == 2 and comm.your_tricks == 2):
+			if (comm.card <= comm.hand[0]):
+				return 5
+			else:
+				return 0
 
 		total = 0;
 		for card in self.opponent_cards:
@@ -159,7 +218,7 @@ class Player:
 
 		estimate = (5 * self.deckAvg - total) / (5 - len(self.opponent_cards))
 		if (estimate > 13):
-			estimate = 13
+			estimate = 11.0
 		print("total: " + str(total))
 
 		print("deckAvg: " + str(self.deckAvg))
@@ -169,7 +228,24 @@ class Player:
 		print("total tricks: " + str(comm.total_tricks))
 		c = self.epsilon * (comm.your_points - comm.their_points)
 		estimate += a - b + c
+
+		if challenged:
+			estimate += 1
+
+		if comm.your_points == 9 and comm.their_points >= 7:
+			estimate -= 2
+
+		if comm.your_tricks == comm.their_tricks and comm.your_tricks == 2:
+			if estimate < 8:
+				estimate = 8
+
+		if comm.your_tricks == 2 and comm.their_tricks == 0:
+			return 5
+
 		print("threshold: " + str(estimate))
+
+
+
 		numCards = 0
 
 
@@ -186,16 +262,22 @@ class Player:
 		# for i in range(len(comm.hand)):
 		# 	if (comm.hand[i] > estimate and i != beat):
 		# 		numCards += 1
+
+		if len(comm.hand) == 1 and comm.card != None:
+			if comm.hand[0] >= comm.card:
+				return 5
+
+		if (comm.your_tricks == 2 and (comm.their_tricks == 1 or comm.their_tricks == 0) and len(comm.hand) == 1):
+			return 5
+
 		if (comm.your_points < 9):
 			for card in comm.hand:
 				if (card > estimate):
 					numCards += 1
-		else:
-			for card in range(2,len(comm.hand)):
-				if (card > estimate):
-					numCards += 1
 
 		print(numCards + comm.your_tricks)
+
+
 		return numCards + comm.your_tricks
 
 		#return list 1, 2, 3, 4, 5 card average
@@ -220,10 +302,28 @@ class Player:
 				cardindex = x
 				break
 		return cardindex
+
+	def WinorLowestnoTie(self, comm):
+		cardindex = 0
+		for x in range(0,len(comm.hand)):
+			if comm.hand[x] >= comm.card: 
+				cardindex = x
+				break
+		return cardindex
+
 	def WinifDiff(self, comm, diff):
 		cardindex = 0
 		for x in range(0,len(comm.hand)):
 			if comm.hand[x] >= comm.card: #allows ties
+				if comm.hand[x] - comm.card <= diff:
+					cardindex = x
+					break
+		return cardindex
+
+	def WinifDiffnotEqual(self, comm, diff):
+		cardindex = 0
+		for x in range(0,len(comm.hand)):
+			if comm.hand[x] > comm.card: #allows ties
 				if comm.hand[x] - comm.card <= diff:
 					cardindex = x
 					break

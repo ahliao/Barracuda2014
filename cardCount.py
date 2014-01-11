@@ -20,6 +20,8 @@ class CardCount:
 			self.numCards -= 1
 
 	def getAvg(self):
+		upbound = 10
+		lowbound = 4
 		total = 0
 		for i in range(0, 13):
 			total += (i + 1) * self.deck[i]
@@ -29,4 +31,9 @@ class CardCount:
 
 		if (numCards == 0):
 			numCards = 1
-		return total / numCards
+		ret = total / numCards
+		if (ret > upbound):
+			ret = upbound
+		elif (ret < lowbound):
+			ret = lowbound
+		return ret
