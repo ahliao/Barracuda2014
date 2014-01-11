@@ -21,15 +21,19 @@ def player(host, port):
             sys.exit(1)
         elif msg["type"] == "request":
             if msg["state"]["game_id"] != gameId:
+                # reset the deck counter
+                deck = [8]*13
                 gameId = msg["state"]["game_id"]
                 print("New game started: " + str(gameId))
 
             if msg["request"] == "request_card":
-                cardToPlay = msg["state"]["hand"][0] #This gets the top card
-
+                hand = msg["state"]["hand"]
+                index = hand.index(max(hand))
+                cardToPlay = hand[index] #This gets the top card
+                print("Playing: " + str(cardToPlay));
                 
 
-                print(sum(msg["state"]["hand"])) #Gets the total sum of the hand
+#                print(sum(msg["state"]["hand"])) #Gets the total sum of the hand
                 s.send({"type": "move", "request_id": msg["request_id"],
                     "response": {"type": "play_card", "card": cardToPlay}})
 
@@ -41,7 +45,11 @@ def player(host, port):
                         "response": {"type": "reject_challenge"}})
 
         elif msg["type"] == "result":
-            print("Last Card Played: " + msg["result"]["card"])
+            if msg["result"]["type"] == "trick_won":
+                cardVal = msg["result"]["card"]
+                deck[cardVal - 1] -= 1
+                print("Other Card: " + str(cardVal))
+                print("Deck: " + str(deck))
 
         elif msg["type"] == "greetings_program":
             print("Connected to the server.")
@@ -58,4 +66,4 @@ def loop(player, *args):
 
 
 if __name__ == "__main__":
-    loop(player, "cuda.contest", 9999)
+    loop(player, "cuda.contest", 9999)#9999) #The test bot
