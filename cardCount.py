@@ -6,10 +6,16 @@ import sys
 
 class CardCount:
     def __init__(self):
-        self.deck = [8]*13
+        self.deck = [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]
+        self.numCards = 8 * 13
 
-    def refreshDeck():
-        deck = [8]*13
+    def refreshDeck(self):
+        self.deck = [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]
 
-    def updateDeck(cardNum):
-        --deck[cardNum]
+    def updateDeck(self, cardNum):
+    	print("cardNum: " + str(cardNum))
+    	if (cardNum != None):
+	    	self.deck[cardNum - 1] = self.deck[cardNum - 1] - 1
+    		self.numCards -= 1
+
+	

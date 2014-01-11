@@ -6,17 +6,15 @@ import sys
 
 import Comm
 import Player
-import cardCount
 
-def player():
+def playTurn():
     gameId = None
 
     comm = Comm.Comm()
-    deckCount = cardCount.CardCount()
     player = Player.Player()
 
     while True:
-        comm.refresh()
+        comm.refresh(player)
 
         if comm.type == "error":
             print("The server doesn't know your IP. It saw: " + comm.host)
@@ -27,6 +25,9 @@ def player():
             if comm.game_id != gameId:
                 gameId = comm.game_id;
                 print("New game started: " + str(gameId))
+                player.counter.refreshDeck()
+
+            print(player.counter.numCards)
 
             if comm.request == "request_card":
                 player.playRequest(comm)
@@ -34,22 +35,18 @@ def player():
                 player.challenged(comm)
         elif comm.type == "result":
             player.result(comm)
-            print(comm.resultType)
-            print(comm.player_num)
             
         elif comm.type == "greetings_program":
             print("Connected to the server.")
 
-def loop(player):
-    while True:
-        try:
-            player()
-        except KeyboardInterrupt:
-            sys.exit(0)
-        except Exception as e:
-            print(e)
-        time.sleep(10)
+
+while True:
+    try:
+        playTurn()
+    except KeyboardInterrupt:
+        sys.exit(0)
+    except Exception as e:
+        print(e)
+    time.sleep(10)
 
 
-if __name__ == "__main__":
-    loop(player)

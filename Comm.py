@@ -5,6 +5,7 @@ import time
 import sys
 
 import socketLayer
+import Player
 
 class Comm:
 	def __init__(self):
@@ -72,7 +73,7 @@ class Comm:
 		self.by = None
 		
 	# gets next message in socket
-	def refresh(self):
+	def refresh(self, player):
 		msg = self.s.pump()
 
 		self.type = msg["type"]
@@ -81,7 +82,6 @@ class Comm:
 			self.remaining = msg["remaining"]
 			self.request_id = msg["request_id"]
 			self.hand = msg["state"]["hand"]
-			
 
 			try: 
 				self.card = msg["state"]["card"]
@@ -109,11 +109,13 @@ class Comm:
 					self.by = msg["result"]["by"]
 				except:
 					self.by = None
-					
+
 
 
 			if (self.resultType == "trick_won"):
 				self.card = msg["result"]["card"]
+			elif (self.resultType == "trick_tied"):
+				self.card = player.lastPlayed
 		elif (self.type == "error"):
 			comm.host = msg["seen_host"]
 
