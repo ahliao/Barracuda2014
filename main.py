@@ -6,62 +6,48 @@ import sys
 
 import socketLayer
 import Comm
-
+import cardCount
 
 def player(host, port):
-#s = socketLayer.SocketLayer(host, port)
-
     gameId = None
 
-    deck = [8]*13
-
     comm = Comm.Comm()
+    deckCount = cardCount.cardCount()
 
     while True:
         comm.refresh()
-        '''if msg["type"] == "error":
-            print("The server doesn't know your IP. It saw: " + msg["seen_host"])
+
+        if comm.type == "error":
+            print("The server doesn't know your IP. It saw: " + comm.host)
             sys.exit(1)
-        elif msg["type"] == "request":
-            if msg["state"]["game_id"] != gameId:
-                # reset the deck counter
-                deck = [8]*13
-                gameId = msg["state"]["game_id"]
+        elif comm.type == "request":
+
+            # If a new game is starting
+            if comm.game_id != gameId:
+                gameId = comm.game_id;
                 print("New game started: " + str(gameId))
 
-            if msg["request"] == "request_card":
-                hand = msg["state"]["hand"]
-                index = hand.index(max(hand))
-                cardToPlay = hand[index] #This gets the top card
-                print("Playing: " + str(cardToPlay));
-                
+            # If a card is requested/challenge can be issued
+            if comm.request == "request_card":
+                cardToPlay = comm.hand[0]
+                comm.playCard(cardToPlay)
+                deckCount.updateDeck(cardToPlay)    # update the deck 
 
-#                print(sum(msg["state"]["hand"])) #Gets the total sum of the hand
-                s.send({"type": "move", "request_id": msg["request_id"],
-                    "response": {"type": "play_card", "card": cardToPlay}})
+            # If a challenge is offerred, handle logic
+            elif comm.request == "challenge_offered":
+                comm.acceptChallenge()
 
+        # The result of the other player's turn
+        # Handle any counting/probs stuff
+        elif comm.type == "result":
+            if comm.resultType == "trick_won": # Make sure that a card field exists
+                deckCount.updateDeck(comm.card)
+            print(comm.resultType)
+            print(comm.player_num)
+            
+        elif comm.type == "greetings_program":
+            print("Connected to the server.")
 
-                # Sam is awesome
-                
-            elif msg["request"] == "challenge_offered":
-                # Adding basic logic because people are op
-                hand = msg["state"]["hand"]
-                if sum(hand) > 17:
-                    s.send({"type": "move", "request_id": msg["request_id"],
-                        "response": {"type": "accept_challenge"}})
-                else:
-                    s.send({"type": "move", "request_id": msg["request_id"],
-                        "response": {"type": "reject_challenge"}})
-
-        elif msg["type"] == "result":
-            if msg["result"]["type"] == "trick_won":
-                cardVal = msg["result"]["card"]
-                deck[cardVal - 1] -= 1
-                print("Other Card: " + str(cardVal))
-                print("Deck: " + str(deck))
-
-        elif msg["type"] == "greetings_program":
-            print("Connected to the server.")'''
 
 def loop(player, *args):
     while True:
@@ -70,7 +56,7 @@ def loop(player, *args):
         except KeyboardInterrupt:
             sys.exit(0)
         except Exception as e:
-            print(repr(e))
+            print(e)
         time.sleep(10)
 
 
